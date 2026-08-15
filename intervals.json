@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T05:47:40.717141",
+  "generated_at": "2026-08-15T06:17:45.324478",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -2997,6 +2997,56 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i175963861",
+      "date": "2026-08-15",
+      "start_datetime": "2026-08-15T05:13:36",
+      "type": "Ride",
+      "name": "3 salite - Genova (outdoor)",
+      "interval_summary": [
+        "1x 2h39m 151w",
+        "1x 8s 12w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "9573s@151w70rpm",
+          "duration_secs": 9573,
+          "moving_secs": 9176,
+          "start_secs": 0,
+          "end_secs": 9573,
+          "avg_power": 151,
+          "max_power": 792,
+          "avg_hr": 117,
+          "max_hr": 165,
+          "min_hr": 76,
+          "avg_cadence": 69.96864,
+          "zone": 2,
+          "w_bal_start": 17280,
+          "w_bal_end": 16163,
+          "training_load": 126.53217
+        },
+        {
+          "type": "WORK",
+          "label": "8s@12w9rpm",
+          "duration_secs": 8,
+          "moving_secs": 8,
+          "start_secs": 9573,
+          "end_secs": 9581,
+          "avg_power": 12,
+          "max_power": 100,
+          "avg_hr": 90,
+          "max_hr": 93,
+          "min_hr": 90,
+          "avg_cadence": 9.375,
+          "zone": 1,
+          "w_bal_start": 16174,
+          "w_bal_end": 16291,
+          "training_load": 0.0035456663
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -3281,6 +3331,25 @@
         "last_attempt": "2026-08-14T07:52:31.935688",
         "status": "tombstone",
         "reason": "retry_expired"
+      }
+    },
+    "i175963861": {
+      "date": "2026-08-15",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-08-15T06:17:45.324478",
+        "last_attempt": "2026-08-15T06:17:45.324478",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-08-15T05:55:53.025+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-08-15T06:17:45.324478",
+        "last_attempt": "2026-08-15T06:17:45.324478",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-08-15T06:22:45.324478"
       }
     }
   }
