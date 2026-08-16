@@ -15,4 +15,4 @@ https://letapeitaly.it/wp-content/uploads/2026/07/autour_de_mondovi-24559811-178
 * **Zones:** Intervals.icu auto-calculated zones
 
 ## 3. Preferences & Constraints
-* **Structure:** High-volume Gran Fondo preparation (aerobic capacity, threshold durability, sustained climbing)
+* **Structure:** High-volume Gran Fondo preparation (aerobic capacity, threshold durability, sustained climbing power)
