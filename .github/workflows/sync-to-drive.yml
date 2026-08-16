@@ -3,7 +3,7 @@ name: Sync Repository to Google Drive
 on:
   push:
     branches:
-      - main  # Cambia con "master" se il tuo branch principale si chiama master
+      - main  # Cambia con "master" se il tuo branch si chiama master
   workflow_dispatch:
 
 jobs:
@@ -36,6 +36,5 @@ jobs:
           rclone sync . gdrive: \
             --exclude ".git/**" \
             --exclude ".github/**" \
-            --drive-service-account-file ~/.config/rclone/sa.json \
-            --drive-impersonate tua-email-google@gmail.com \
+            --drive-acknowledge-abuse \
             -v
