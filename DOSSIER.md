@@ -2,7 +2,9 @@
 
 ## 1. Athlete Summary & Goals
 * **Primary Sport:** Cycling
-* **Current Focus / Target Event:** Gran Fondo Racing
+* **Current Focus / Target Event:** Gran Fondo Racing on 20 Semptember 2026 - 110km link to GPX:
+https://letapeitaly.it/wp-content/uploads/2026/07/autour_de_mondovi-24559811-1783585771-424.gpx_.zip
+
 * **Weekly Training Volume:** ~15 hours/week
 
 ## 2. Physiology & Baseline Metrics
