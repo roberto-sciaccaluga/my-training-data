@@ -1,15 +1,28 @@
-- name: Setup Rclone Config
+name: Sync Repository to Google Drive
+
+on:
+  push:
+    branches:
+      - main  # Cambia con "master" se il tuo branch principale si chiama master
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Rclone
+        run: sudo apt-get update && sudo apt-get install -y rclone
+
+      - name: Setup Rclone Config
         env:
-          # Questo metodo è sicuro al 100% contro gli errori di formattazione
           JSON_KEY: ${{ secrets.GDRIVE_SA_JSON }}
           FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
         run: |
           mkdir -p ~/.config/rclone
-          
-          # Scrive il file JSON in modo protetto
           echo "$JSON_KEY" > ~/.config/rclone/sa.json
-          
-          # Crea il file di configurazione
           cat <<EOF > ~/.config/rclone/rclone.conf
           [gdrive]
           type = drive
@@ -17,3 +30,7 @@
           service_account_file = ~/.config/rclone/sa.json
           root_folder_id = $FOLDER_ID
           EOF
+
+      - name: Sync to Google Drive
+        run: |
+          rclone sync . gdrive: --exclude ".git/**" --exclude ".github/**" -v
