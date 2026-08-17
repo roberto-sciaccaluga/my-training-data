@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T05:20:10.268634",
+  "generated_at": "2026-08-17T05:56:50.502922",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -2750,6 +2750,74 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i176631795",
+      "date": "2026-08-17",
+      "start_datetime": "2026-08-17T06:14:18",
+      "type": "VirtualRide",
+      "name": "Recovery Easy Ride - Fondovalle",
+      "interval_summary": [
+        "1x 16s 115w",
+        "1x 1h15m 149w",
+        "1x 1s 150w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "16s@115w47rpm",
+          "duration_secs": 16,
+          "moving_secs": 16,
+          "start_secs": 0,
+          "end_secs": 16,
+          "avg_power": 115,
+          "max_power": 157,
+          "avg_hr": 71,
+          "max_hr": 76,
+          "min_hr": 69,
+          "avg_cadence": 47.25,
+          "zone": 1,
+          "w_bal_start": 17280,
+          "w_bal_end": 17280
+        },
+        {
+          "type": "WORK",
+          "label": "4501s@149w86rpm",
+          "duration_secs": 4501,
+          "moving_secs": 4501,
+          "start_secs": 16,
+          "end_secs": 4517,
+          "avg_power": 149,
+          "max_power": 153,
+          "avg_hr": 108,
+          "max_hr": 120,
+          "min_hr": 76,
+          "avg_cadence": 86.18152,
+          "zone": 1,
+          "w_bal_start": 17280,
+          "w_bal_end": 17280,
+          "training_load": 36.139374
+        },
+        {
+          "type": "WORK",
+          "label": "1s@150w83rpm",
+          "duration_secs": 1,
+          "moving_secs": 1,
+          "start_secs": 4517,
+          "end_secs": 4518,
+          "avg_power": 150,
+          "max_power": 150,
+          "avg_hr": 111,
+          "max_hr": 111,
+          "min_hr": 111,
+          "avg_cadence": 83.0,
+          "zone": 1,
+          "w_bal_start": 17280,
+          "w_bal_end": 17280,
+          "training_load": 0.008029188
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -3034,6 +3102,25 @@
         "status": "pending",
         "reason": "no_data",
         "next_retry_at": "2026-08-17T09:10:14.461498"
+      }
+    },
+    "i176631795": {
+      "date": "2026-08-17",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-08-17T05:56:50.502922",
+        "last_attempt": "2026-08-17T05:56:50.502922",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-08-17T05:30:27.948+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-08-17T05:56:50.502922",
+        "last_attempt": "2026-08-17T05:56:50.502922",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-08-17T06:01:50.502922"
       }
     }
   }
