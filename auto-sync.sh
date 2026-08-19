@@ -5,12 +5,9 @@ set -Eeuo pipefail
 # Run this script from any directory; files are written to the repository directory.
 
 # Example configuration. Uncomment and replace the placeholder values before use.
-# export ATHLETE_ID="i123456"
-# export INTERVALS_KEY="replace-with-your-intervals-api-key"
-# export NGINX_SSH_HOST="server.example.com"
-# export NGINX_SSH_USER="deploy"
+export ATHLETE_ID="i47608"
+export INTERVALS_KEY="-----------"
 # export NGINX_DEST_DIR="/var/www/html/training-data"
-# export NGINX_SSH_KEY="$HOME/.ssh/id_ed25519"
 
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
@@ -111,13 +108,25 @@ if [[ -f README.md ]]; then
   fi
 fi
 
-# Optional deployment to the Nginx server configured by deploy-to-nginx.sh.
-if [[ -n "${NGINX_SSH_HOST:-}" && -n "${NGINX_SSH_USER:-}" && -n "${NGINX_DEST_DIR:-}" ]]; then
-  if [[ -x ./deploy-to-nginx.sh ]]; then
-    ./deploy-to-nginx.sh
-  else
-    bash ./deploy-to-nginx.sh
+# Optional local deployment to a directory served by Nginx.
+if [[ -n "${NGINX_DEST_DIR:-}" ]]; then
+  if [[ ! -d "$NGINX_DEST_DIR" ]]; then
+    echo "Creating Nginx destination directory: $NGINX_DEST_DIR"
+    mkdir -p -- "$NGINX_DEST_DIR"
   fi
+
+  DEPLOY_TMP_DIR="$(mktemp -d "${NGINX_DEST_DIR%/}/.deploy.XXXXXX")"
+  trap 'rm -rf -- "$DEPLOY_TMP_DIR"' EXIT
+
+  for file in latest.json history.json intervals.json routes.json ftp_history.json; do
+    if [[ -f "$file" ]]; then
+      cp -- "$file" "$DEPLOY_TMP_DIR/$file"
+      mv -f -- "$DEPLOY_TMP_DIR/$file" "${NGINX_DEST_DIR%/}/$file"
+      echo "Published $file to Nginx"
+    fi
+  done
+
+  rmdir -- "$DEPLOY_TMP_DIR" 2>/dev/null || true
 fi
 
 echo "Sync completed successfully."
