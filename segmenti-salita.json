@@ -1,0 +1,79 @@
+[
+	{
+		"nome": "s. martino",
+		"distanza": "5.0 km",
+		"pendenza": "5%",
+		"lunghezza": "267 m",
+		"tempo": "15:34"
+	},
+	{
+		"nome": "creto",
+		"distanza": "8.4 km",
+		"pendenza": "6%",
+		"lunghezza": "517 m",
+		"tempo": "27:45"
+	},
+	{
+		"nome": "CartaGenova Via san Felice",
+		"distanza": "3.0 km",
+		"pendenza": "5%",
+		"lunghezza": "162 m",
+		"tempo": "8:51"
+	},
+	{
+		"nome": "pino",
+		"distanza": "4.5 km",
+		"pendenza": "6%",
+		"lunghezza": "284 m",
+		"tempo": "14:45"
+	},
+	{
+		"nome": "SanGottardo-Trensasco",
+		"distanza": "3.9 km",
+		"pendenza": "8%",
+		"lunghezza": "330 m",
+		"tempo": "15:50"
+	},
+	{
+		"nome": "Sant'Eusebio",
+		"distanza": "3.2 km",
+		"pendenza": "5%",
+		"lunghezza": "166 m",
+		"tempo": "8:38"
+	},
+	{
+		"nome": "Camaldoli [FC]",
+		"distanza": "4.0 km",
+		"pendenza": "6%",
+		"lunghezza": "256 m",
+		"tempo": null
+	},
+	{
+		"nome": "Via Robino Hill",
+		"distanza": "1.5 km",
+		"pendenza": "6%",
+		"lunghezza": "99 m",
+		"tempo": "4:38"
+	},
+	{
+		"nome": "CRONOSCALATA DEL FORTE",
+		"distanza": "5.4 km",
+		"pendenza": "7%",
+		"lunghezza": "363 m",
+		"tempo": "18:17"
+	},
+	{
+		"nome": "Via Montaldo",
+		"distanza": "1.1 km",
+		"pendenza": "5%",
+		"lunghezza": "53 m",
+		"tempo": "2:48"
+	},
+	{
+		"nome": "Monte Fasce da Borgoratti",
+		"distanza": "9.2 km",
+		"pendenza": "8%",
+		"lunghezza": "715 m",
+		"tempo": "34:30"
+	}
+]
