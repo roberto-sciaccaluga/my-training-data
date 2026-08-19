@@ -96,5 +96,12 @@
 		"pendenza": "8%",
 		"lunghezza": "110 m",
 		"tempo": "4:54"
+	},
+	{
+		"nome": "Via GIBI_Torti-Solari",
+		"distanza": "0.5 km",
+		"pendenza": "5%",
+		"lunghezza": "24 m",
+		"tempo": "55s"
 	}
 ]
