@@ -2,7 +2,7 @@
 
 **Dossier Version:** v1.1.1  
 **Protocol Compatibility:** Section 11 v11.6+  
-**Date:** [YYYY-MM-DD]  
+**Date:** [2026-08-19]  
 **Primary Source Systems:** Intervals.icu | [Other platforms]
 
 This document serves as a reference template for endurance athletes using the deterministic AI-coaching framework defined in Section 11.
