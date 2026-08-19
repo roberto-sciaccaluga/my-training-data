@@ -75,5 +75,26 @@
 		"pendenza": "8%",
 		"lunghezza": "715 m",
 		"tempo": "34:30"
+	},
+	{
+		"nome": "High4th",
+		"distanza": "1.9 km",
+		"pendenza": "7%",
+		"lunghezza": "129 m",
+		"tempo": "6:15"
+	},
+	{
+		"nome": "strappo viale quartara",
+		"distanza": "0.7 km",
+		"pendenza": "5%",
+		"lunghezza": "37 m",
+		"tempo": "2:13"
+	},
+	{
+		"nome": "Chiesa Sant' Ilario",
+		"distanza": "1.4 km",
+		"pendenza": "8%",
+		"lunghezza": "110 m",
+		"tempo": "4:54"
 	}
 ]
