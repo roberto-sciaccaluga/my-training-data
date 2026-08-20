@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T23:56:37.292342",
+  "generated_at": "2026-08-20T00:41:40.497815",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -2049,73 +2049,6 @@
       "zone_basis": "power"
     },
     {
-      "activity_id": "i172830523",
-      "date": "2026-08-05",
-      "start_datetime": "2026-08-05T18:39:05",
-      "type": "Ride",
-      "name": "Fondo tecnico (indoor)",
-      "interval_summary": [
-        "1x 1h3m 180w",
-        "1x 3s 174w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "3815s@180w87rpm",
-          "duration_secs": 3815,
-          "moving_secs": 3602,
-          "start_secs": 0,
-          "end_secs": 3815,
-          "avg_power": 180,
-          "max_power": 206,
-          "avg_hr": 118,
-          "max_hr": 143,
-          "min_hr": 77,
-          "avg_cadence": 86.912575,
-          "zone": 2,
-          "w_bal_start": 17280,
-          "w_bal_end": 17280,
-          "training_load": 42.472584
-        },
-        {
-          "type": "WORK",
-          "label": "3s@174w91rpm",
-          "duration_secs": 3,
-          "moving_secs": 3,
-          "start_secs": 3815,
-          "end_secs": 3818,
-          "avg_power": 174,
-          "max_power": 202,
-          "avg_hr": 134,
-          "max_hr": 135,
-          "min_hr": 134,
-          "avg_cadence": 91.333336,
-          "zone": 2,
-          "w_bal_start": 17280,
-          "w_bal_end": 17280,
-          "training_load": 0.043683063
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "moving_secs": 1,
-          "start_secs": 3818,
-          "end_secs": 3819,
-          "avg_power": 22,
-          "max_power": 22,
-          "avg_hr": 134,
-          "max_hr": 134,
-          "min_hr": 134,
-          "avg_cadence": 91.0,
-          "zone": 1,
-          "w_bal_start": 17280,
-          "w_bal_end": 17280,
-          "training_load": 0.013430512
-        }
-      ],
-      "zone_basis": "power"
-    },
-    {
       "activity_id": "i175963861",
       "date": "2026-08-15",
       "start_datetime": "2026-08-15T05:13:36",
@@ -3273,25 +3206,6 @@
         "status": "ok",
         "reason": "ok",
         "source_icu_sync_date": "2026-08-06T05:55:47.377+00:00"
-      },
-      "streams": {
-        "attempts": 1,
-        "first_seen": "2026-08-14T07:52:31.935688",
-        "last_attempt": "2026-08-14T07:52:31.935688",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
-    "i172830523": {
-      "date": "2026-08-05",
-      "paired_planned": true,
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-08-14T07:52:31.935688",
-        "last_attempt": "2026-08-14T07:52:31.935688",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-08-14T06:33:27.656+00:00"
       },
       "streams": {
         "attempts": 1,
