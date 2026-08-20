@@ -1,34 +1,34 @@
 [
 	{
-		"nome": "s. martino",
+		"nome": "S. Martino",
 		"distanza": "5.0 km",
 		"pendenza": "5%",
 		"lunghezza": "267 m",
 		"tempo": "15:34"
 	},
 	{
-		"nome": "creto",
+		"nome": "Creto",
 		"distanza": "8.4 km",
 		"pendenza": "6%",
 		"lunghezza": "517 m",
 		"tempo": "27:45"
 	},
 	{
-		"nome": "CartaGenova Via san Felice",
+		"nome": "Cartagenova Via San Felice",
 		"distanza": "3.0 km",
 		"pendenza": "5%",
 		"lunghezza": "162 m",
 		"tempo": "8:51"
 	},
 	{
-		"nome": "pino",
+		"nome": "Pino",
 		"distanza": "4.5 km",
 		"pendenza": "6%",
 		"lunghezza": "284 m",
 		"tempo": "14:45"
 	},
 	{
-		"nome": "SanGottardo-Trensasco",
+		"nome": "Sangottardo-Trensasco",
 		"distanza": "3.9 km",
 		"pendenza": "8%",
 		"lunghezza": "330 m",
@@ -42,7 +42,7 @@
 		"tempo": "8:38"
 	},
 	{
-		"nome": "Camaldoli [FC]",
+		"nome": "Camaldoli [Fc]",
 		"distanza": "4.0 km",
 		"pendenza": "6%",
 		"lunghezza": "256 m",
@@ -56,7 +56,7 @@
 		"tempo": "4:38"
 	},
 	{
-		"nome": "CRONOSCALATA DEL FORTE",
+		"nome": "Cronoscalata Del Forte",
 		"distanza": "5.4 km",
 		"pendenza": "7%",
 		"lunghezza": "363 m",
@@ -70,7 +70,7 @@
 		"tempo": "2:48"
 	},
 	{
-		"nome": "Monte Fasce da Borgoratti",
+		"nome": "Monte Fasce Da Borgoratti",
 		"distanza": "9.2 km",
 		"pendenza": "8%",
 		"lunghezza": "715 m",
@@ -84,7 +84,7 @@
 		"tempo": "6:15"
 	},
 	{
-		"nome": "strappo viale quartara",
+		"nome": "Strappo Viale Quartara",
 		"distanza": "0.7 km",
 		"pendenza": "5%",
 		"lunghezza": "37 m",
@@ -98,7 +98,7 @@
 		"tempo": "4:54"
 	},
 	{
-		"nome": "Via GIBI_Torti-Solari",
+		"nome": "Via Gibi_Torti-Solari",
 		"distanza": "0.5 km",
 		"pendenza": "5%",
 		"lunghezza": "24 m",
