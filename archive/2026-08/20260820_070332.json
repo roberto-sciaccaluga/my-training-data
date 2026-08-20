@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-20T08:23:16.493232",
+    "last_updated": "2026-08-20T07:03:29.757159",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.126"
@@ -143,20 +143,20 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Recovery",
+      "phase": "Build",
       "phase_week": 1,
-      "amber_threshold": 2,
-      "modifier_applied": "default"
+      "amber_threshold": 3,
+      "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 6 green, 0 amber (threshold 2), 0 red.",
+    "reason": "P3 green light. 6 green, 0 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
     "last_generated": "2026-08-14",
-    "age_days": 6,
+    "age_days": 5,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -251,7 +251,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 763,
+      "steps": 376,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -602,11 +602,9 @@
       ]
     },
     "phase_detection": {
-      "phase": "Recovery",
+      "phase": "Build",
       "confidence": "medium",
-      "reason_codes": [
-        "NO_BUILD_HISTORY_LOW_LOAD"
-      ],
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": -2.85,
@@ -615,10 +613,10 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.55,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 0.57,
+          "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 2,
-          "current_week_hard_days_total": 3,
+          "current_week_hard_days_total": 4,
           "race_proximity": 31,
           "next_week_load": null,
           "plan_coverage_current_week": 0.5,
@@ -632,10 +630,8 @@
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Recovery",
-    "phase_triggers": [
-      "NO_BUILD_HISTORY_LOW_LOAD"
-    ],
+    "phase_detected": "Build",
+    "phase_triggers": [],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
       "current_ftp": 279,
@@ -657,7 +653,7 @@
     "p_max": 850,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 62.0,
-    "calculation_timestamp": "2026-08-20T08:23:16.492438",
+    "calculation_timestamp": "2026-08-20T07:03:29.756274",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -6261,7 +6257,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 763,
+      "steps": 376,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -6307,13 +6303,13 @@
       "name": "Long Ride Specifico \u00c9tape - Simulazione Gara",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 136,
+      "planned_tss": 145,
       "duration_hours": 2.87,
       "duration_formatted": "2h52m",
-      "workout_summary": null,
+      "workout_summary": "1\u00d74m @253W / 8m rec",
       "has_terrain": false,
       "start_time": "06:30",
-      "description": "Long ride specifico \u00c9tape Mondov\u00ec - simulazione gara. Vincolo: max 3h disponibili (172min). Target: 90-100 km, terreno variabile collinare. 3 strappi da 4min distribuiti lungo il percorso (non raggruppati), separati da blocchi di endurance a 190W (69% FTP). Strappi a 90-93% FTP (254W) - intensita' moderata rispetto al 95% originale, vista la sofferenza da caldo-umido riscontrata nella sessione del 20/8. Test di fueling: 60-70g CHO/h, idratazione rinforzata 700-750ml/h con elettroliti extra (giornata prevista calda-umida, 27.5\u00b0C). Partenza il prima possibile (06:00-06:30) per anticipare il caldo di met\u00e0 mattina. HR monitor per cardiac drift late-race. PRIORIT\u00c0: qualita' degli strappi e gestione termica, non il chilometraggio massimo.\n\nWarmup\n- 40m 164w intensity=warmup\n\nMain Set 1x\n- 30m 190w intensity=interval\n\nMain Set 1x\n- 4m 254w intensity=interval\n\nMain Set 1x\n- 8m 192w intensity=recovery\n\nMain Set 1x\n- 30m 190w intensity=interval\n\nMain Set 1x\n- 4m 254w intensity=interval\n\nMain Set 1x\n- 8m 192w intensity=recovery\n\nMain Set 1x\n- 20m 190w intensity=interval\n\nMain Set 1x\n- 4m 254w intensity=interval\n\nCooldown\n- 24m 164w intensity=cooldown"
+      "description": "Main Set 1x\n- 120m 65-75% intensity=warmup\n\nMain Set 1x\n- 4m 90-95% intensity=interval\n- 8m 70% intensity=recovery\n\nMain Set 1x\n- 40m 70-75% intensity=cooldown"
     },
     {
       "id": 129686199,
@@ -6345,11 +6341,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 4,
-    "success": 1,
-    "patternA": 1,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 3
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 14.43,
