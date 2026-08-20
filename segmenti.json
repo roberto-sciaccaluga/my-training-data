@@ -1,17 +1,10 @@
 [
 	{
-		"nome": "S. Martino",
-		"distanza": "5.0 km",
-		"pendenza": "5%",
-		"lunghezza": "267 m",
-		"tempo": "15:34"
-	},
-	{
-		"nome": "Creto",
-		"distanza": "8.4 km",
+		"nome": "Camaldoli [Fc]",
+		"distanza": "4.0 km",
 		"pendenza": "6%",
-		"lunghezza": "517 m",
-		"tempo": "27:45"
+		"lunghezza": "256 m",
+		"tempo": null
 	},
 	{
 		"nome": "Cartagenova Via San Felice",
@@ -21,11 +14,53 @@
 		"tempo": "8:51"
 	},
 	{
+		"nome": "Chiesa Sant' Ilario",
+		"distanza": "1.4 km",
+		"pendenza": "8%",
+		"lunghezza": "110 m",
+		"tempo": "4:54"
+	},
+	{
+		"nome": "Creto",
+		"distanza": "8.4 km",
+		"pendenza": "6%",
+		"lunghezza": "517 m",
+		"tempo": "27:45"
+	},
+	{
+		"nome": "Cronoscalata Del Forte",
+		"distanza": "5.4 km",
+		"pendenza": "7%",
+		"lunghezza": "363 m",
+		"tempo": "18:17"
+	},
+	{
+		"nome": "High4th",
+		"distanza": "1.9 km",
+		"pendenza": "7%",
+		"lunghezza": "129 m",
+		"tempo": "6:15"
+	},
+	{
+		"nome": "Monte Fasce Da Borgoratti",
+		"distanza": "9.2 km",
+		"pendenza": "8%",
+		"lunghezza": "715 m",
+		"tempo": "34:30"
+	},
+	{
 		"nome": "Pino",
 		"distanza": "4.5 km",
 		"pendenza": "6%",
 		"lunghezza": "284 m",
 		"tempo": "14:45"
+	},
+	{
+		"nome": "S. Martino",
+		"distanza": "5.0 km",
+		"pendenza": "5%",
+		"lunghezza": "267 m",
+		"tempo": "15:34"
 	},
 	{
 		"nome": "Sangottardo-Trensasco",
@@ -42,25 +77,18 @@
 		"tempo": "8:38"
 	},
 	{
-		"nome": "Camaldoli [Fc]",
-		"distanza": "4.0 km",
-		"pendenza": "6%",
-		"lunghezza": "256 m",
-		"tempo": null
+		"nome": "Strappo Viale Quartara",
+		"distanza": "0.7 km",
+		"pendenza": "5%",
+		"lunghezza": "37 m",
+		"tempo": "2:13"
 	},
 	{
-		"nome": "Via Robino Hill",
-		"distanza": "1.5 km",
-		"pendenza": "6%",
-		"lunghezza": "99 m",
-		"tempo": "4:38"
-	},
-	{
-		"nome": "Cronoscalata Del Forte",
-		"distanza": "5.4 km",
-		"pendenza": "7%",
-		"lunghezza": "363 m",
-		"tempo": "18:17"
+		"nome": "Via Gibi_Torti-Solari",
+		"distanza": "0.5 km",
+		"pendenza": "5%",
+		"lunghezza": "24 m",
+		"tempo": "55s"
 	},
 	{
 		"nome": "Via Montaldo",
@@ -70,38 +98,10 @@
 		"tempo": "2:48"
 	},
 	{
-		"nome": "Monte Fasce Da Borgoratti",
-		"distanza": "9.2 km",
-		"pendenza": "8%",
-		"lunghezza": "715 m",
-		"tempo": "34:30"
-	},
-	{
-		"nome": "High4th",
-		"distanza": "1.9 km",
-		"pendenza": "7%",
-		"lunghezza": "129 m",
-		"tempo": "6:15"
-	},
-	{
-		"nome": "Strappo Viale Quartara",
-		"distanza": "0.7 km",
-		"pendenza": "5%",
-		"lunghezza": "37 m",
-		"tempo": "2:13"
-	},
-	{
-		"nome": "Chiesa Sant' Ilario",
-		"distanza": "1.4 km",
-		"pendenza": "8%",
-		"lunghezza": "110 m",
-		"tempo": "4:54"
-	},
-	{
-		"nome": "Via Gibi_Torti-Solari",
-		"distanza": "0.5 km",
-		"pendenza": "5%",
-		"lunghezza": "24 m",
-		"tempo": "55s"
+		"nome": "Via Robino Hill",
+		"distanza": "1.5 km",
+		"pendenza": "6%",
+		"lunghezza": "99 m",
+		"tempo": "4:38"
 	}
 ]
