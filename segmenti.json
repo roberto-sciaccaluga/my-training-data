@@ -21,6 +21,20 @@
 		"tempo": "4:54"
 	},
 	{
+		"nome": "Cornua Da Sussisa",
+		"distanza": "8.1 km",
+		"pendenza": "7%",
+		"lunghezza": "547 m",
+		"tempo": "32:37"
+	},
+	{
+		"nome": "Cornua Via Levà Completo",
+		"distanza": "8.5 km",
+		"pendenza": "6%",
+		"lunghezza": "528 m",
+		"tempo": "34:07"
+	},
+	{
 		"nome": "Creto",
 		"distanza": "8.4 km",
 		"pendenza": "6%",
@@ -54,6 +68,13 @@
 		"pendenza": "6%",
 		"lunghezza": "284 m",
 		"tempo": "14:45"
+	},
+	{
+		"nome": "Recco-Uscio",
+		"distanza": "8.9 km",
+		"pendenza": "4%",
+		"lunghezza": "340 m",
+		"tempo": "25:14"
 	},
 	{
 		"nome": "S. Martino",
