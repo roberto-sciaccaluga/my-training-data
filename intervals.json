@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T05:00:32.327564",
+  "generated_at": "2026-08-21T05:46:21.018649",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -2835,6 +2835,73 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i178158929",
+      "date": "2026-08-21",
+      "start_datetime": "2026-08-21T06:04:48",
+      "type": "VirtualRide",
+      "name": "Easy Recovery Z1-Z2",
+      "interval_summary": [
+        "1x 56s 119w",
+        "1x 1h23m 155w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "56s@119w67rpm",
+          "duration_secs": 56,
+          "moving_secs": 56,
+          "start_secs": 0,
+          "end_secs": 56,
+          "avg_power": 119,
+          "max_power": 153,
+          "avg_hr": 84,
+          "max_hr": 101,
+          "min_hr": 64,
+          "avg_cadence": 67.111115,
+          "zone": 1,
+          "w_bal_start": 17280,
+          "w_bal_end": 17280,
+          "training_load": 0.24605927
+        },
+        {
+          "type": "WORK",
+          "label": "4987s@155w88rpm",
+          "duration_secs": 4987,
+          "moving_secs": 4922,
+          "start_secs": 56,
+          "end_secs": 5043,
+          "avg_power": 155,
+          "max_power": 174,
+          "avg_hr": 112,
+          "max_hr": 131,
+          "min_hr": 92,
+          "avg_cadence": 88.21442,
+          "zone": 2,
+          "w_bal_start": 17280,
+          "w_bal_end": 17280,
+          "training_load": 42.744465
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "moving_secs": 1,
+          "start_secs": 5043,
+          "end_secs": 5044,
+          "avg_power": 158,
+          "max_power": 158,
+          "avg_hr": 123,
+          "max_hr": 123,
+          "min_hr": 123,
+          "avg_cadence": 87.0,
+          "zone": 2,
+          "w_bal_start": 17280,
+          "w_bal_end": 17280,
+          "training_load": 0.010313045
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -3101,6 +3168,25 @@
         "status": "pending",
         "reason": "no_data",
         "next_retry_at": "2026-08-21T09:33:40.104640"
+      }
+    },
+    "i178158929": {
+      "date": "2026-08-21",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-08-21T05:46:21.018649",
+        "last_attempt": "2026-08-21T05:46:21.018649",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-08-21T05:29:25.460+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-08-21T05:46:21.018649",
+        "last_attempt": "2026-08-21T05:46:21.018649",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-08-21T05:51:21.018649"
       }
     }
   }
