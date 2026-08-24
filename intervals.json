@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T23:54:57.990276",
+  "generated_at": "2026-08-24T00:33:53.657307",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -899,131 +899,6 @@
           "w_bal_start": 17280,
           "w_bal_end": 17279,
           "training_load": 40.88328
-        }
-      ],
-      "zone_basis": "power"
-    },
-    {
-      "activity_id": "i173921259",
-      "date": "2026-08-09",
-      "start_datetime": "2026-08-09T05:20:22",
-      "type": "Ride",
-      "name": "Uscita outdoor leggera - tempo (2x Sant'Eusebio)",
-      "interval_summary": [
-        "1x 1h2m 161w",
-        "2x 8m 275w",
-        "1x 14m17s 92w",
-        "1x 36m58s 126w",
-        "1x 4m59s 127w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "3734s@161w81rpm",
-          "duration_secs": 3734,
-          "moving_secs": 3734,
-          "start_secs": 0,
-          "end_secs": 3734,
-          "avg_power": 161,
-          "max_power": 300,
-          "avg_hr": 104,
-          "max_hr": 116,
-          "min_hr": 79,
-          "avg_cadence": 81.232994,
-          "zone": 2,
-          "w_bal_start": 17280,
-          "w_bal_end": 17279,
-          "training_load": 37.15852
-        },
-        {
-          "type": "WORK",
-          "label": "480s@275w76rpm",
-          "duration_secs": 480,
-          "moving_secs": 480,
-          "start_secs": 3734,
-          "end_secs": 4214,
-          "avg_power": 286,
-          "max_power": 424,
-          "avg_hr": 143,
-          "max_hr": 156,
-          "min_hr": 104,
-          "avg_cadence": 77.4625,
-          "zone": 4,
-          "w_bal_start": 17217,
-          "w_bal_end": 6983,
-          "training_load": 14.526791
-        },
-        {
-          "type": "WORK",
-          "label": "857s@92w51rpm",
-          "duration_secs": 857,
-          "moving_secs": 777,
-          "start_secs": 4214,
-          "end_secs": 5071,
-          "avg_power": 92,
-          "max_power": 328,
-          "avg_hr": 106,
-          "max_hr": 156,
-          "min_hr": 81,
-          "avg_cadence": 50.548843,
-          "zone": 1,
-          "w_bal_start": 7056,
-          "w_bal_end": 17279,
-          "training_load": 6.554979
-        },
-        {
-          "type": "WORK",
-          "label": "480s@275w76rpm",
-          "duration_secs": 480,
-          "moving_secs": 480,
-          "start_secs": 5071,
-          "end_secs": 5551,
-          "avg_power": 264,
-          "max_power": 424,
-          "avg_hr": 138,
-          "max_hr": 155,
-          "min_hr": 93,
-          "avg_cadence": 74.9625,
-          "zone": 4,
-          "w_bal_start": 17279,
-          "w_bal_end": 10682,
-          "training_load": 12.284263
-        },
-        {
-          "type": "WORK",
-          "label": "2218s@126w60rpm",
-          "duration_secs": 2218,
-          "moving_secs": 1952,
-          "start_secs": 5551,
-          "end_secs": 7769,
-          "avg_power": 126,
-          "max_power": 768,
-          "avg_hr": 109,
-          "max_hr": 156,
-          "min_hr": 78,
-          "avg_cadence": 60.48112,
-          "zone": 1,
-          "w_bal_start": 10748,
-          "w_bal_end": 17262,
-          "training_load": 24.781675
-        },
-        {
-          "type": "WORK",
-          "label": "299s@127w51rpm",
-          "duration_secs": 299,
-          "moving_secs": 266,
-          "start_secs": 7769,
-          "end_secs": 8068,
-          "avg_power": 127,
-          "max_power": 740,
-          "avg_hr": 104,
-          "max_hr": 140,
-          "min_hr": 77,
-          "avg_cadence": 50.944237,
-          "zone": 1,
-          "w_bal_start": 17262,
-          "w_bal_end": 16435,
-          "training_load": 4.6436143
         }
       ],
       "zone_basis": "power"
@@ -2589,25 +2464,6 @@
         "status": "ok",
         "reason": "ok",
         "source_icu_sync_date": "2026-08-10T06:38:26.654+00:00"
-      },
-      "streams": {
-        "attempts": 1,
-        "first_seen": "2026-08-14T07:52:31.935688",
-        "last_attempt": "2026-08-14T07:52:31.935688",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
-    "i173921259": {
-      "date": "2026-08-09",
-      "paired_planned": true,
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-08-14T07:52:31.935688",
-        "last_attempt": "2026-08-14T07:52:31.935688",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-08-09T05:36:08.401+00:00"
       },
       "streams": {
         "attempts": 1,
