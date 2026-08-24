@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T15:32:02.680272",
+  "generated_at": "2026-08-24T16:08:06.449094",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -2441,6 +2441,34 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i179291352",
+      "date": "2026-08-24",
+      "start_datetime": "2026-08-24T17:05:08",
+      "type": "Ride",
+      "name": "Genova Ciclismo su strada",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2238,
+          "moving_secs": 1743,
+          "start_secs": 0,
+          "end_secs": 2238,
+          "avg_power": 111,
+          "max_power": 364,
+          "avg_hr": 95,
+          "max_hr": 120,
+          "min_hr": 68,
+          "avg_cadence": 56.707066,
+          "zone": 1,
+          "w_bal_start": 17280,
+          "w_bal_end": 17279,
+          "training_load": 12.204006
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -2699,12 +2727,12 @@
         "source_icu_sync_date": "2026-08-23T06:34:03.610+00:00"
       },
       "streams": {
-        "attempts": 16,
+        "attempts": 17,
         "first_seen": "2026-08-23T07:08:30.108140",
-        "last_attempt": "2026-08-24T10:00:29.607807",
+        "last_attempt": "2026-08-24T16:08:06.449094",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-08-24T16:00:29.607807"
+        "next_retry_at": "2026-08-24T22:08:06.449094"
       }
     },
     "i179098748": {
@@ -2725,6 +2753,25 @@
         "status": "pending",
         "reason": "no_data",
         "next_retry_at": "2026-08-24T21:32:02.680272"
+      }
+    },
+    "i179291352": {
+      "date": "2026-08-24",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-08-24T16:08:06.449094",
+        "last_attempt": "2026-08-24T16:08:06.449094",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-08-24T15:44:32.303+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-08-24T16:08:06.449094",
+        "last_attempt": "2026-08-24T16:08:06.449094",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-08-24T16:13:06.449094"
       }
     }
   }
