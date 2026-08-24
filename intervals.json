@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T05:35:24.197767",
+  "generated_at": "2026-08-24T06:07:41.768681",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -2376,6 +2376,71 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i179098748",
+      "date": "2026-08-24",
+      "start_datetime": "2026-08-24T05:18:35",
+      "type": "Ride",
+      "name": "Colazione ad Arenzano",
+      "interval_summary": [
+        "1x 90s 250w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4693,
+          "moving_secs": 4480,
+          "start_secs": 0,
+          "end_secs": 4693,
+          "avg_power": 131,
+          "max_power": 414,
+          "avg_hr": 105,
+          "max_hr": 146,
+          "min_hr": 72,
+          "avg_cadence": 70.46667,
+          "zone": 1,
+          "w_bal_start": 17280,
+          "w_bal_end": 17186,
+          "training_load": 40.973408
+        },
+        {
+          "type": "WORK",
+          "label": "90s@250w91rpm",
+          "duration_secs": 90,
+          "moving_secs": 90,
+          "start_secs": 4693,
+          "end_secs": 4783,
+          "avg_power": 250,
+          "max_power": 340,
+          "avg_hr": 134,
+          "max_hr": 142,
+          "min_hr": 121,
+          "avg_cadence": 90.7,
+          "zone": 4,
+          "w_bal_start": 17186,
+          "w_bal_end": 16742,
+          "training_load": 1.9988079
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3963,
+          "moving_secs": 3422,
+          "start_secs": 4783,
+          "end_secs": 8746,
+          "avg_power": 139,
+          "max_power": 718,
+          "avg_hr": 111,
+          "max_hr": 151,
+          "min_hr": 81,
+          "avg_cadence": 69.17742,
+          "zone": 1,
+          "w_bal_start": 16682,
+          "w_bal_end": 16702,
+          "training_load": 38.84305
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -2640,6 +2705,26 @@
         "status": "pending",
         "reason": "no_data",
         "next_retry_at": "2026-08-24T09:14:29.143064"
+      }
+    },
+    "i179098748": {
+      "date": "2026-08-24",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-08-24T06:07:41.768681",
+        "last_attempt": "2026-08-24T06:07:41.768681",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-08-24T05:45:10.331+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-08-24T06:07:41.768681",
+        "last_attempt": "2026-08-24T06:07:41.768681",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-08-24T06:12:41.768681"
       }
     }
   }
