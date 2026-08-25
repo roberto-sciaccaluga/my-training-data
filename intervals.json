@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T23:55:23.504710",
+  "generated_at": "2026-08-25T00:35:37.309402",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -871,34 +871,6 @@
           "w_bal_start": 17279,
           "w_bal_end": 17279,
           "training_load": 0.0081366
-        }
-      ],
-      "zone_basis": "power"
-    },
-    {
-      "activity_id": "i174268250",
-      "date": "2026-08-10",
-      "start_datetime": "2026-08-10T06:21:29",
-      "type": "Ride",
-      "name": "Recupero vero (indoor)",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3954,
-          "moving_secs": 3918,
-          "start_secs": 0,
-          "end_secs": 3954,
-          "avg_power": 170,
-          "max_power": 282,
-          "avg_hr": 110,
-          "max_hr": 119,
-          "min_hr": 73,
-          "avg_cadence": 85.77061,
-          "zone": 2,
-          "w_bal_start": 17280,
-          "w_bal_end": 17279,
-          "training_load": 40.88328
         }
       ],
       "zone_basis": "power"
@@ -2547,25 +2519,6 @@
         "reason": "retry_expired"
       }
     },
-    "i174268250": {
-      "date": "2026-08-10",
-      "paired_planned": true,
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-08-14T07:52:31.935688",
-        "last_attempt": "2026-08-14T07:52:31.935688",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-08-10T06:38:26.654+00:00"
-      },
-      "streams": {
-        "attempts": 1,
-        "first_seen": "2026-08-14T07:52:31.935688",
-        "last_attempt": "2026-08-14T07:52:31.935688",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
     "i175963861": {
       "date": "2026-08-15",
       "intervals": {
@@ -2765,12 +2718,12 @@
         "source_icu_sync_date": "2026-08-24T15:44:32.303+00:00"
       },
       "streams": {
-        "attempts": 12,
+        "attempts": 13,
         "first_seen": "2026-08-24T16:08:06.449094",
-        "last_attempt": "2026-08-24T23:32:42.451307",
+        "last_attempt": "2026-08-25T00:35:37.309402",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-08-25T00:02:42.451307"
+        "next_retry_at": "2026-08-25T06:35:37.309402"
       }
     }
   }
