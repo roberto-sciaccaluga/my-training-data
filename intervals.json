@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T06:31:26.982624",
+  "generated_at": "2026-08-26T07:30:00.856015",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -2611,6 +2611,130 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i179915050",
+      "date": "2026-08-26",
+      "start_datetime": "2026-08-26T05:09:08",
+      "type": "Ride",
+      "name": "Long Ride - Simulazione Straluzzo (Recco+Gazzo)",
+      "interval_summary": [
+        "1x 20m1s 163w",
+        "1x 2h13m 158w",
+        "1x 14m 254w",
+        "1x 23m28s 67w",
+        "1x 9m32s 86w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1201s@163w78rpm",
+          "duration_secs": 1201,
+          "moving_secs": 1200,
+          "start_secs": 0,
+          "end_secs": 1201,
+          "avg_power": 163,
+          "max_power": 300,
+          "avg_hr": 116,
+          "max_hr": 126,
+          "min_hr": 85,
+          "avg_cadence": 77.63531,
+          "zone": 2,
+          "w_bal_start": 17280,
+          "w_bal_end": 17279,
+          "training_load": 12.392882
+        },
+        {
+          "type": "WORK",
+          "label": "8026s@158w77rpm",
+          "duration_secs": 8026,
+          "moving_secs": 7792,
+          "start_secs": 1201,
+          "end_secs": 9227,
+          "avg_power": 158,
+          "max_power": 346,
+          "avg_hr": 116,
+          "max_hr": 141,
+          "min_hr": 87,
+          "avg_cadence": 77.35307,
+          "zone": 2,
+          "w_bal_start": 17279,
+          "w_bal_end": 17274,
+          "training_load": 80.4557
+        },
+        {
+          "type": "WORK",
+          "label": "840s@254w80rpm",
+          "duration_secs": 840,
+          "moving_secs": 840,
+          "start_secs": 9227,
+          "end_secs": 10067,
+          "avg_power": 254,
+          "max_power": 418,
+          "avg_hr": 153,
+          "max_hr": 170,
+          "min_hr": 108,
+          "avg_cadence": 80.36786,
+          "zone": 4,
+          "w_bal_start": 17270,
+          "w_bal_end": 14183,
+          "training_load": 19.7368
+        },
+        {
+          "type": "WORK",
+          "label": "1408s@67w33rpm",
+          "duration_secs": 1408,
+          "moving_secs": 960,
+          "start_secs": 10067,
+          "end_secs": 11475,
+          "avg_power": 67,
+          "max_power": 262,
+          "avg_hr": 109,
+          "max_hr": 169,
+          "min_hr": 85,
+          "avg_cadence": 32.81714,
+          "zone": 1,
+          "w_bal_start": 14206,
+          "w_bal_end": 17279,
+          "training_load": 6.47344
+        },
+        {
+          "type": "WORK",
+          "label": "572s@86w39rpm",
+          "duration_secs": 572,
+          "moving_secs": 572,
+          "start_secs": 11475,
+          "end_secs": 12047,
+          "avg_power": 86,
+          "max_power": 270,
+          "avg_hr": 110,
+          "max_hr": 143,
+          "min_hr": 85,
+          "avg_cadence": 39.36014,
+          "zone": 1,
+          "w_bal_start": 17279,
+          "w_bal_end": 17279,
+          "training_load": 4.8255444
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "moving_secs": 1,
+          "start_secs": 12047,
+          "end_secs": 12048,
+          "avg_power": 96,
+          "max_power": 96,
+          "avg_hr": 97,
+          "max_hr": 97,
+          "min_hr": 97,
+          "avg_cadence": 52.0,
+          "zone": 1,
+          "w_bal_start": 17279,
+          "w_bal_end": 17279,
+          "training_load": 0.0024878494
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -2894,6 +3018,26 @@
         "status": "pending",
         "reason": "no_data",
         "next_retry_at": "2026-08-26T08:19:10.852309"
+      }
+    },
+    "i179915050": {
+      "date": "2026-08-26",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-08-26T07:30:00.856015",
+        "last_attempt": "2026-08-26T07:30:00.856015",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-08-26T07:14:10.268+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-08-26T07:30:00.856015",
+        "last_attempt": "2026-08-26T07:30:00.856015",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-08-26T07:35:00.856015"
       }
     }
   }
