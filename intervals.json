@@ -1,61 +1,11 @@
 {
-  "generated_at": "2026-08-29T23:17:33.191301",
+  "generated_at": "2026-08-30T01:21:22.871954",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i175963861",
-      "date": "2026-08-15",
-      "start_datetime": "2026-08-15T05:13:36",
-      "type": "Ride",
-      "name": "3 salite - Genova (outdoor)",
-      "interval_summary": [
-        "1x 2h39m 151w",
-        "1x 8s 12w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "9573s@151w70rpm",
-          "duration_secs": 9573,
-          "moving_secs": 9176,
-          "start_secs": 0,
-          "end_secs": 9573,
-          "avg_power": 151,
-          "max_power": 792,
-          "avg_hr": 117,
-          "max_hr": 165,
-          "min_hr": 76,
-          "avg_cadence": 69.96864,
-          "zone": 2,
-          "w_bal_start": 17280,
-          "w_bal_end": 16163,
-          "training_load": 126.53217
-        },
-        {
-          "type": "WORK",
-          "label": "8s@12w9rpm",
-          "duration_secs": 8,
-          "moving_secs": 8,
-          "start_secs": 9573,
-          "end_secs": 9581,
-          "avg_power": 12,
-          "max_power": 100,
-          "avg_hr": 90,
-          "max_hr": 93,
-          "min_hr": 90,
-          "avg_cadence": 9.375,
-          "zone": 1,
-          "w_bal_start": 16174,
-          "w_bal_end": 16291,
-          "training_load": 0.0035456663
-        }
-      ],
-      "zone_basis": "power"
-    },
     {
       "activity_id": "i176305375",
       "date": "2026-08-16",
@@ -2555,24 +2505,6 @@
     }
   ],
   "fetch_state": {
-    "i175963861": {
-      "date": "2026-08-15",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-08-15T06:17:45.324478",
-        "last_attempt": "2026-08-15T06:17:45.324478",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-08-15T05:55:53.025+00:00"
-      },
-      "streams": {
-        "attempts": 23,
-        "first_seen": "2026-08-15T06:17:45.324478",
-        "last_attempt": "2026-08-18T04:23:24.797080",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
     "i176305375": {
       "date": "2026-08-16",
       "paired_planned": true,
@@ -2827,12 +2759,12 @@
         "source_icu_sync_date": "2026-08-27T14:26:55.346+00:00"
       },
       "streams": {
-        "attempts": 10,
+        "attempts": 11,
         "first_seen": "2026-08-27T16:37:39.864439",
-        "last_attempt": "2026-08-29T23:17:33.191301",
+        "last_attempt": "2026-08-30T01:21:22.871954",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-08-29T23:47:33.191301"
+        "next_retry_at": "2026-08-30T01:51:22.871954"
       }
     },
     "i180239300": {
@@ -2846,12 +2778,12 @@
         "source_icu_sync_date": "2026-08-27T05:53:23.887+00:00"
       },
       "streams": {
-        "attempts": 10,
+        "attempts": 11,
         "first_seen": "2026-08-27T16:37:39.864439",
-        "last_attempt": "2026-08-29T23:17:33.191301",
+        "last_attempt": "2026-08-30T01:21:22.871954",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-08-29T23:47:33.191301"
+        "next_retry_at": "2026-08-30T01:51:22.871954"
       }
     },
     "i180569289": {
@@ -2866,12 +2798,12 @@
         "source_icu_sync_date": "2026-08-28T05:34:36.033+00:00"
       },
       "streams": {
-        "attempts": 8,
+        "attempts": 9,
         "first_seen": "2026-08-28T12:43:57.744044",
-        "last_attempt": "2026-08-29T23:17:33.191301",
+        "last_attempt": "2026-08-30T01:21:22.871954",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-08-29T23:47:33.191301"
+        "next_retry_at": "2026-08-30T01:51:22.871954"
       }
     },
     "i180871038": {
@@ -2885,12 +2817,12 @@
         "source_icu_sync_date": "2026-08-29T05:16:20.995+00:00"
       },
       "streams": {
-        "attempts": 5,
+        "attempts": 6,
         "first_seen": "2026-08-29T10:31:56.638732",
-        "last_attempt": "2026-08-29T23:17:33.191301",
+        "last_attempt": "2026-08-30T01:21:22.871954",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-08-29T23:22:33.191301"
+        "next_retry_at": "2026-08-30T01:26:22.871954"
       }
     }
   }
