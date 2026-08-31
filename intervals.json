@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T13:39:02.950758",
+  "generated_at": "2026-08-31T19:38:49.276820",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -2302,6 +2302,34 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i181772034",
+      "date": "2026-08-31",
+      "start_datetime": "2026-08-31T17:26:04",
+      "type": "Ride",
+      "name": "Genova Ciclismo su strada",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1988,
+          "moving_secs": 1442,
+          "start_secs": 0,
+          "end_secs": 1988,
+          "avg_power": 97,
+          "max_power": 298,
+          "avg_hr": 91,
+          "max_hr": 121,
+          "min_hr": 52,
+          "avg_cadence": 56.111263,
+          "zone": 1,
+          "w_bal_start": 17280,
+          "w_bal_end": 17279,
+          "training_load": 7.349123
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -2615,12 +2643,12 @@
         "source_icu_sync_date": "2026-08-30T08:47:56.438+00:00"
       },
       "streams": {
-        "attempts": 7,
+        "attempts": 8,
         "first_seen": "2026-08-30T12:22:15.781539",
-        "last_attempt": "2026-08-31T13:39:02.950758",
+        "last_attempt": "2026-08-31T19:38:49.276820",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-08-31T14:09:02.950758"
+        "next_retry_at": "2026-08-31T20:08:49.276820"
       }
     },
     "i181568192": {
@@ -2635,12 +2663,31 @@
         "source_icu_sync_date": "2026-08-31T06:12:01.298+00:00"
       },
       "streams": {
-        "attempts": 1,
+        "attempts": 2,
         "first_seen": "2026-08-31T13:39:02.950758",
-        "last_attempt": "2026-08-31T13:39:02.950758",
+        "last_attempt": "2026-08-31T19:38:49.276820",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-08-31T13:44:02.950758"
+        "next_retry_at": "2026-08-31T19:43:49.276820"
+      }
+    },
+    "i181772034": {
+      "date": "2026-08-31",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-08-31T19:38:49.276820",
+        "last_attempt": "2026-08-31T19:38:49.276820",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-08-31T16:00:11.200+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-08-31T19:38:49.276820",
+        "last_attempt": "2026-08-31T19:38:49.276820",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-08-31T19:43:49.276820"
       }
     }
   }
