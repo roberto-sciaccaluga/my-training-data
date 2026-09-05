@@ -1,78 +1,11 @@
 {
-  "generated_at": "2026-09-04T23:30:10.271928",
+  "generated_at": "2026-09-05T01:16:55.803929",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i178158929",
-      "date": "2026-08-21",
-      "start_datetime": "2026-08-21T06:04:48",
-      "type": "VirtualRide",
-      "name": "Easy Recovery Z1-Z2",
-      "interval_summary": [
-        "1x 56s 119w",
-        "1x 1h23m 155w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "56s@119w67rpm",
-          "duration_secs": 56,
-          "moving_secs": 56,
-          "start_secs": 0,
-          "end_secs": 56,
-          "avg_power": 119,
-          "max_power": 153,
-          "avg_hr": 84,
-          "max_hr": 101,
-          "min_hr": 64,
-          "avg_cadence": 67.111115,
-          "zone": 1,
-          "w_bal_start": 17280,
-          "w_bal_end": 17280,
-          "training_load": 0.24605927
-        },
-        {
-          "type": "WORK",
-          "label": "4987s@155w88rpm",
-          "duration_secs": 4987,
-          "moving_secs": 4922,
-          "start_secs": 56,
-          "end_secs": 5043,
-          "avg_power": 155,
-          "max_power": 174,
-          "avg_hr": 112,
-          "max_hr": 131,
-          "min_hr": 92,
-          "avg_cadence": 88.21442,
-          "zone": 2,
-          "w_bal_start": 17280,
-          "w_bal_end": 17280,
-          "training_load": 42.744465
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "moving_secs": 1,
-          "start_secs": 5043,
-          "end_secs": 5044,
-          "avg_power": 158,
-          "max_power": 158,
-          "avg_hr": 123,
-          "max_hr": 123,
-          "min_hr": 123,
-          "avg_cadence": 87.0,
-          "zone": 2,
-          "w_bal_start": 17280,
-          "w_bal_end": 17280,
-          "training_load": 0.010313045
-        }
-      ],
-      "zone_basis": "power"
-    },
     {
       "activity_id": "i178483584",
       "date": "2026-08-22",
@@ -2509,24 +2442,6 @@
     }
   ],
   "fetch_state": {
-    "i178158929": {
-      "date": "2026-08-21",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-08-21T05:46:21.018649",
-        "last_attempt": "2026-08-21T05:46:21.018649",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-08-21T05:29:25.460+00:00"
-      },
-      "streams": {
-        "attempts": 23,
-        "first_seen": "2026-08-21T05:46:21.018649",
-        "last_attempt": "2026-08-24T04:58:25.955692",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
     "i178483584": {
       "date": "2026-08-22",
       "paired_planned": true,
@@ -2895,12 +2810,12 @@
         "source_icu_sync_date": "2026-09-03T18:16:35.895+00:00"
       },
       "streams": {
-        "attempts": 11,
+        "attempts": 12,
         "first_seen": "2026-09-03T18:02:38.505365",
-        "last_attempt": "2026-09-04T23:30:10.271928",
+        "last_attempt": "2026-09-05T01:16:55.803929",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-09-05T00:00:10.271928"
+        "next_retry_at": "2026-09-05T01:46:55.803929"
       }
     },
     "i182908942": {
@@ -2914,12 +2829,12 @@
         "source_icu_sync_date": "2026-09-03T15:37:25.167+00:00"
       },
       "streams": {
-        "attempts": 11,
+        "attempts": 12,
         "first_seen": "2026-09-03T18:02:38.505365",
-        "last_attempt": "2026-09-04T23:30:10.271928",
+        "last_attempt": "2026-09-05T01:16:55.803929",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-09-05T00:00:10.271928"
+        "next_retry_at": "2026-09-05T01:46:55.803929"
       }
     },
     "i183166996": {
@@ -2934,12 +2849,12 @@
         "source_icu_sync_date": "2026-09-04T10:30:14.261+00:00"
       },
       "streams": {
-        "attempts": 5,
+        "attempts": 6,
         "first_seen": "2026-09-04T13:45:33.860982",
-        "last_attempt": "2026-09-04T23:30:10.271928",
+        "last_attempt": "2026-09-05T01:16:55.803929",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-09-04T23:35:10.271928"
+        "next_retry_at": "2026-09-05T01:21:55.803929"
       }
     }
   }
