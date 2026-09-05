@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T05:55:08.259219",
+  "generated_at": "2026-09-05T09:34:30.556811",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -2439,6 +2439,124 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i183471902",
+      "date": "2026-09-05",
+      "start_datetime": "2026-09-05T04:57:33",
+      "type": "Ride",
+      "name": "Endurance + Climb 9' [3h] - Kom hunting \ud83c\udfc6",
+      "interval_summary": [
+        "1x 3h11m 162w",
+        "1x 9m 256w",
+        "1x 6m 87w",
+        "1x 4m22s 49w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "moving_secs": 1,
+          "start_secs": 0,
+          "end_secs": 1,
+          "avg_power": 92,
+          "max_power": 92,
+          "avg_hr": 82,
+          "max_hr": 82,
+          "min_hr": 82,
+          "avg_cadence": 41.0,
+          "zone": 1,
+          "w_bal_start": 17280,
+          "w_bal_end": 17280
+        },
+        {
+          "type": "WORK",
+          "label": "11474s@162w76rpm",
+          "duration_secs": 11474,
+          "moving_secs": 10390,
+          "start_secs": 1,
+          "end_secs": 11475,
+          "avg_power": 162,
+          "max_power": 504,
+          "avg_hr": 122,
+          "max_hr": 167,
+          "min_hr": 82,
+          "avg_cadence": 75.835945,
+          "zone": 2,
+          "w_bal_start": 17280,
+          "w_bal_end": 16992,
+          "training_load": 136.00203
+        },
+        {
+          "type": "WORK",
+          "label": "540s@256w78rpm",
+          "duration_secs": 540,
+          "moving_secs": 540,
+          "start_secs": 11475,
+          "end_secs": 12015,
+          "avg_power": 256,
+          "max_power": 428,
+          "avg_hr": 151,
+          "max_hr": 164,
+          "min_hr": 111,
+          "avg_cadence": 78.224075,
+          "zone": 4,
+          "w_bal_start": 16992,
+          "w_bal_end": 12273,
+          "training_load": 13.196427
+        },
+        {
+          "type": "WORK",
+          "label": "360s@87w50rpm",
+          "duration_secs": 360,
+          "moving_secs": 360,
+          "start_secs": 12015,
+          "end_secs": 12375,
+          "avg_power": 87,
+          "max_power": 222,
+          "avg_hr": 118,
+          "max_hr": 163,
+          "min_hr": 93,
+          "avg_cadence": 50.019444,
+          "zone": 1,
+          "w_bal_start": 12316,
+          "w_bal_end": 17179,
+          "training_load": 2.8392563
+        },
+        {
+          "type": "WORK",
+          "label": "262s@49w36rpm",
+          "duration_secs": 262,
+          "moving_secs": 215,
+          "start_secs": 12375,
+          "end_secs": 12637,
+          "avg_power": 49,
+          "max_power": 148,
+          "avg_hr": 98,
+          "max_hr": 107,
+          "min_hr": 89,
+          "avg_cadence": 35.86574,
+          "zone": 1,
+          "w_bal_start": 17180,
+          "w_bal_end": 17277,
+          "training_load": 0.3897902
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "moving_secs": 1,
+          "start_secs": 12637,
+          "end_secs": 12638,
+          "avg_hr": 98,
+          "max_hr": 98,
+          "min_hr": 98,
+          "zone": 1,
+          "w_bal_start": 17277,
+          "w_bal_end": 17277,
+          "training_load": 0.0014222625
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -2847,12 +2965,32 @@
         "source_icu_sync_date": "2026-09-04T10:30:14.261+00:00"
       },
       "streams": {
-        "attempts": 7,
+        "attempts": 8,
         "first_seen": "2026-09-04T13:45:33.860982",
-        "last_attempt": "2026-09-05T05:55:08.259219",
+        "last_attempt": "2026-09-05T09:34:30.556811",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-09-05T06:25:08.259219"
+        "next_retry_at": "2026-09-05T10:04:30.556811"
+      }
+    },
+    "i183471902": {
+      "date": "2026-09-05",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-09-05T09:34:30.556811",
+        "last_attempt": "2026-09-05T09:34:30.556811",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-09-05T07:39:21.716+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-09-05T09:34:30.556811",
+        "last_attempt": "2026-09-05T09:34:30.556811",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-09-05T09:39:30.556811"
       }
     }
   }
