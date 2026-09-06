@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T11:13:58.143508",
+  "generated_at": "2026-09-06T14:10:37.199312",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -2974,12 +2974,11 @@
         "source_icu_sync_date": "2026-09-03T18:16:35.895+00:00"
       },
       "streams": {
-        "attempts": 16,
+        "attempts": 17,
         "first_seen": "2026-09-03T18:02:38.505365",
-        "last_attempt": "2026-09-06T06:29:14.920945",
-        "status": "pending",
-        "reason": "no_data",
-        "next_retry_at": "2026-09-06T12:29:14.920945"
+        "last_attempt": "2026-09-06T14:10:37.199312",
+        "status": "tombstone",
+        "reason": "retry_expired"
       }
     },
     "i182908942": {
@@ -2993,12 +2992,11 @@
         "source_icu_sync_date": "2026-09-03T15:37:25.167+00:00"
       },
       "streams": {
-        "attempts": 16,
+        "attempts": 17,
         "first_seen": "2026-09-03T18:02:38.505365",
-        "last_attempt": "2026-09-06T06:29:14.920945",
-        "status": "pending",
-        "reason": "no_data",
-        "next_retry_at": "2026-09-06T12:29:14.920945"
+        "last_attempt": "2026-09-06T14:10:37.199312",
+        "status": "tombstone",
+        "reason": "retry_expired"
       }
     },
     "i183166996": {
@@ -3013,12 +3011,12 @@
         "source_icu_sync_date": "2026-09-04T10:30:14.261+00:00"
       },
       "streams": {
-        "attempts": 14,
+        "attempts": 15,
         "first_seen": "2026-09-04T13:45:33.860982",
-        "last_attempt": "2026-09-06T06:29:14.920945",
+        "last_attempt": "2026-09-06T14:10:37.199312",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-09-06T12:29:14.920945"
+        "next_retry_at": "2026-09-06T20:10:37.199312"
       }
     },
     "i183471902": {
@@ -3033,12 +3031,12 @@
         "source_icu_sync_date": "2026-09-05T07:39:21.716+00:00"
       },
       "streams": {
-        "attempts": 10,
+        "attempts": 11,
         "first_seen": "2026-09-05T09:34:30.556811",
-        "last_attempt": "2026-09-06T11:13:58.143508",
+        "last_attempt": "2026-09-06T14:10:37.199312",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-09-06T11:43:58.143508"
+        "next_retry_at": "2026-09-06T14:40:37.199312"
       }
     },
     "i183810964": {
@@ -3053,12 +3051,12 @@
         "source_icu_sync_date": "2026-09-06T08:00:04.432+00:00"
       },
       "streams": {
-        "attempts": 1,
+        "attempts": 2,
         "first_seen": "2026-09-06T11:13:58.143508",
-        "last_attempt": "2026-09-06T11:13:58.143508",
+        "last_attempt": "2026-09-06T14:10:37.199312",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-09-06T11:18:58.143508"
+        "next_retry_at": "2026-09-06T14:15:37.199312"
       }
     }
   }
