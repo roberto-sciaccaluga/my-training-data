@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T06:17:46.998598",
+  "generated_at": "2026-09-11T11:34:58.029285",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -2770,6 +2770,94 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i185512639",
+      "date": "2026-09-11",
+      "start_datetime": "2026-09-11T07:44:30",
+      "type": "Ride",
+      "name": "Endurance + Climb 9'  INDOOR",
+      "interval_summary": [
+        "1x 15m1s 163w",
+        "1x 51m5s 187w",
+        "1x 9m1s 244w",
+        "1x 10m 154w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "901s@163w84rpm",
+          "duration_secs": 901,
+          "moving_secs": 901,
+          "start_secs": 0,
+          "end_secs": 901,
+          "avg_power": 163,
+          "max_power": 173,
+          "avg_hr": 108,
+          "max_hr": 114,
+          "min_hr": 75,
+          "avg_cadence": 83.92564,
+          "zone": 2,
+          "w_bal_start": 17280,
+          "w_bal_end": 17280,
+          "training_load": 8.438086
+        },
+        {
+          "type": "WORK",
+          "label": "3065s@187w88rpm",
+          "duration_secs": 3065,
+          "moving_secs": 3000,
+          "start_secs": 901,
+          "end_secs": 3966,
+          "avg_power": 187,
+          "max_power": 191,
+          "avg_hr": 122,
+          "max_hr": 131,
+          "min_hr": 98,
+          "avg_cadence": 87.98234,
+          "zone": 2,
+          "w_bal_start": 17280,
+          "w_bal_end": 17280,
+          "training_load": 37.448833
+        },
+        {
+          "type": "WORK",
+          "label": "541s@244w92rpm",
+          "duration_secs": 541,
+          "moving_secs": 541,
+          "start_secs": 3966,
+          "end_secs": 4507,
+          "avg_power": 244,
+          "max_power": 248,
+          "avg_hr": 145,
+          "max_hr": 152,
+          "min_hr": 125,
+          "avg_cadence": 92.46765,
+          "zone": 3,
+          "w_bal_start": 17280,
+          "w_bal_end": 17280,
+          "training_load": 11.399844
+        },
+        {
+          "type": "WORK",
+          "label": "600s@154w84rpm",
+          "duration_secs": 600,
+          "moving_secs": 600,
+          "start_secs": 4507,
+          "end_secs": 5107,
+          "avg_power": 154,
+          "max_power": 239,
+          "avg_hr": 124,
+          "max_hr": 150,
+          "min_hr": 118,
+          "avg_cadence": 84.12666,
+          "zone": 2,
+          "w_bal_start": 17280,
+          "w_bal_end": 17280,
+          "training_load": 5.412957
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -3082,12 +3170,12 @@
         "source_icu_sync_date": "2026-09-10T03:56:47.029+00:00"
       },
       "streams": {
-        "attempts": 9,
+        "attempts": 10,
         "first_seen": "2026-09-10T04:36:32.144522",
-        "last_attempt": "2026-09-11T06:17:46.998598",
+        "last_attempt": "2026-09-11T11:34:58.029285",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-09-11T06:47:46.998598"
+        "next_retry_at": "2026-09-11T12:04:58.029285"
       }
     },
     "i185267670": {
@@ -3102,12 +3190,31 @@
         "source_icu_sync_date": "2026-09-10T13:25:30.424+00:00"
       },
       "streams": {
-        "attempts": 7,
+        "attempts": 8,
         "first_seen": "2026-09-10T13:33:43.065389",
-        "last_attempt": "2026-09-11T06:17:46.998598",
+        "last_attempt": "2026-09-11T11:34:58.029285",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-09-11T06:47:46.998598"
+        "next_retry_at": "2026-09-11T12:04:58.029285"
+      }
+    },
+    "i185512639": {
+      "date": "2026-09-11",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-09-11T11:34:58.029285",
+        "last_attempt": "2026-09-11T11:34:58.029285",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-09-11T08:47:32.713+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-09-11T11:34:58.029285",
+        "last_attempt": "2026-09-11T11:34:58.029285",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-09-11T11:39:58.029285"
       }
     }
   }
