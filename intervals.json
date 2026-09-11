@@ -1,67 +1,11 @@
 {
-  "generated_at": "2026-09-10T23:30:21.161140",
+  "generated_at": "2026-09-11T01:26:57.513291",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i180388287",
-      "date": "2026-08-27",
-      "start_datetime": "2026-08-27T15:52:13",
-      "type": "Ride",
-      "name": "Recovery Easy Z1",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1944,
-          "moving_secs": 1704,
-          "start_secs": 0,
-          "end_secs": 1944,
-          "avg_power": 56,
-          "max_power": 350,
-          "avg_hr": 86,
-          "max_hr": 110,
-          "min_hr": 64,
-          "avg_cadence": 69.27027,
-          "zone": 1,
-          "w_bal_start": 17280,
-          "w_bal_end": 17279,
-          "training_load": 5.6031923
-        }
-      ],
-      "zone_basis": "power"
-    },
-    {
-      "activity_id": "i180239300",
-      "date": "2026-08-27",
-      "start_datetime": "2026-08-27T05:41:32",
-      "type": "Ride",
-      "name": "Recovery Easy Z1",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 7651,
-          "moving_secs": 6855,
-          "start_secs": 0,
-          "end_secs": 7651,
-          "avg_power": 132,
-          "max_power": 540,
-          "avg_hr": 105,
-          "max_hr": 148,
-          "min_hr": 72,
-          "avg_cadence": 73.30294,
-          "zone": 1,
-          "w_bal_start": 17280,
-          "w_bal_end": 17228,
-          "training_load": 64.1955
-        }
-      ],
-      "zone_basis": "power"
-    },
     {
       "activity_id": "i180569289",
       "date": "2026-08-28",
@@ -2829,43 +2773,6 @@
     }
   ],
   "fetch_state": {
-    "i180388287": {
-      "date": "2026-08-27",
-      "paired_planned": true,
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-08-27T16:37:39.864439",
-        "last_attempt": "2026-08-27T16:37:39.864439",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-08-27T14:26:55.346+00:00"
-      },
-      "streams": {
-        "attempts": 13,
-        "first_seen": "2026-08-27T16:37:39.864439",
-        "last_attempt": "2026-08-30T12:22:15.781539",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
-    "i180239300": {
-      "date": "2026-08-27",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-08-27T16:37:39.864439",
-        "last_attempt": "2026-08-27T16:37:39.864439",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-08-27T05:53:23.887+00:00"
-      },
-      "streams": {
-        "attempts": 12,
-        "first_seen": "2026-08-27T16:37:39.864439",
-        "last_attempt": "2026-08-30T06:53:05.351812",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
     "i180569289": {
       "date": "2026-08-28",
       "paired_planned": true,
@@ -3176,12 +3083,12 @@
         "source_icu_sync_date": "2026-09-10T03:56:47.029+00:00"
       },
       "streams": {
-        "attempts": 7,
+        "attempts": 8,
         "first_seen": "2026-09-10T04:36:32.144522",
-        "last_attempt": "2026-09-10T23:30:21.161140",
+        "last_attempt": "2026-09-11T01:26:57.513291",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-09-11T00:00:21.161140"
+        "next_retry_at": "2026-09-11T01:56:57.513291"
       }
     },
     "i185267670": {
@@ -3196,12 +3103,12 @@
         "source_icu_sync_date": "2026-09-10T13:25:30.424+00:00"
       },
       "streams": {
-        "attempts": 5,
+        "attempts": 6,
         "first_seen": "2026-09-10T13:33:43.065389",
-        "last_attempt": "2026-09-10T23:30:21.161140",
+        "last_attempt": "2026-09-11T01:26:57.513291",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-09-10T23:35:21.161140"
+        "next_retry_at": "2026-09-11T01:31:57.513291"
       }
     }
   }
