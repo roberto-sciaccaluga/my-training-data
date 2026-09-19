@@ -1,99 +1,11 @@
 {
-  "generated_at": "2026-09-18T23:55:16.055642",
+  "generated_at": "2026-09-19T02:00:09.956566",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i183166996",
-      "date": "2026-09-04",
-      "start_datetime": "2026-09-04T07:52:06",
-      "type": "Ride",
-      "name": "Endurance + Climb 9'",
-      "interval_summary": [
-        "1x 10m11s 173w",
-        "1x 40m1s 188w",
-        "1x 9m 245w",
-        "1x 4m36s 159w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "611s@173w84rpm",
-          "duration_secs": 611,
-          "moving_secs": 600,
-          "start_secs": 0,
-          "end_secs": 611,
-          "avg_power": 173,
-          "max_power": 332,
-          "avg_hr": 110,
-          "max_hr": 120,
-          "min_hr": 75,
-          "avg_cadence": 83.993355,
-          "zone": 2,
-          "w_bal_start": 17280,
-          "w_bal_end": 17276,
-          "training_load": 6.2608395
-        },
-        {
-          "type": "WORK",
-          "label": "2401s@188w90rpm",
-          "duration_secs": 2401,
-          "moving_secs": 2401,
-          "start_secs": 611,
-          "end_secs": 3012,
-          "avg_power": 188,
-          "max_power": 280,
-          "avg_hr": 125,
-          "max_hr": 133,
-          "min_hr": 112,
-          "avg_cadence": 89.89546,
-          "zone": 2,
-          "w_bal_start": 17276,
-          "w_bal_end": 17279,
-          "training_load": 30.282864
-        },
-        {
-          "type": "WORK",
-          "label": "540s@245w94rpm",
-          "duration_secs": 540,
-          "moving_secs": 540,
-          "start_secs": 3012,
-          "end_secs": 3552,
-          "avg_power": 245,
-          "max_power": 272,
-          "avg_hr": 146,
-          "max_hr": 159,
-          "min_hr": 128,
-          "avg_cadence": 93.70185,
-          "zone": 3,
-          "w_bal_start": 17279,
-          "w_bal_end": 17279,
-          "training_load": 11.472617
-        },
-        {
-          "type": "WORK",
-          "label": "276s@159w85rpm",
-          "duration_secs": 276,
-          "moving_secs": 276,
-          "start_secs": 3552,
-          "end_secs": 3828,
-          "avg_power": 159,
-          "max_power": 206,
-          "avg_hr": 132,
-          "max_hr": 158,
-          "min_hr": 120,
-          "avg_cadence": 84.565216,
-          "zone": 2,
-          "w_bal_start": 17279,
-          "w_bal_end": 17279,
-          "training_load": 2.813012
-        }
-      ],
-      "zone_basis": "power"
-    },
     {
       "activity_id": "i183471902",
       "date": "2026-09-05",
@@ -2603,25 +2515,6 @@
     }
   ],
   "fetch_state": {
-    "i183166996": {
-      "date": "2026-09-04",
-      "paired_planned": true,
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-09-04T13:45:33.860982",
-        "last_attempt": "2026-09-04T13:45:33.860982",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-09-04T10:30:14.261+00:00"
-      },
-      "streams": {
-        "attempts": 17,
-        "first_seen": "2026-09-04T13:45:33.860982",
-        "last_attempt": "2026-09-07T04:58:00.759341",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
     "i183471902": {
       "date": "2026-09-05",
       "paired_planned": true,
@@ -2896,12 +2789,12 @@
         "source_icu_sync_date": "2026-09-18T11:51:13.865+00:00"
       },
       "streams": {
-        "attempts": 5,
+        "attempts": 6,
         "first_seen": "2026-09-18T13:49:30.436040",
-        "last_attempt": "2026-09-18T23:55:16.055642",
+        "last_attempt": "2026-09-19T02:00:09.956566",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-09-19T00:00:16.055642"
+        "next_retry_at": "2026-09-19T02:05:09.956566"
       }
     }
   }
