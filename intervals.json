@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T06:58:47.462437",
+  "generated_at": "2026-09-20T12:00:48.934185",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -2581,6 +2581,70 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i188490962",
+      "date": "2026-09-20",
+      "start_datetime": "2026-09-20T09:30:33",
+      "type": "Ride",
+      "name": "L'Etape Mondov\u00ec (Granfondo 110km - 2200 D+)",
+      "interval_summary": [
+        "1x 23m 190w",
+        "1x 3h27m 172w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1380s@190w75rpm",
+          "duration_secs": 1380,
+          "moving_secs": 1380,
+          "start_secs": 0,
+          "end_secs": 1380,
+          "avg_power": 190,
+          "max_power": 662,
+          "avg_hr": 138,
+          "max_hr": 161,
+          "min_hr": 90,
+          "avg_cadence": 75.38545,
+          "zone": 2,
+          "w_bal_start": 17280,
+          "w_bal_end": 11484,
+          "training_load": 27.24579
+        },
+        {
+          "type": "WORK",
+          "label": "12433s@172w77rpm",
+          "duration_secs": 12433,
+          "moving_secs": 12433,
+          "start_secs": 1380,
+          "end_secs": 13813,
+          "avg_power": 172,
+          "max_power": 556,
+          "avg_hr": 145,
+          "max_hr": 170,
+          "min_hr": 105,
+          "avg_cadence": 77.05842,
+          "zone": 2,
+          "w_bal_start": 11500,
+          "w_bal_end": 17029,
+          "training_load": 188.9121
+        },
+        {
+          "type": "WORK",
+          "duration_secs": 14,
+          "moving_secs": 14,
+          "start_secs": 13813,
+          "end_secs": 13827,
+          "avg_hr": 153,
+          "max_hr": 156,
+          "min_hr": 152,
+          "zone": 1,
+          "w_bal_start": 17033,
+          "w_bal_end": 17079,
+          "training_load": 0.04289209
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -2856,12 +2920,12 @@
         "source_icu_sync_date": "2026-09-19T09:21:48.360+00:00"
       },
       "streams": {
-        "attempts": 8,
+        "attempts": 9,
         "first_seen": "2026-09-19T11:54:59.423955",
-        "last_attempt": "2026-09-20T06:58:47.462437",
+        "last_attempt": "2026-09-20T12:00:48.934185",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-09-20T07:28:47.462437"
+        "next_retry_at": "2026-09-20T12:30:48.934185"
       }
     },
     "i188410746": {
@@ -2875,12 +2939,31 @@
         "source_icu_sync_date": "2026-09-20T06:44:34.742+00:00"
       },
       "streams": {
-        "attempts": 1,
+        "attempts": 2,
         "first_seen": "2026-09-20T06:58:47.462437",
-        "last_attempt": "2026-09-20T06:58:47.462437",
+        "last_attempt": "2026-09-20T12:00:48.934185",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-09-20T07:03:47.462437"
+        "next_retry_at": "2026-09-20T12:05:48.934185"
+      }
+    },
+    "i188490962": {
+      "date": "2026-09-20",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-09-20T12:00:48.934185",
+        "last_attempt": "2026-09-20T12:00:48.934185",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-09-20T11:22:54.460+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-09-20T12:00:48.934185",
+        "last_attempt": "2026-09-20T12:00:48.934185",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-09-20T12:05:48.934185"
       }
     }
   }
