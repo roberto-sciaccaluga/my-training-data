@@ -1,153 +1,11 @@
 {
-  "generated_at": "2026-10-04T22:03:19.393278",
+  "generated_at": "2026-10-05T00:52:43.345890",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i188410746",
-      "date": "2026-09-20",
-      "start_datetime": "2026-09-20T07:36:08",
-      "type": "Ride",
-      "name": "Mondov\u00ec Ciclismo su strada",
-      "interval_summary": [
-        "1x 57m45s 19w",
-        "1x 10m6s 33w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "3465s@19w40rpm",
-          "duration_secs": 3465,
-          "moving_secs": 3465,
-          "start_secs": 0,
-          "end_secs": 3465,
-          "avg_power": 19,
-          "max_power": 310,
-          "avg_hr": 75,
-          "max_hr": 109,
-          "min_hr": 57,
-          "avg_cadence": 39.87847,
-          "zone": 1,
-          "w_bal_start": 17280,
-          "w_bal_end": 17279,
-          "training_load": 2.9989152
-        },
-        {
-          "type": "WORK",
-          "label": "606s@33w24rpm",
-          "duration_secs": 606,
-          "moving_secs": 606,
-          "start_secs": 3465,
-          "end_secs": 4071,
-          "avg_power": 33,
-          "max_power": 342,
-          "avg_hr": 82,
-          "max_hr": 105,
-          "min_hr": 68,
-          "avg_cadence": 23.854921,
-          "zone": 1,
-          "w_bal_start": 17279,
-          "w_bal_end": 17279,
-          "training_load": 0.80275023
-        }
-      ],
-      "zone_basis": "power"
-    },
-    {
-      "activity_id": "i188490962",
-      "date": "2026-09-20",
-      "start_datetime": "2026-09-20T09:30:33",
-      "type": "Ride",
-      "name": "L'Etape Mondov\u00ec (Granfondo 110km - 2200 D+)",
-      "interval_summary": [
-        "1x 23m 190w",
-        "1x 3h27m 172w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "1380s@190w75rpm",
-          "duration_secs": 1380,
-          "moving_secs": 1380,
-          "start_secs": 0,
-          "end_secs": 1380,
-          "avg_power": 190,
-          "max_power": 662,
-          "avg_hr": 138,
-          "max_hr": 161,
-          "min_hr": 90,
-          "avg_cadence": 75.38545,
-          "zone": 2,
-          "w_bal_start": 17280,
-          "w_bal_end": 11484,
-          "training_load": 27.24579
-        },
-        {
-          "type": "WORK",
-          "label": "12433s@172w77rpm",
-          "duration_secs": 12433,
-          "moving_secs": 12433,
-          "start_secs": 1380,
-          "end_secs": 13813,
-          "avg_power": 172,
-          "max_power": 556,
-          "avg_hr": 145,
-          "max_hr": 170,
-          "min_hr": 105,
-          "avg_cadence": 77.05842,
-          "zone": 2,
-          "w_bal_start": 11500,
-          "w_bal_end": 17029,
-          "training_load": 188.9121
-        },
-        {
-          "type": "WORK",
-          "duration_secs": 14,
-          "moving_secs": 14,
-          "start_secs": 13813,
-          "end_secs": 13827,
-          "avg_hr": 153,
-          "max_hr": 156,
-          "min_hr": 152,
-          "zone": 1,
-          "w_bal_start": 17033,
-          "w_bal_end": 17079,
-          "training_load": 0.04289209
-        }
-      ],
-      "zone_basis": "power"
-    },
-    {
-      "activity_id": "i188507675",
-      "date": "2026-09-20",
-      "start_datetime": "2026-09-20T13:23:38",
-      "type": "Ride",
-      "name": "Mondov\u00ec Ciclismo su strada",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3195,
-          "moving_secs": 3195,
-          "start_secs": 0,
-          "end_secs": 3195,
-          "avg_power": 7,
-          "max_power": 246,
-          "avg_hr": 105,
-          "max_hr": 139,
-          "min_hr": 85,
-          "avg_cadence": 29.3696,
-          "zone": 1,
-          "w_bal_start": 17280,
-          "w_bal_end": 17280,
-          "training_load": 2.429638
-        }
-      ],
-      "zone_basis": "power"
-    },
     {
       "activity_id": "i189079622",
       "date": "2026-09-22",
@@ -3849,60 +3707,6 @@
     }
   ],
   "fetch_state": {
-    "i188410746": {
-      "date": "2026-09-20",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-09-20T06:58:47.462437",
-        "last_attempt": "2026-09-20T06:58:47.462437",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-09-20T06:44:34.742+00:00"
-      },
-      "streams": {
-        "attempts": 16,
-        "first_seen": "2026-09-20T06:58:47.462437",
-        "last_attempt": "2026-09-23T07:42:31.468456",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
-    "i188490962": {
-      "date": "2026-09-20",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-09-20T12:00:48.934185",
-        "last_attempt": "2026-09-20T12:00:48.934185",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-09-20T11:22:54.460+00:00"
-      },
-      "streams": {
-        "attempts": 16,
-        "first_seen": "2026-09-20T12:00:48.934185",
-        "last_attempt": "2026-09-23T13:00:29.805025",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
-    "i188507675": {
-      "date": "2026-09-20",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-09-20T16:00:05.325310",
-        "last_attempt": "2026-09-20T16:00:05.325310",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-09-20T12:17:29.681+00:00"
-      },
-      "streams": {
-        "attempts": 15,
-        "first_seen": "2026-09-20T16:00:05.325310",
-        "last_attempt": "2026-09-23T07:42:31.468456",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
     "i189079622": {
       "date": "2026-09-22",
       "intervals": {
@@ -4157,12 +3961,12 @@
         "source_icu_sync_date": "2026-10-03T06:27:27.123+00:00"
       },
       "streams": {
-        "attempts": 10,
+        "attempts": 11,
         "first_seen": "2026-10-03T11:51:56.646279",
-        "last_attempt": "2026-10-04T22:03:19.393278",
+        "last_attempt": "2026-10-05T00:52:43.345890",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-04T22:33:19.393278"
+        "next_retry_at": "2026-10-05T01:22:43.345890"
       }
     },
     "i193300158": {
@@ -4177,12 +3981,12 @@
         "source_icu_sync_date": "2026-10-04T08:22:13.878+00:00"
       },
       "streams": {
-        "attempts": 4,
+        "attempts": 5,
         "first_seen": "2026-10-04T11:26:19.717818",
-        "last_attempt": "2026-10-04T22:03:19.393278",
+        "last_attempt": "2026-10-05T00:52:43.345890",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-04T22:08:19.393278"
+        "next_retry_at": "2026-10-05T00:57:43.345890"
       }
     }
   }
