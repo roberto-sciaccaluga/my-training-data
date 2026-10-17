@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T14:05:32.787735",
+  "generated_at": "2026-10-17T17:06:43.934850",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -3467,12 +3467,11 @@
         "source_icu_sync_date": "2026-10-14T19:53:05.555+00:00"
       },
       "streams": {
-        "attempts": 15,
+        "attempts": 16,
         "first_seen": "2026-10-14T20:57:33.723145",
-        "last_attempt": "2026-10-17T11:00:13.552940",
-        "status": "pending",
-        "reason": "no_data",
-        "next_retry_at": "2026-10-17T17:00:13.552940"
+        "last_attempt": "2026-10-17T17:06:43.934850",
+        "status": "tombstone",
+        "reason": "retry_expired"
       }
     },
     "i197473381": {
@@ -3507,12 +3506,12 @@
         "source_icu_sync_date": "2026-10-16T05:50:06.667+00:00"
       },
       "streams": {
-        "attempts": 10,
+        "attempts": 11,
         "first_seen": "2026-10-16T05:58:56.181144",
-        "last_attempt": "2026-10-17T14:05:32.787735",
+        "last_attempt": "2026-10-17T17:06:43.934850",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-17T14:35:32.787735"
+        "next_retry_at": "2026-10-17T17:36:43.934850"
       }
     },
     "i198310169": {
@@ -3527,12 +3526,12 @@
         "source_icu_sync_date": "2026-10-17T12:49:24.863+00:00"
       },
       "streams": {
-        "attempts": 1,
+        "attempts": 2,
         "first_seen": "2026-10-17T14:05:32.787735",
-        "last_attempt": "2026-10-17T14:05:32.787735",
+        "last_attempt": "2026-10-17T17:06:43.934850",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-17T14:10:32.787735"
+        "next_retry_at": "2026-10-17T17:11:43.934850"
       }
     },
     "i198302098": {
@@ -3546,12 +3545,12 @@
         "source_icu_sync_date": "2026-10-17T12:24:57.395+00:00"
       },
       "streams": {
-        "attempts": 1,
+        "attempts": 2,
         "first_seen": "2026-10-17T14:05:32.787735",
-        "last_attempt": "2026-10-17T14:05:32.787735",
+        "last_attempt": "2026-10-17T17:06:43.934850",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-17T14:10:32.787735"
+        "next_retry_at": "2026-10-17T17:11:43.934850"
       }
     }
   }

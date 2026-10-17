@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-17T14:05:41.123518",
+    "last_updated": "2026-10-17T17:06:45.873169",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.126"
@@ -132,13 +132,13 @@
         "value_yesterday": 0.84
       },
       "tsb": {
-        "status": "amber",
-        "value": -21.0
+        "status": "green",
+        "value": -19.2
       }
     },
     "signal_summary": {
-      "green": 4,
-      "amber": 2,
+      "green": 5,
+      "amber": 1,
       "red": 0,
       "unavailable": 0
     },
@@ -150,7 +150,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 4 green, 2 amber (threshold 3), 0 red.",
+    "reason": "P3 green light. 5 green, 1 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -218,10 +218,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 97.71,
-      "atl": 118.71,
-      "tsb": -21.0,
-      "ramp_rate": 4.15,
+      "ctl": 97.33,
+      "atl": 116.58,
+      "tsb": -19.25,
+      "ramp_rate": 3.78,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -287,7 +287,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2453,
+      "steps": 2475,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -636,7 +636,7 @@
     },
     "phase_detection": {
       "phase": "Build",
-      "confidence": "high",
+      "confidence": "medium",
       "reason_codes": [],
       "basis": {
         "stream_1": {
@@ -646,14 +646,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.19,
+          "planned_tss_delta": 2.1,
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 3,
           "current_week_hard_days_total": 3,
           "race_proximity": null,
-          "next_week_load": null,
-          "plan_coverage_current_week": 0.33,
-          "plan_coverage_next_week": 0.0
+          "next_week_load": 0.33,
+          "plan_coverage_current_week": 0.22,
+          "plan_coverage_next_week": 0.78
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -686,13 +686,13 @@
     "p_max": 816,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-17T14:05:41.122312",
+    "calculation_timestamp": "2026-10-17T17:06:45.871874",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 13,
       "activities_28d": 42,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 22,
         "outdoor": 22
@@ -7299,7 +7299,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2453,
+      "steps": 2475,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -7311,23 +7311,6 @@
     }
   ],
   "planned_workouts": [
-    {
-      "id": 140796732,
-      "date": "2026-10-17",
-      "name": "Recovery 30' [D-1]",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 16,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "coach_notes": [
-        "Scarico. Niente di piu. Domani si corre."
-      ],
-      "start_time": "06:30",
-      "description": "- 5m ramp 45-55%\n\n- 20m 55-65%\n\n- 5m 50%"
-    },
     {
       "id": 144842288,
       "date": "2026-10-17",
@@ -7356,15 +7339,226 @@
       "start_time": "06:30",
       "indoor": true,
       "description": "Defaticante post Calizzano (199km/334 TSS del 17/10). Gara Casaccia annullata, allerta meteo: si va sui rulli. Solo recupero, niente intensita.\n\n- 10m ramp 40-50%\n- 30m 55-62% Z1\n- 10m 45-50% defaticamento\n\nRPE 2-3/10. Nessuno strappo, nessun intervallo. Se HR > 120 scendere a 50%."
+    },
+    {
+      "id": 145467075,
+      "date": "2026-10-19",
+      "name": "Active Recovery 40' Z1 [dopo-lungo]",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 16,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "06:30",
+      "description": "- 5m ramp 40-50%\n- 25m Z1 45-55% (120-150W)\n- 10m 50% defaticamento\n\nRPE 2-3/10. Niente strappi, niente Z2 spinto. Settimana di scarico dopo il 334 TSS di sabato 17/10."
+    },
+    {
+      "id": 145467076,
+      "date": "2026-10-20",
+      "name": "SS-1 1x15' Z4 [UNICO DURO settimana]",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 49,
+      "duration_hours": 0.82,
+      "duration_formatted": "49m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "06:30",
+      "description": "- 5m ramp 45-60%\n- 10m Z2 65-75% (180-205W)\n- 1m Z4 90-95% (250-260W)\n- 2m Z1 50-60%\n- 1m Z4 90-95% (250-260W)\n- 2m Z1 50-60%\n- 15m Z4 91-100% (255-270W)\n- 5m Z1 50%\n- 8m defaticamento 55%\n\nDeload: formato SS-1 ridotto a 1x15' (regola deload SS-1 1x15). Un solo blocco, RPE 7-8, non spingere oltre. Se FC >160 lascia il blocco."
+    },
+    {
+      "id": 145467077,
+      "date": "2026-10-21",
+      "name": "Endurance Z2 75' [AE-1]",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 52,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "06:30",
+      "description": "- 10m ramp 45-60%\n- 55m Z2 62-72% (175-195W) FC <150\n- 10m 55-60% defaticamento\n\nConversazionale FC: se ti resta sullo stesso fiato, puoi salire 185-195W. Cadenza 85-95 rpm."
+    },
+    {
+      "id": 145467079,
+      "date": "2026-10-22",
+      "name": "Kettlebell Leggero 18' [rientro KB]",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.3,
+      "duration_formatted": "18m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description": "- Riscaldamento 4m mobilita' anche e polsi\n- Stacco rumeno KB monopodalico 2 x 10 per gamba 2m\n- Affondi bulgari KB 2 x 8 per gamba 1m\n- Affondi camminati 2 x 10 per gamba 1m\n- Plank 2 x 30s 30s\n- Defaticamento 2m\n\nSolo 12 kg: stacco MONOPODALE. Meta' volume della Gamba 25'. MAI a cedimento, tecnica prima di tutto. Segnala i DOMI entro 24h: se superano le 24h, giovedi prossimo si salta."
+    },
+    {
+      "id": 145467078,
+      "date": "2026-10-22",
+      "name": "Endurance Z2 60' + KB Leggero 18'",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 40,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "06:30",
+      "description": "- 10m ramp 45-60%\n- 40m Z2 62-72% (175-195W)\n- 10m 55% defaticamento\n\nPoi kettlebell Leggero 18' (vedi evento WeightTraining dello stesso giorno)."
+    },
+    {
+      "id": 145467080,
+      "date": "2026-10-24",
+      "name": "Rulli 1h Z1-Z2",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 36,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "06:30",
+      "indoor": true,
+      "description": "- 10m ramp 45-60%\n- 40m Z1-Z2 55-70% (150-185W)\n- 10m 55% defaticamento\n\nUnica seduta della giornata: 1h di rulli come da vincolo. RPE 3-4/10."
+    },
+    {
+      "id": 145467081,
+      "date": "2026-10-25",
+      "name": "PARMA - senza seduta (solo domenica, rientro lunedi 26/10)",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 145467082,
+      "date": "2026-10-26",
+      "name": "Endurance Z2 60' [rientro Base 1]",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 38,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "06:30",
+      "description_preview": "- 10m ramp 45-60%\n- 40m Z2 60-70% (170-190W)\n- 10m 55% defaticamento"
+    },
+    {
+      "id": 145467084,
+      "date": "2026-10-27",
+      "name": "Kettlebell Gamba 25' [KB 2x/settimana]",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.42,
+      "duration_formatted": "25m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description_preview": "- Riscaldamento 4m\n- Stacco rumeno KB monopodalico 3 x 8 per gamba 1m\n- Affondi bulgari KB 3 x 8 per gamba 2m"
+    },
+    {
+      "id": 145467083,
+      "date": "2026-10-27",
+      "name": "SS-2 Progressive Sweet Spot 12'+15' [prima soglio del blocco]",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 73,
+      "duration_hours": 1.2,
+      "duration_formatted": "1h12m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "06:30",
+      "description_preview": "- 5m ramp 45-60%\n- 15m Z2 65-75% (180-205W)\n- 12m Z4 88-96% (245-260W) RPE 7"
+    },
+    {
+      "id": 145467085,
+      "date": "2026-10-28",
+      "name": "Endurance Z2 75' [AE-1]",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 52,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "06:30",
+      "description_preview": "- 10m ramp 45-60%\n- 55m Z2 62-72% (175-195W) FC <150\n- 10m 55-60% defaticamento"
+    },
+    {
+      "id": 145467087,
+      "date": "2026-10-29",
+      "name": "Kettlebell Leggero 18'",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.3,
+      "duration_formatted": "18m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description_preview": "- Riscaldamento 4m mobilita' anche e polsi\n- Stacco rumeno KB monopodalico 2 x 10 per gamba 2m\n- Affondi bulgari KB 2 x 8 per gamba 1m"
+    },
+    {
+      "id": 145467086,
+      "date": "2026-10-29",
+      "name": "VO2-4 Piramide 2'-3'-4'-3'-2' [prima VO2max del blocco]",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 83,
+      "duration_hours": 1.07,
+      "duration_formatted": "1h4m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "06:30",
+      "indoor": true,
+      "description_preview": "- 20m WU progressivo Z1-Z2 + 1m Z4 primer\n- 2m Z5 106-112% (290-305W)\n- 3m Z1 50-60%"
+    },
+    {
+      "id": 145467088,
+      "date": "2026-10-31",
+      "name": "Long Endurance 2h Z1-Z2 [lunga del blocco]",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 79,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "06:30",
+      "description_preview": "- 15m ramp 45-60%\n- 90m Z2 60-70% (170-190W) FC <152\n- 15m 55-60% defaticamento"
+    },
+    {
+      "id": 145467089,
+      "date": "2026-11-01",
+      "name": "Endurance Z1-Z2 60'",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 34,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "06:30",
+      "description_preview": "- 10m ramp 45-55%\n- 40m Z1-Z2 55-68% (150-185W)\n- 10m 50% defaticamento"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 3,
+    "attempted": 16,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 3
+    "bail_no_match": 16
   },
   "weekly_summary": {
     "total_training_hours": 21.67,
