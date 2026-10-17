@@ -1,80 +1,11 @@
 {
-  "generated_at": "2026-10-16T23:52:24.771009",
+  "generated_at": "2026-10-17T01:53:18.981883",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i192513400",
-      "date": "2026-10-02",
-      "start_datetime": "2026-10-02T04:53:32",
-      "type": "Ride",
-      "name": "Recco + Biscione",
-      "interval_summary": [
-        "1x 2h29m 116w",
-        "1x 8m24s 302w",
-        "1x 17m2s 53w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "8988s@116w62rpm",
-          "duration_secs": 8988,
-          "moving_secs": 7536,
-          "start_secs": 0,
-          "end_secs": 8988,
-          "avg_power": 116,
-          "max_power": 628,
-          "avg_hr": 98,
-          "max_hr": 149,
-          "min_hr": 64,
-          "avg_cadence": 61.60785,
-          "zone": 1,
-          "w_bal_start": 17280,
-          "w_bal_end": 17105,
-          "training_load": 68.75581
-        },
-        {
-          "type": "WORK",
-          "label": "504s@302w77rpm",
-          "duration_secs": 504,
-          "moving_secs": 504,
-          "start_secs": 8988,
-          "end_secs": 9492,
-          "avg_power": 302,
-          "max_power": 550,
-          "avg_hr": 155,
-          "max_hr": 166,
-          "min_hr": 112,
-          "avg_cadence": 77.48214,
-          "zone": 5,
-          "w_bal_start": 16942,
-          "w_bal_end": 1369,
-          "training_load": 17.007513
-        },
-        {
-          "type": "WORK",
-          "label": "1022s@53w37rpm",
-          "duration_secs": 1022,
-          "moving_secs": 967,
-          "start_secs": 9492,
-          "end_secs": 10514,
-          "avg_power": 53,
-          "max_power": 263,
-          "avg_hr": 105,
-          "max_hr": 164,
-          "min_hr": 84,
-          "avg_cadence": 37.268723,
-          "zone": 1,
-          "w_bal_start": 1528,
-          "w_bal_end": 17279,
-          "training_load": 5.5013113
-        }
-      ],
-      "zone_basis": "power"
-    },
     {
       "activity_id": "i192841392",
       "date": "2026-10-03",
@@ -3103,24 +3034,6 @@
     }
   ],
   "fetch_state": {
-    "i192513400": {
-      "date": "2026-10-02",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-10-02T12:34:01.058814",
-        "last_attempt": "2026-10-02T12:34:01.058814",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-10-02T06:53:17.831+00:00"
-      },
-      "streams": {
-        "attempts": 15,
-        "first_seen": "2026-10-02T12:34:01.058814",
-        "last_attempt": "2026-10-05T06:22:38.075074",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
     "i192841392": {
       "date": "2026-10-03",
       "paired_planned": true,
@@ -3443,12 +3356,11 @@
         "source_icu_sync_date": "2026-10-14T07:19:08.359+00:00"
       },
       "streams": {
-        "attempts": 14,
+        "attempts": 15,
         "first_seen": "2026-10-14T12:32:04.166389",
-        "last_attempt": "2026-10-16T18:39:47.177088",
-        "status": "pending",
-        "reason": "no_data",
-        "next_retry_at": "2026-10-17T00:39:47.177088"
+        "last_attempt": "2026-10-17T01:53:18.981883",
+        "status": "tombstone",
+        "reason": "retry_expired"
       }
     },
     "i197367408": {
@@ -3462,12 +3374,12 @@
         "source_icu_sync_date": "2026-10-14T19:53:05.555+00:00"
       },
       "streams": {
-        "attempts": 13,
+        "attempts": 14,
         "first_seen": "2026-10-14T20:57:33.723145",
-        "last_attempt": "2026-10-16T18:39:47.177088",
+        "last_attempt": "2026-10-17T01:53:18.981883",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-17T00:39:47.177088"
+        "next_retry_at": "2026-10-17T07:53:18.981883"
       }
     },
     "i197473381": {
@@ -3482,12 +3394,12 @@
         "source_icu_sync_date": "2026-10-15T06:51:31.772+00:00"
       },
       "streams": {
-        "attempts": 11,
+        "attempts": 12,
         "first_seen": "2026-10-15T12:05:25.209107",
-        "last_attempt": "2026-10-16T23:52:24.771009",
+        "last_attempt": "2026-10-17T01:53:18.981883",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-17T00:22:24.771009"
+        "next_retry_at": "2026-10-17T02:23:18.981883"
       }
     },
     "i197822105": {
@@ -3502,12 +3414,12 @@
         "source_icu_sync_date": "2026-10-16T05:50:06.667+00:00"
       },
       "streams": {
-        "attempts": 6,
+        "attempts": 7,
         "first_seen": "2026-10-16T05:58:56.181144",
-        "last_attempt": "2026-10-16T23:52:24.771009",
+        "last_attempt": "2026-10-17T01:53:18.981883",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-16T23:57:24.771009"
+        "next_retry_at": "2026-10-17T02:23:18.981883"
       }
     }
   }
