@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-18T01:15:50.860833",
+    "last_updated": "2026-10-18T06:07:32.167926",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.126"
@@ -106,29 +106,29 @@
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 49.0,
-        "delta_pct": null
+        "status": "green",
+        "value": 47.0,
+        "baseline_7d": 48.7,
+        "delta_pct": -3.5
       },
       "rhr": {
-        "status": "amber",
-        "value": 53,
-        "baseline_7d": 49.1,
-        "delta_bpm": 3.9
+        "status": "green",
+        "value": 51,
+        "baseline_7d": 48.9,
+        "delta_bpm": 2.1
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "green",
+        "hours": 7.23,
+        "quality": 3
       },
       "acwr": {
         "status": "green",
         "value": 1.07
       },
       "ri": {
-        "status": "unavailable",
-        "value": null,
+        "status": "green",
+        "value": 0.93,
         "value_yesterday": 0.88
       },
       "tsb": {
@@ -137,10 +137,10 @@
       }
     },
     "signal_summary": {
-      "green": 2,
-      "amber": 1,
+      "green": 6,
+      "amber": 0,
       "red": 0,
-      "unavailable": 3
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Build",
@@ -150,7 +150,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 1 amber (threshold 3), 0 red.",
+    "reason": "P3 green light. 6 green, 0 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -253,12 +253,12 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 53,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "resting_hr": 51,
+      "hrv": 47.0,
+      "sleep_quality": 3,
+      "sleep_hours": 7.23,
+      "sleep_formatted": "7h14m",
+      "sleep_score": 79.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -275,7 +275,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 86,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -300,14 +300,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
+    "recovery_index": 0.93,
     "recovery_index_yesterday": 0.88,
-    "hrv_baseline_7d": 49.0,
-    "rhr_baseline_7d": 49.1,
-    "hrv_baseline_28d": 48.9,
-    "rhr_baseline_28d": 47.4,
-    "latest_hrv": null,
-    "latest_rhr": 53,
+    "hrv_baseline_7d": 48.7,
+    "rhr_baseline_7d": 48.9,
+    "hrv_baseline_28d": 48.8,
+    "rhr_baseline_28d": 47.3,
+    "latest_hrv": 47.0,
+    "latest_rhr": 51,
     "acwr": 1.07,
     "acwr_interpretation": "optimal",
     "monotony": 0.92,
@@ -319,7 +319,7 @@
     "multi_sport_detected": true,
     "strain": 647.0,
     "stress_tolerance": 7.0,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 7.6,
     "tss_7d_total": 703.0,
     "tss_28d_total": 2639.0,
     "zone_distribution_7d": {
@@ -639,9 +639,9 @@
           "current_week_hard_days_completed": 3,
           "current_week_hard_days_total": 3,
           "race_proximity": null,
-          "next_week_load": 0.33,
+          "next_week_load": 0.41,
           "plan_coverage_current_week": 0.11,
-          "plan_coverage_next_week": 0.78
+          "plan_coverage_next_week": 0.89
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -674,9 +674,9 @@
     "p_max": 816,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-18T01:15:50.859997",
+    "calculation_timestamp": "2026-10-18T06:07:32.166663",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 11,
       "activities_28d": 39,
@@ -6544,13 +6544,13 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 53,
-      "hrv_rmssd": null,
+      "resting_hr": 51,
+      "hrv_rmssd": 47.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 7.23,
+      "sleep_formatted": "7h14m",
+      "sleep_quality": 3,
+      "sleep_score": 79.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -6570,7 +6570,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 86,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -6696,6 +6696,20 @@
       "description": ""
     },
     {
+      "id": 145610268,
+      "date": "2026-10-25",
+      "name": "IntervalCoach - FTP Test",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 47,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "06:30",
+      "description": "Warmup\n- Hey Roberto! Ready to find your FTP? 3m 50% 85rpm\n- 3m 60% 85rpm\n- 3m 70% 85rpm\n\nMain Set\n- Endurance 85rpm 5m 65-75% 85rpm\n- VO2max Blowout 100rpm 5m 106-120% 100rpm\n- Recovery 10m 55%\n- All-out 20min effort 90rpm 20m freeride\n- Endurance 85rpm 5m 65-75% 85rpm\n\nCooldown\n- Strong work, Roberto\u2014ride easy and recover 3m 60%\n- 3m 50%\n\n[Weekly Plan - Base \u00b7 type:ftpTest]"
+    },
+    {
       "id": 145467082,
       "date": "2026-10-26",
       "name": "Endurance Z2 60' [rientro Base 1]",
@@ -6729,7 +6743,7 @@
       "name": "SS-2 Progressive Sweet Spot 12'+15' [prima soglio del blocco]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 73,
+      "planned_tss": 75,
       "duration_hours": 1.2,
       "duration_formatted": "1h12m",
       "workout_summary": null,
@@ -6783,16 +6797,16 @@
     {
       "id": 145467088,
       "date": "2026-10-31",
-      "name": "Long Endurance 2h Z1-Z2 [lunga del blocco]",
+      "name": "Long Endurance 2h30 Z1-Z2 [lunga del blocco]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 79,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
+      "planned_tss": 97,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "06:30",
-      "description_preview": "- 15m ramp 45-60%\n- 90m Z2 60-70% (170-190W) FC <152\n- 15m 55-60% defaticamento"
+      "description_preview": "- 15m ramp 45-60%\n- 120m Z2 165-185W FC <150\n- 15m 55-60% defaticamento"
     },
     {
       "id": 145467089,
@@ -6810,20 +6824,20 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 15,
+    "attempted": 16,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 15
+    "bail_no_match": 16
   },
   "weekly_summary": {
     "total_training_hours": 17.99,
     "total_training_formatted": "17h59m",
     "total_tss": 703,
     "activities_count": 11,
-    "avg_hrv": 49.0,
-    "avg_resting_hr": 49.1
+    "avg_hrv": 48.7,
+    "avg_resting_hr": 48.9
   },
   "race_calendar": {
     "next_race": null,
