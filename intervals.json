@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T06:07:30.222439",
+  "generated_at": "2026-10-18T10:57:50.337527",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -2819,6 +2819,71 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i198587446",
+      "date": "2026-10-18",
+      "start_datetime": "2026-10-18T09:35:21",
+      "type": "Ride",
+      "name": "Genova Ciclismo su strada",
+      "interval_summary": [
+        "1x 2m58s 210w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5173,
+          "moving_secs": 3968,
+          "start_secs": 0,
+          "end_secs": 5173,
+          "avg_power": 139,
+          "max_power": 406,
+          "avg_hr": 106,
+          "max_hr": 136,
+          "min_hr": 68,
+          "avg_cadence": 71.49937,
+          "zone": 1,
+          "w_bal_start": 17280,
+          "w_bal_end": 17122,
+          "training_load": 43.51013
+        },
+        {
+          "type": "WORK",
+          "label": "178s@210w84rpm",
+          "duration_secs": 178,
+          "moving_secs": 178,
+          "start_secs": 5173,
+          "end_secs": 5351,
+          "avg_power": 210,
+          "max_power": 273,
+          "avg_hr": 126,
+          "max_hr": 135,
+          "min_hr": 110,
+          "avg_cadence": 84.26966,
+          "zone": 3,
+          "w_bal_start": 17123,
+          "w_bal_end": 17198,
+          "training_load": 2.7948005
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2918,
+          "moving_secs": 2511,
+          "start_secs": 5351,
+          "end_secs": 8269,
+          "avg_power": 113,
+          "max_power": 402,
+          "avg_hr": 104,
+          "max_hr": 134,
+          "min_hr": 74,
+          "avg_cadence": 60.451263,
+          "zone": 1,
+          "w_bal_start": 17198,
+          "w_bal_end": 17279,
+          "training_load": 22.068651
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -3201,12 +3266,12 @@
         "source_icu_sync_date": "2026-10-17T12:49:24.863+00:00"
       },
       "streams": {
-        "attempts": 7,
+        "attempts": 8,
         "first_seen": "2026-10-17T14:05:32.787735",
-        "last_attempt": "2026-10-18T06:07:30.222439",
+        "last_attempt": "2026-10-18T10:57:50.337527",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-18T06:37:30.222439"
+        "next_retry_at": "2026-10-18T11:27:50.337527"
       }
     },
     "i198302098": {
@@ -3220,12 +3285,31 @@
         "source_icu_sync_date": "2026-10-17T12:24:57.395+00:00"
       },
       "streams": {
-        "attempts": 7,
+        "attempts": 8,
         "first_seen": "2026-10-17T14:05:32.787735",
-        "last_attempt": "2026-10-18T06:07:30.222439",
+        "last_attempt": "2026-10-18T10:57:50.337527",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-18T06:37:30.222439"
+        "next_retry_at": "2026-10-18T11:27:50.337527"
+      }
+    },
+    "i198587446": {
+      "date": "2026-10-18",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-18T10:57:50.337527",
+        "last_attempt": "2026-10-18T10:57:50.337527",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-18T09:57:53.858+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-18T10:57:50.337527",
+        "last_attempt": "2026-10-18T10:57:50.337527",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-10-18T11:02:50.337527"
       }
     }
   }
