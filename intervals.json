@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T06:47:14.712957",
+  "generated_at": "2026-10-19T14:08:00.995507",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -2191,6 +2191,34 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i198883733",
+      "date": "2026-10-19",
+      "start_datetime": "2026-10-19T06:37:43",
+      "type": "Ride",
+      "name": "BtW",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5547,
+          "moving_secs": 5208,
+          "start_secs": 0,
+          "end_secs": 5547,
+          "avg_power": 131,
+          "max_power": 356,
+          "avg_hr": 106,
+          "max_hr": 136,
+          "min_hr": 69,
+          "avg_cadence": 68.21825,
+          "zone": 1,
+          "w_bal_start": 17280,
+          "w_bal_end": 17279,
+          "training_load": 47.551773
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -2553,12 +2581,12 @@
         "source_icu_sync_date": "2026-10-17T12:49:24.863+00:00"
       },
       "streams": {
-        "attempts": 14,
+        "attempts": 15,
         "first_seen": "2026-10-17T14:05:32.787735",
-        "last_attempt": "2026-10-19T06:47:14.712957",
+        "last_attempt": "2026-10-19T14:08:00.995507",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-19T12:47:14.712957"
+        "next_retry_at": "2026-10-19T20:08:00.995507"
       }
     },
     "i198302098": {
@@ -2572,12 +2600,11 @@
         "source_icu_sync_date": "2026-10-17T12:24:57.395+00:00"
       },
       "streams": {
-        "attempts": 14,
+        "attempts": 15,
         "first_seen": "2026-10-17T14:05:32.787735",
-        "last_attempt": "2026-10-19T06:47:14.712957",
-        "status": "pending",
-        "reason": "no_data",
-        "next_retry_at": "2026-10-19T12:47:14.712957"
+        "last_attempt": "2026-10-19T14:08:00.995507",
+        "status": "tombstone",
+        "reason": "retry_expired"
       }
     },
     "i198587446": {
@@ -2591,12 +2618,31 @@
         "source_icu_sync_date": "2026-10-18T09:57:53.858+00:00"
       },
       "streams": {
-        "attempts": 8,
+        "attempts": 9,
         "first_seen": "2026-10-18T10:57:50.337527",
-        "last_attempt": "2026-10-19T06:47:14.712957",
+        "last_attempt": "2026-10-19T14:08:00.995507",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-19T07:17:14.712957"
+        "next_retry_at": "2026-10-19T14:38:00.995507"
+      }
+    },
+    "i198883733": {
+      "date": "2026-10-19",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-19T14:08:00.995507",
+        "last_attempt": "2026-10-19T14:08:00.995507",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-19T07:16:50.268+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-19T14:08:00.995507",
+        "last_attempt": "2026-10-19T14:08:00.995507",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-10-19T14:13:00.995507"
       }
     }
   }
