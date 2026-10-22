@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T06:46:09.782960",
+  "generated_at": "2026-10-22T12:36:03.356913",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -1696,6 +1696,34 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i200321361",
+      "date": "2026-10-22",
+      "start_datetime": "2026-10-22T07:57:45",
+      "type": "VirtualRide",
+      "name": "Endurance Z2 60' + KB Leggero 18'",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3957,
+          "moving_secs": 3957,
+          "start_secs": 0,
+          "end_secs": 3957,
+          "avg_power": 168,
+          "max_power": 230,
+          "avg_hr": 118,
+          "max_hr": 133,
+          "min_hr": 51,
+          "avg_cadence": 85.08694,
+          "zone": 2,
+          "w_bal_start": 17280,
+          "w_bal_end": 17280,
+          "training_load": 41.290237
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -2081,12 +2109,32 @@
         "source_icu_sync_date": "2026-10-21T18:29:47.657+00:00"
       },
       "streams": {
-        "attempts": 4,
+        "attempts": 5,
         "first_seen": "2026-10-21T20:44:41.000057",
-        "last_attempt": "2026-10-22T06:46:09.782960",
+        "last_attempt": "2026-10-22T12:36:03.356913",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-22T06:51:09.782960"
+        "next_retry_at": "2026-10-22T12:41:03.356913"
+      }
+    },
+    "i200321361": {
+      "date": "2026-10-22",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-22T12:36:03.356913",
+        "last_attempt": "2026-10-22T12:36:03.356913",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-22T10:55:36.995+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-22T12:36:03.356913",
+        "last_attempt": "2026-10-22T12:36:03.356913",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-10-22T12:41:03.356913"
       }
     }
   }
