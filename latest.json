@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-22T12:36:04.334709",
+    "last_updated": "2026-10-22T17:37:11.252364",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.126"
@@ -263,7 +263,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3298,
+      "steps": 6027,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -615,7 +615,7 @@
     },
     "phase_detection": {
       "phase": "Build",
-      "confidence": "medium",
+      "confidence": "high",
       "reason_codes": [],
       "basis": {
         "stream_1": {
@@ -626,13 +626,13 @@
         },
         "stream_2": {
           "planned_tss_delta": 0.34,
-          "hard_sessions_planned": 0,
+          "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 1,
-          "current_week_hard_days_total": 1,
+          "current_week_hard_days_total": 2,
           "race_proximity": null,
           "next_week_load": 0.85,
-          "plan_coverage_current_week": 0.45,
-          "plan_coverage_next_week": 0.64
+          "plan_coverage_current_week": 0.55,
+          "plan_coverage_next_week": 0.82
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -665,7 +665,7 @@
     "p_max": 816,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-22T12:36:04.333426",
+    "calculation_timestamp": "2026-10-22T17:37:11.251028",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -6772,7 +6772,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3298,
+      "steps": 6027,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -6811,6 +6811,19 @@
       "has_terrain": false,
       "start_time": "06:30",
       "description": "- 10m ramp 45-60%\n- 40m Z2 62-72% (175-195W)\n- 10m 55% defaticamento\n\nPoi kettlebell Leggero 18' (vedi evento WeightTraining dello stesso giorno)."
+    },
+    {
+      "id": 147188336,
+      "date": "2026-10-23",
+      "name": "Kettlebell Leggero 18'",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.3,
+      "duration_formatted": "18m",
+      "workout_summary": "4m | 2\u00d71m / 1m rec | 2\u00d72m / 1m rec | 2\u00d730s / 30s rec | 2m",
+      "has_terrain": false,
+      "description": "- 4m riscaldamento\n\n2x\n- 1m Stacco rumeno KB monopodalico 2 x 10 per gamba\n- 1m recupero\n\n2x\n- 2m Affondi bulgari 2 x 8 per gamba\n- 1m recupero\n\n2x\n- 30s Plank\n- 30s recupero\n\n- 2m defaticamento\n\nMeta' volume del Gamba. Dopo la bici, non prima. Giorno facile: non forzare."
     },
     {
       "id": 146410415,
@@ -6883,6 +6896,19 @@
       "description": "- 10m ramp Z1-Z2 50-75%\n- 1m Z3 primer 80%\n\n- 12m Z3-Z4 80-88% (220-240W) RPE 6-7\n- 3m Z1 50% max 140W\n- 15m Z4 88-96% (245-262W) RPE 7-8\n- 5m Z1 50% max 140W\n\n- 10m defaticamento Z1 50-60%\n\nTSS ~120. Soglia progressiva, introduzione al duro.\nRPE 7-8/10. Recuperi <140W obbligatorio."
     },
     {
+      "id": 147188337,
+      "date": "2026-10-28",
+      "name": "Kettlebell Leggero 18'",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.3,
+      "duration_formatted": "18m",
+      "workout_summary": "4m | 2\u00d71m / 1m rec | 2\u00d72m / 1m rec | 2\u00d730s / 30s rec | 2m",
+      "has_terrain": false,
+      "description": "- 4m riscaldamento\n\n2x\n- 1m Stacco rumeno KB monopodalico 2 x 10 per gamba\n- 1m recupero\n\n2x\n- 2m Affondi bulgari 2 x 8 per gamba\n- 1m recupero\n\n2x\n- 30s Plank\n- 30s recupero\n\n- 2m defaticamento\n\nMeta' volume del Gamba. Dopo la bici, non prima. Giorno facile: non forzare."
+    },
+    {
       "id": 146875441,
       "date": "2026-10-28",
       "name": "Endurance 1h Z2 [AE-1]",
@@ -6909,6 +6935,18 @@
       "has_terrain": false,
       "start_time": "06:30",
       "description": "- 20m WU ramp Z1-Z2\n- 1m Z4 primer\n- 2m Z5 106-112% (290-305W)\n- 3m Z1 50-60%\n- 3m Z5 107-113% (293-310W)\n- 3m Z1 50-60%\n- 4m Z5 106-112% (290-305W)\n- 3m Z1 50-60%\n- 3m Z5 105-111% (288-303W)\n- 3m Z1 50-60%\n- 2m Z5 104-110% (285-300W)\n- 3m Z1 50%\n- 15m defaticamento Z1 50-55%\n\nTSS ~84. Piramide VO2max 2'-3'-4'-3'-2'.\nRPE 8-9/10."
+    },
+    {
+      "id": 147188338,
+      "date": "2026-10-30",
+      "name": "Kettlebell Leggero 18'",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.3,
+      "duration_formatted": "18m",
+      "workout_summary": "4m | 2\u00d71m / 1m rec | 2\u00d72m / 1m rec | 2\u00d730s / 30s rec | 2m",
+      "has_terrain": false
     },
     {
       "id": 146875445,
@@ -7463,9 +7501,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 43,
-    "success": 4,
-    "patternA": 4,
+    "attempted": 46,
+    "success": 7,
+    "patternA": 7,
     "patternB": 0,
     "bail_no_workout_doc": 3,
     "bail_no_match": 39
