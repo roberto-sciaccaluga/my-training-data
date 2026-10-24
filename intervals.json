@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T01:47:49.554706",
+  "generated_at": "2026-10-24T06:36:42.218303",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -1403,6 +1403,34 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i200953443",
+      "date": "2026-10-24",
+      "start_datetime": "2026-10-24T06:38:15",
+      "type": "VirtualRide",
+      "name": "Rulli 1h Z1-Z2",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5722,
+          "moving_secs": 5722,
+          "start_secs": 0,
+          "end_secs": 5722,
+          "avg_power": 166,
+          "max_power": 236,
+          "avg_hr": 119,
+          "max_hr": 131,
+          "min_hr": 77,
+          "avg_cadence": 87.64715,
+          "zone": 2,
+          "w_bal_start": 17280,
+          "w_bal_end": 17280,
+          "training_load": 56.946873
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -1713,12 +1741,12 @@
         "source_icu_sync_date": "2026-10-21T18:29:47.657+00:00"
       },
       "streams": {
-        "attempts": 13,
+        "attempts": 14,
         "first_seen": "2026-10-21T20:44:41.000057",
-        "last_attempt": "2026-10-23T20:32:22.502691",
+        "last_attempt": "2026-10-24T06:36:42.218303",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-24T02:32:22.502691"
+        "next_retry_at": "2026-10-24T12:36:42.218303"
       }
     },
     "i200321361": {
@@ -1733,12 +1761,12 @@
         "source_icu_sync_date": "2026-10-22T10:55:36.995+00:00"
       },
       "streams": {
-        "attempts": 11,
+        "attempts": 12,
         "first_seen": "2026-10-22T12:36:03.356913",
-        "last_attempt": "2026-10-24T01:47:49.554706",
+        "last_attempt": "2026-10-24T06:36:42.218303",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-24T02:17:49.554706"
+        "next_retry_at": "2026-10-24T07:06:42.218303"
       }
     },
     "i200614877": {
@@ -1753,12 +1781,31 @@
         "source_icu_sync_date": "2026-10-23T06:23:24.989+00:00"
       },
       "streams": {
-        "attempts": 6,
+        "attempts": 7,
         "first_seen": "2026-10-23T06:59:33.889063",
-        "last_attempt": "2026-10-24T01:47:49.554706",
+        "last_attempt": "2026-10-24T06:36:42.218303",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-24T01:52:49.554706"
+        "next_retry_at": "2026-10-24T07:06:42.218303"
+      }
+    },
+    "i200953443": {
+      "date": "2026-10-24",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-24T06:36:42.218303",
+        "last_attempt": "2026-10-24T06:36:42.218303",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-24T06:14:11.437+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-24T06:36:42.218303",
+        "last_attempt": "2026-10-24T06:36:42.218303",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-10-24T06:41:42.218303"
       }
     }
   }
