@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T05:03:11.929962",
+  "generated_at": "2026-10-26T11:01:33.909556",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -1053,6 +1053,71 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i201789014",
+      "date": "2026-10-26",
+      "start_datetime": "2026-10-26T05:23:35",
+      "type": "Ride",
+      "name": "Albisola",
+      "interval_summary": [
+        "1x 85s 247w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 11158,
+          "moving_secs": 10229,
+          "start_secs": 0,
+          "end_secs": 11158,
+          "avg_power": 152,
+          "max_power": 478,
+          "avg_hr": 122,
+          "max_hr": 159,
+          "min_hr": 92,
+          "avg_cadence": 75.45459,
+          "zone": 2,
+          "w_bal_start": 17280,
+          "w_bal_end": 17271,
+          "training_load": 113.316086
+        },
+        {
+          "type": "WORK",
+          "label": "85s@247w94rpm",
+          "duration_secs": 85,
+          "moving_secs": 85,
+          "start_secs": 11158,
+          "end_secs": 11243,
+          "avg_power": 247,
+          "max_power": 320,
+          "avg_hr": 150,
+          "max_hr": 155,
+          "min_hr": 146,
+          "avg_cadence": 94.117645,
+          "zone": 4,
+          "w_bal_start": 17272,
+          "w_bal_end": 16943,
+          "training_load": 1.8114977
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3156,
+          "moving_secs": 2833,
+          "start_secs": 11243,
+          "end_secs": 14399,
+          "avg_power": 124,
+          "max_power": 516,
+          "avg_hr": 117,
+          "max_hr": 158,
+          "min_hr": 96,
+          "avg_cadence": 67.8208,
+          "zone": 1,
+          "w_bal_start": 16944,
+          "w_bal_end": 16625,
+          "training_load": 23.00023
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -1364,12 +1429,11 @@
         "source_icu_sync_date": "2026-10-23T06:23:24.989+00:00"
       },
       "streams": {
-        "attempts": 16,
+        "attempts": 17,
         "first_seen": "2026-10-23T06:59:33.889063",
-        "last_attempt": "2026-10-26T00:17:28.587735",
-        "status": "pending",
-        "reason": "no_data",
-        "next_retry_at": "2026-10-26T06:17:28.587735"
+        "last_attempt": "2026-10-26T11:01:33.909556",
+        "status": "tombstone",
+        "reason": "retry_expired"
       }
     },
     "i200953443": {
@@ -1383,12 +1447,32 @@
         "source_icu_sync_date": "2026-10-24T06:14:11.437+00:00"
       },
       "streams": {
-        "attempts": 13,
+        "attempts": 14,
         "first_seen": "2026-10-24T06:36:42.218303",
-        "last_attempt": "2026-10-26T00:17:28.587735",
+        "last_attempt": "2026-10-26T11:01:33.909556",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-26T06:17:28.587735"
+        "next_retry_at": "2026-10-26T17:01:33.909556"
+      }
+    },
+    "i201789014": {
+      "date": "2026-10-26",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-26T11:01:33.909556",
+        "last_attempt": "2026-10-26T11:01:33.909556",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-26T08:24:34.816+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-26T11:01:33.909556",
+        "last_attempt": "2026-10-26T11:01:33.909556",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-10-26T11:06:33.909556"
       }
     }
   }
