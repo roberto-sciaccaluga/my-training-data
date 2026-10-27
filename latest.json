@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 9.5,
-      "total_training_formatted": "9h29m",
-      "total_activities": 6,
-      "total_tss": 365
+      "total_training_hours": 12.1,
+      "total_training_formatted": "12h6m",
+      "total_activities": 7,
+      "total_tss": 492
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-27T05:46:44.707302",
+    "last_updated": "2026-10-27T11:11:25.991736",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.126"
@@ -124,7 +124,7 @@
       },
       "acwr": {
         "status": "green",
-        "value": 0.62
+        "value": 0.8
       },
       "ri": {
         "status": "green",
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 19.5
+        "value": 5.6
       }
     },
     "signal_summary": {
@@ -163,17 +163,17 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 9.5,
-    "total_activities": 6,
+    "total_duration_decimal_hours": 12.1,
+    "total_activities": 7,
     "by_activity_type": {
       "Ride": {
-        "duration_decimal_hours": 4.05,
-        "count": 2,
-        "tss": 157,
-        "distance_km": 101.2,
+        "duration_decimal_hours": 6.65,
+        "count": 3,
+        "tss": 284,
+        "distance_km": 160.8,
         "display": {
           "distance": {
-            "value": 101.2,
+            "value": 160.8,
             "unit": "km"
           }
         }
@@ -194,11 +194,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 88.3,
-      "atl": 68.76,
-      "tsb": 19.54,
-      "ramp_rate": -5.28,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 91.28,
+      "atl": 85.66,
+      "tsb": 5.62,
+      "ramp_rate": -3.56,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 260.3,
@@ -263,7 +263,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1222,
+      "steps": 2185,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -283,77 +283,77 @@
     "rhr_baseline_28d": 47.9,
     "latest_hrv": 42.0,
     "latest_rhr": 50,
-    "acwr": 0.62,
-    "acwr_interpretation": "undertraining",
-    "monotony": 0.99,
+    "acwr": 0.8,
+    "acwr_interpretation": "optimal",
+    "monotony": 1.31,
     "monotony_interpretation": "normal",
     "primary_sport": "cycling",
-    "primary_sport_monotony": 0.99,
-    "primary_sport_tss_7d": 365.0,
-    "effective_monotony": 0.99,
+    "primary_sport_monotony": 1.31,
+    "primary_sport_tss_7d": 492.0,
+    "effective_monotony": 1.31,
     "multi_sport_detected": false,
-    "strain": 361.0,
-    "stress_tolerance": 3.6,
-    "load_recovery_ratio": 3.5,
-    "tss_7d_total": 365.0,
-    "tss_28d_total": 2347.0,
+    "strain": 645.0,
+    "stress_tolerance": 4.9,
+    "load_recovery_ratio": 4.7,
+    "tss_7d_total": 492.0,
+    "tss_28d_total": 2474.0,
     "zone_distribution_7d": {
-      "z1_hours": 2.94,
-      "z2_hours": 5.83,
-      "z3_hours": 0.5,
-      "z4_plus_hours": 0.23,
-      "total_hours": 9.5,
+      "z1_hours": 4.13,
+      "z2_hours": 6.46,
+      "z3_hours": 0.94,
+      "z4_plus_hours": 0.57,
+      "total_hours": 12.1,
       "zone_basis": "power"
     },
-    "grey_zone_percentage": 5.2,
+    "grey_zone_percentage": 7.8,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 2.4,
+    "quality_intensity_percentage": 4.7,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "easy_time_ratio": 0.92,
+    "easy_time_ratio": 0.87,
     "easy_time_ratio_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
-    "hard_days_this_week": 1,
+    "hard_days_this_week": 2,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 31573,
-      "z2_seconds": 1789,
-      "z3_seconds": 824,
-      "z1_pct": 92.4,
-      "z2_pct": 5.2,
-      "z3_pct": 2.4,
+      "z1_seconds": 38120,
+      "z2_seconds": 3398,
+      "z3_seconds": 2051,
+      "z1_pct": 87.5,
+      "z2_pct": 7.8,
+      "z3_pct": 4.7,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "power"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 31573,
-      "z2_seconds": 1789,
-      "z3_seconds": 824,
-      "z1_pct": 92.4,
-      "z2_pct": 5.2,
-      "z3_pct": 2.4,
+      "z1_seconds": 38120,
+      "z2_seconds": 3398,
+      "z3_seconds": 2051,
+      "z1_pct": 87.5,
+      "z2_pct": 7.8,
+      "z3_pct": 4.7,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "power",
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 161824,
-      "z2_seconds": 19655,
-      "z3_seconds": 17654,
-      "z1_pct": 81.3,
-      "z2_pct": 9.9,
-      "z3_pct": 8.9,
+      "z1_seconds": 168371,
+      "z2_seconds": 21264,
+      "z3_seconds": 18881,
+      "z1_pct": 80.7,
+      "z2_pct": 10.2,
+      "z3_pct": 9.1,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 149508,
-      "z2_seconds": 19162,
-      "z3_seconds": 13004,
-      "z1_pct": 82.3,
-      "z2_pct": 10.5,
-      "z3_pct": 7.2,
+      "z1_seconds": 156055,
+      "z2_seconds": 20771,
+      "z3_seconds": 14231,
+      "z1_pct": 81.7,
+      "z2_pct": 10.9,
+      "z3_pct": 7.4,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "mixed",
@@ -381,11 +381,11 @@
         "note": "Steady-state cycling sessions only (VI <= 1.05, VI > 0, >= 20min, power+HR data). Rising EF = improving aerobic efficiency. Compare like-for-like sessions only \u2014 EF varies with intensity. Trend compares 7d vs 28d mean (+/-0.03 = stable)."
       },
       "hrrc": {
-        "mean_hrrc_7d": null,
-        "mean_hrrc_28d": 30.1,
-        "qualifying_sessions_7d": 0,
-        "qualifying_sessions_28d": 7,
-        "trend": null,
+        "mean_hrrc_7d": 19.0,
+        "mean_hrrc_28d": 28.8,
+        "qualifying_sessions_7d": 1,
+        "qualifying_sessions_28d": 8,
+        "trend": "declining",
         "note": "HRRc = heart rate recovery (largest 60s HR drop in bpm after exceeding threshold HR for >1 min). Higher = better parasympathetic recovery. Null when threshold not reached, recording stopped before cooldown, or no HR data. Trend: 7d mean vs 28d mean, >10% = meaningful (min 1 session/7d, 3 sessions/28d). Display only \u2014 not wired into readiness_decision signals."
       },
       "tid_comparison": {
@@ -576,11 +576,11 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.83,
+    "consistency_index": 1.0,
     "consistency_details": {
       "planned_days": 6,
-      "completed_days": 5,
-      "matched_days": 5,
+      "completed_days": 6,
+      "matched_days": 6,
       "planned_dates": [
         "2026-10-21",
         "2026-10-22",
@@ -594,7 +594,8 @@
         "2026-10-22",
         "2026-10-23",
         "2026-10-24",
-        "2026-10-26"
+        "2026-10-26",
+        "2026-10-27"
       ]
     },
     "phase_detection": {
@@ -611,10 +612,10 @@
         "stream_2": {
           "planned_tss_delta": 0.99,
           "hard_sessions_planned": 4,
-          "current_week_hard_days_completed": 1,
-          "current_week_hard_days_total": 5,
+          "current_week_hard_days_completed": 2,
+          "current_week_hard_days_total": 6,
           "race_proximity": null,
-          "next_week_load": 1.02,
+          "next_week_load": 1.19,
           "plan_coverage_current_week": 0.73,
           "plan_coverage_next_week": 0.73
         },
@@ -649,12 +650,12 @@
     "p_max": 812,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-27T05:46:44.706081",
+    "calculation_timestamp": "2026-10-27T11:11:25.990709",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 6,
-      "activities_28d": 40,
+      "activities_7d": 7,
+      "activities_28d": 41,
       "planned_workouts_7d": 9,
       "ftp_history_days": {
         "indoor": 22,
@@ -663,6 +664,265 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i202182427",
+      "date": "2026-10-27T05:23:16",
+      "type": "Ride",
+      "name": "SS-2 Progressive Sweet Spot 12'+15'",
+      "duration_hours": 2.61,
+      "duration_formatted": "2h36m23s",
+      "distance_km": 59.6,
+      "tss": 127,
+      "intensity_factor": 69.70803,
+      "avg_power": 154,
+      "normalized_power": 191,
+      "avg_hr": 121,
+      "max_hr": 164,
+      "avg_cadence": 79.49026,
+      "avg_speed": 22.7,
+      "avg_speed_unit": "KPH",
+      "max_speed": 51.8,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": 15.341849,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "KMH",
+      "work_kj": 1484.0,
+      "calories": 1683,
+      "carbs_used": 324,
+      "carbs_ingested": null,
+      "variability_index": 1.2402598,
+      "decoupling": 2.6318343,
+      "efficiency_factor": 1.5785124,
+      "hrrc": 19,
+      "elevation_m": 1177.0,
+      "display": {
+        "distance": {
+          "value": 59.6,
+          "unit": "km"
+        },
+        "elevation": {
+          "value": 1177,
+          "unit": "m"
+        },
+        "avg_speed": {
+          "value": 22.7,
+          "unit": "km/h"
+        },
+        "max_speed": {
+          "value": 51.8,
+          "unit": "km/h"
+        }
+      },
+      "feel": 2,
+      "rpe": 5,
+      "effort_response": "negative",
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 2858,
+          "z2_time": 4584,
+          "z3_time": 1584,
+          "z4_time": 432,
+          "z5_time": 0
+        },
+        "power_zones": {
+          "z1_time": 4304,
+          "z2_time": 2243,
+          "z3_time": 1609,
+          "z4_time": 914,
+          "z5_time": 246,
+          "z6_time": 56,
+          "z7_time": 11
+        }
+      },
+      "has_intervals": true,
+      "has_dfa": false,
+      "terrain_summary": {
+        "source": "activity_streams",
+        "total_distance_km": 60.1,
+        "total_elevation_m": 1190,
+        "elevation_per_km": 19.8,
+        "course_character": "hilly",
+        "max_grade_pct": 14.7,
+        "grade_distribution": {
+          "flat_pct": 25.4,
+          "gentle_pct": 24.4,
+          "moderate_pct": 25.8,
+          "steep_pct": 24.4
+        },
+        "start_coords": [
+          44.41134,
+          8.95525
+        ],
+        "climbs": [
+          {
+            "position_km": 18.6,
+            "distance_km": 3.8,
+            "elevation_m": 182,
+            "avg_gradient_pct": 4.7,
+            "start_coords": [
+              44.36144,
+              9.13612
+            ],
+            "end_coords": [
+              44.34801,
+              9.16588
+            ],
+            "display": {
+              "position": {
+                "value": 18.6,
+                "unit": "km"
+              },
+              "distance": {
+                "value": 3.8,
+                "unit": "km"
+              },
+              "elevation": {
+                "value": 182,
+                "unit": "m"
+              }
+            },
+            "max_gradient_pct": 8.2,
+            "category": "Cat 4"
+          },
+          {
+            "position_km": 44.1,
+            "distance_km": 8.3,
+            "elevation_m": 448,
+            "avg_gradient_pct": 5.4,
+            "start_coords": [
+              44.40202,
+              8.94933
+            ],
+            "end_coords": [
+              44.43757,
+              8.92069
+            ],
+            "display": {
+              "position": {
+                "value": 44.1,
+                "unit": "km"
+              },
+              "distance": {
+                "value": 8.3,
+                "unit": "km"
+              },
+              "elevation": {
+                "value": 448,
+                "unit": "m"
+              }
+            },
+            "max_gradient_pct": 12.1,
+            "category": "Cat 2"
+          }
+        ],
+        "descents": [
+          {
+            "position_km": 16.9,
+            "distance_km": 2.2,
+            "elevation_m": -69,
+            "avg_gradient_pct": -3.1,
+            "start_coords": [
+              44.36638,
+              9.11836
+            ],
+            "end_coords": [
+              44.36199,
+              9.14209
+            ],
+            "display": {
+              "position": {
+                "value": 16.9,
+                "unit": "km"
+              },
+              "distance": {
+                "value": 2.2,
+                "unit": "km"
+              },
+              "elevation": {
+                "value": -69,
+                "unit": "m"
+              }
+            }
+          },
+          {
+            "position_km": 22.4,
+            "distance_km": 3.3,
+            "elevation_m": -206,
+            "avg_gradient_pct": -6.3,
+            "start_coords": [
+              44.34801,
+              9.16588
+            ],
+            "end_coords": [
+              44.36211,
+              9.14199
+            ],
+            "display": {
+              "position": {
+                "value": 22.4,
+                "unit": "km"
+              },
+              "distance": {
+                "value": 3.3,
+                "unit": "km"
+              },
+              "elevation": {
+                "value": -206,
+                "unit": "m"
+              }
+            }
+          },
+          {
+            "position_km": 52.4,
+            "distance_km": 7.0,
+            "elevation_m": -445,
+            "avg_gradient_pct": -6.4,
+            "start_coords": [
+              44.43757,
+              8.92069
+            ],
+            "end_coords": [
+              44.41401,
+              8.88642
+            ],
+            "display": {
+              "position": {
+                "value": 52.4,
+                "unit": "km"
+              },
+              "distance": {
+                "value": 7.0,
+                "unit": "km"
+              },
+              "elevation": {
+                "value": -445,
+                "unit": "m"
+              }
+            }
+          }
+        ],
+        "display": {
+          "total_distance": {
+            "value": 60.1,
+            "unit": "km"
+          },
+          "total_elevation": {
+            "value": 1190,
+            "unit": "m"
+          },
+          "elevation_per_distance": {
+            "value": 20,
+            "unit": "m/km"
+          }
+        }
+      },
+      "weather_status": "unavailable",
+      "description": "12' @239w \n15' @258w"
+    },
     {
       "id": "i202025604",
       "date": "2026-10-26T17:10:48",
@@ -6193,7 +6453,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1222,
+      "steps": 2185,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -6208,7 +6468,7 @@
     {
       "id": 146875438,
       "date": "2026-10-27",
-      "name": "SS-2 Progressive Sweet Spot 12'+15' [DURO 1]",
+      "name": "SS-2 Progressive Sweet Spot 12'+15' [HARD 1]",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 56,
@@ -6316,9 +6576,9 @@
       "description": "- 15m ramp 45-60%\n- 150m Z1-Z2 150-190W FC <152\n- 15m 55-60% defaticamento\n\n3 ore post-lunga. Davvero facile. RPE 3/10."
     },
     {
-      "id": 145686133,
+      "id": 148823514,
       "date": "2026-11-02",
-      "name": "SETTIMANE 02-08/11 \u2014 Base wk2: costruire il soglio (2 duri, lungo 3h con 2x15' in salita)",
+      "name": "SETTIMANE 02-08/11 \u2014 Base wk2 \u00b7 15h \u00b7 SS 2x18' + VO2 short-short \u00b7 weekend 3h30+3h30",
       "type": "NOTE",
       "sport_type": null,
       "planned_tss": null,
@@ -6326,109 +6586,109 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Obiettivo: partire dal FIT Laigueglia 2024 (NP 214 W, recuperi <190 W, VI 1,14) e alzare il medio sostenibile verso 220 W.\n\n- SS-1 passa da 12'+15' a 2x18' sostenuti: e' il primo vero passo oltre la singola seduta di baseline.\n- VO2-2 30/15: formato nuovo, 3x10 con compensazione lag ERG (+3-4% sul work: 112-118% = 305-320 W).\n- Longa 3h con 2x15' a 245-255 W lungo i 60'/120': equivalente Creto/Camaldoli del FIT 2024.\n- RECUPERI SEMPRE <190 W, in ogni workout e in gara.\n\nControllo martedi' mattina: peso + HRV + RI >=0,70 + sonno >=7 h. Se un segnale e' rosso, il dure di martedi' diventa AE-2 90' e la KB si sposta a giovedi'."
+      "description": "- Lun/Mar 2h30: uno Z2, uno con SS 2x18' (240-258W)\n- Mer/Ven 1h indoor Z2 + KB\n- Gio 1h VO2 short-short\n- Sab/Dom 3h30 Z2\n\nRegola: il volume extra va su lun/mar/sab/dom, mai sui giorni da 1h.\nSe piove: versione indoor stessa durata."
     },
     {
-      "id": 146875450,
+      "id": 148823941,
       "date": "2026-11-02",
-      "name": "Endurance 2h Z2 [Base wk2]",
+      "name": "Endurance 2h30 Z2 [Base wk2]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 83,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
+      "planned_tss": 92,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "06:30",
-      "description": "- 15m ramp 50-70%\n- 95m Z2 170-190W FC <152\n- 10m 55-60% defaticamento\n\n2 ore. Volume base. RPE 3-4/10."
+      "description": "- 15m ramp 50-65%\n- 125m 55-68%\n- 10m 50%\n\nBase aerobica, terreno scorrevole. RPE 3-4/10.\nSe piove: rulli, stessa durata, Z2 continuo."
     },
     {
-      "id": 146875451,
+      "id": 148823942,
       "date": "2026-11-03",
-      "name": "SS-1 2x18' Z4 [DURO 1]",
+      "name": "SS-1 2x18' Z4 [HARD 1, wk2]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 72,
-      "duration_hours": 1.08,
-      "duration_formatted": "1h5m",
+      "planned_tss": 127,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "06:30",
-      "description": "- 10m ramp Z1-Z2 50-75%\n- 1m Z3 primer 80%\n\n- 18m Z4 88-96% (245-262W) RPE 7-8\n- 5m Z1 50% max 140W\n- 18m Z4 88-96% (245-262W) RPE 7-8\n- 5m Z1 50% max 140W\n\n- 8m defaticamento Z1 50-60%\n\nTSS ~110. Soglia di potenza.\nRPE 7-8/10. Recuperi <140W obbligatorio."
+      "description": "- 40m ramp 50-70%\n- 18m 88-94%\n- 5m 50%\n- 18m 88-94%\n- 59m 55-65%\n- 10m 50%\n\n2h30 con 36' di soglia. Cadenza 80-85, in salita 70-75.\nSe piove: rulli, stessi blocchi."
     },
     {
-      "id": 146875452,
+      "id": 148823943,
       "date": "2026-11-04",
-      "name": "Endurance 1h Z2 [AE-1]",
+      "name": "Endurance 1h Z2 [AE-1 + KB]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 39,
+      "planned_tss": 33,
       "duration_hours": 1.0,
       "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "06:30",
-      "description_preview": "- 15m ramp 45-60%\n- 40m Z2 170-190W FC <152\n- 5m 55-60% defaticamento"
+      "description_preview": "- 10m ramp 50-60%\n- 38m 55-65%\n- 12m 50%"
     },
     {
-      "id": 146875453,
+      "id": 148823945,
       "date": "2026-11-05",
-      "name": "VO2-2 Short-Short 3x(10x30s/15s) [DURO 2]",
+      "name": "VO2-2 Short-Short 3x(10x30\"/15\") [HARD 2, wk2]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 60,
-      "duration_hours": 0.89,
-      "duration_formatted": "53m30s",
-      "workout_summary": "5m @144W | 15m @192W | 5m @178W | 10\u00d730s @314W / 15s rec | 2m @150W | 10\u00d730s @314W / 15s rec | 2m @150W | 10\u00d730s @314W / 15s rec | 2m @150W",
+      "planned_tss": 64,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": "15m @164W | 10\u00d730s @328W / 15s rec | 3m @150W | 10\u00d730s @328W / 15s rec | 3m @150W | 10\u00d730s @328W / 15s rec | 16m30s @137W",
       "has_terrain": false,
       "start_time": "06:30"
     },
     {
-      "id": 146875454,
+      "id": 148823946,
       "date": "2026-11-06",
-      "name": "Long Endurance 3h Z1-Z2 [lunga Base wk2]",
+      "name": "Endurance 1h Z2 [AE-1 + KB]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 111,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "06:30",
-      "description_preview": "- 15m ramp 45-60%\n- 150m Z1-Z2 150-190W FC <152\n- 15m 55-60% defaticamento"
-    },
-    {
-      "id": 146875455,
-      "date": "2026-11-07",
-      "name": "Endurance 1h Z1-Z2 [scarico pre-lunga]",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 29,
+      "planned_tss": 33,
       "duration_hours": 1.0,
       "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "06:30",
-      "description_preview": "- 10m ramp 45-55%\n- 45m Z1 <150W\n- 5m 50% defaticamento"
+      "description_preview": "- 10m ramp 50-60%\n- 38m 55-65%\n- 12m 50%"
     },
     {
-      "id": 146875456,
-      "date": "2026-11-08",
-      "name": "Long Endurance 3h Z1-Z2 [lunga Base wk2]",
+      "id": 148823948,
+      "date": "2026-11-07",
+      "name": "Long Endurance 3h30 Z1-Z2 [lunga Base wk2]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 111,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
+      "planned_tss": 121,
+      "duration_hours": 3.5,
+      "duration_formatted": "3h30m",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "06:30",
-      "description_preview": "- 15m ramp 45-60%\n- 150m Z1-Z2 150-190W FC <152\n- 15m 55-60% defaticamento"
+      "start_time": "08:00",
+      "description_preview": "- 15m ramp 50-65%\n- 185m 53-66%\n- 10m 50%"
     },
     {
-      "id": 145686142,
+      "id": 148823949,
+      "date": "2026-11-08",
+      "name": "Long Endurance 3h30 Z1-Z2 [lunga Base wk2]",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 121,
+      "duration_hours": 3.5,
+      "duration_formatted": "3h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "08:00",
+      "description_preview": "- 15m ramp 50-65%\n- 185m 53-66%\n- 10m 50%"
+    },
+    {
+      "id": 148823519,
       "date": "2026-11-09",
-      "name": "SETTIMANE 09-15/11 \u2014 Base wk3: picco del blocco (2x20' soglio, 4x4' VO2max, lungo 3h con 2x15')",
+      "name": "SETTIMANE 09-15/11 \u2014 Base wk3 PICCO \u00b7 16h ca \u00b7 SS 2x20' \u00b7 SAB 4h + DOM 6h",
       "type": "NOTE",
       "sport_type": null,
       "planned_tss": null,
@@ -6436,90 +6696,90 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Ultima settimana di carico prima del deload (16-22/11).\n- SS-1 sale a 2x20': e' il blocco piu' lungo mai fatto in base. Se non regge, torna a 2x18': non e' un fallimento, e' informazione.\n- VO2-1 4x4' a 105-110%: sforzo lungo invece che micro-intervalli. Piu' vicino al ritmo delle salite in gara (B11 = 27' a 240-260 W)."
+      "description_preview": "- SS-1 2x20': il blocco piu' lungo della Base.\n- Sabato 14/11: 4h.\n- Domenica 15/11: **6h** \u2014 sei solo a casa, giornata libera: e' il lunghissimo del blocco."
     },
     {
-      "id": 146875457,
+      "id": 148823950,
       "date": "2026-11-09",
-      "name": "Endurance 2h Z2 [Base wk3]",
+      "name": "Endurance 2h30 Z2 [Base wk3]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 83,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
+      "planned_tss": 92,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "06:30",
-      "description_preview": "- 15m ramp 50-70%\n- 95m Z2 170-190W FC <152\n- 10m 55-60% defaticamento"
+      "description_preview": "- 15m ramp 50-65%\n- 125m 55-68%\n- 10m 50%"
     },
     {
-      "id": 146875458,
+      "id": 148823952,
       "date": "2026-11-10",
-      "name": "SS-1 2x20' Z4 [DURO 1]",
+      "name": "SS-1 2x20' Z4 [HARD 1, wk3 picco]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 87,
-      "duration_hours": 1.33,
-      "duration_formatted": "1h20m",
+      "planned_tss": 131,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "06:30",
-      "description_preview": "- 5m ramp 45-60%\n- 15m Z2 65-75% (180-205W)\n- 20m Z4 88-96% (245-262W) RPE 7-8"
+      "description_preview": "- 40m ramp 50-70%\n- 20m 88-94%\n- 5m 50%"
     },
     {
-      "id": 146875459,
+      "id": 148823953,
       "date": "2026-11-11",
-      "name": "Endurance 1h Z2 [AE-1]",
+      "name": "Endurance 1h Z2 [AE-1 + KB]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 39,
+      "planned_tss": 33,
       "duration_hours": 1.0,
       "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "06:30",
-      "description_preview": "- 15m ramp 45-60%\n- 40m Z2 170-190W FC <152\n- 5m 55-60% defaticamento"
+      "description_preview": "- 10m ramp 50-60%\n- 38m 55-65%\n- 12m 50%"
     },
     {
-      "id": 146875460,
+      "id": 148823954,
       "date": "2026-11-12",
-      "name": "VO2-1 Classic Long 4x4' [DURO 2]",
+      "name": "VO2-1 4x4' [HARD 2, wk3]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 70,
-      "duration_hours": 1.03,
-      "duration_formatted": "1h2m",
-      "workout_summary": "5m @144W | 20m @192W | 5m @192W | 4\u00d74m @294W / 4m rec",
+      "planned_tss": 67,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": "15m @164W | 4\u00d74m @305W / 4m rec",
       "has_terrain": false,
       "start_time": "06:30"
     },
     {
-      "id": 146875461,
+      "id": 148823955,
       "date": "2026-11-13",
-      "name": "Long Endurance 3h Z1-Z2 [lunga Base wk3]",
+      "name": "Endurance 1h Z2 [AE-1 + KB]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 111,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "06:30",
-      "description_preview": "- 15m ramp 45-60%\n- 150m Z1-Z2 150-190W FC <152\n- 15m 55-60% defaticamento"
-    },
-    {
-      "id": 146875462,
-      "date": "2026-11-14",
-      "name": "Endurance 1h Z1-Z2 [scarico pre-lunghissimo]",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 29,
+      "planned_tss": 33,
       "duration_hours": 1.0,
       "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "06:30",
-      "description_preview": "- 10m ramp 45-55%\n- 45m Z1 <150W\n- 5m 50% defaticamento"
+      "description_preview": "- 10m ramp 50-60%\n- 38m 55-65%\n- 12m 50%"
+    },
+    {
+      "id": 148823957,
+      "date": "2026-11-14",
+      "name": "Long Endurance 4h00 Z1-Z2 [MILESTONE 4h]",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 138,
+      "duration_hours": 4.0,
+      "duration_formatted": "4h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "08:00",
+      "description_preview": "- 15m ramp 50-65%\n- 215m 53-66%\n- 10m 50%"
     },
     {
       "id": 146869510,
@@ -6535,23 +6795,23 @@
       "description_preview": null
     },
     {
-      "id": 146875463,
+      "id": 148823958,
       "date": "2026-11-15",
-      "name": "LUNGHISSIMO 4h30 Z1-Z2 [milestone Base wk3]",
+      "name": "LUNGHISSIMO 6h Z1-Z2 [solo a casa \u00b7 Fra Pavia]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 169,
-      "duration_hours": 4.5,
-      "duration_formatted": "4h30m",
+      "planned_tss": 207,
+      "duration_hours": 6.0,
+      "duration_formatted": "6h",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "06:30",
-      "description_preview": "- 15m ramp 45-60%\n- 240m Z1-Z2 150-190W FC <152\n- 15m 55-60% defaticamento"
+      "start_time": "08:00",
+      "description_preview": "- 20m ramp 50-65%\n- 5h25m 53-66%\n- 15m 50%"
     },
     {
-      "id": 145686154,
+      "id": 148823521,
       "date": "2026-11-16",
-      "name": "SETTIMANE 16-22/11 \u2014 DELOAD Base wk4: nessun duro, volume -40%, la KB si ferma",
+      "name": "SETTIMANE 16-22/11 \u2014 DELOAD \u00b7 11h45' \u00b7 niente VO2, soglia ridotta",
       "type": "NOTE",
       "sport_type": null,
       "planned_tss": null,
@@ -6559,157 +6819,171 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "DELOAD. TSS attesi ~245 contro i ~400 della settimana precedente.\nCosa cambia e cosa no:\n- NESSUN workout Z4 o Z5. Solo Z1-Z2."
+      "description_preview": "- Nessun Z5. Soglia solo 2x15' leggeri il martedi'.\n- Volume -30%: lun/mar 2h, mer/ven 1h senza KB, weekend 2h30+2h30.\n- Serve a smaltire il picco della wk3, non a stare fermo."
     },
     {
-      "id": 146875464,
+      "id": 148823959,
       "date": "2026-11-16",
-      "name": "Active Recovery 2h Z1 [Deload inizio]",
+      "name": "Endurance 2h Z2 [Deload wk4]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 51,
+      "planned_tss": 73,
       "duration_hours": 2.0,
       "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "06:30",
-      "description_preview": "- 10m ramp 45-55%\n- 95m Z1 <140W (max 130W)\n- 15m 50% defaticamento"
+      "description_preview": "- 15m ramp 50-65%\n- 95m 55-68%\n- 10m 50%"
     },
     {
-      "id": 146875466,
+      "id": 148823960,
       "date": "2026-11-17",
-      "name": "SS-1 2x18' Z4 [DURO 1, Deload leggero]",
+      "name": "SS-1 2x15' Z4 [Deload, no forcing]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 72,
-      "duration_hours": 1.08,
-      "duration_formatted": "1h5m",
+      "planned_tss": 99,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "06:30",
-      "description_preview": "- 10m ramp Z1-Z2 50-75%\n- 1m Z3 primer 80%\n- 18m Z4 88-96% (245-262W) RPE 7-8"
+      "description_preview": "- 40m ramp 50-70%\n- 15m 86-92%\n- 5m 50%"
     },
     {
-      "id": 146875467,
+      "id": 148823962,
       "date": "2026-11-18",
       "name": "Endurance 1h Z2 [Deload]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 39,
+      "planned_tss": 33,
       "duration_hours": 1.0,
       "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "06:30",
-      "description_preview": "- 15m ramp 45-60%\n- 40m Z2 170-190W FC <152\n- 5m 55-60% defaticamento"
+      "description_preview": "- 10m ramp 50-60%\n- 38m 55-65%\n- 12m 50%"
     },
     {
-      "id": 146875468,
+      "id": 148823965,
       "date": "2026-11-19",
-      "name": "VO2-2 Short-Short 2x(10x30s/15s) [DURO 2 - Deload ridotto]",
+      "name": "Endurance 45' Z2 [Deload]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 54,
-      "duration_hours": 0.78,
-      "duration_formatted": "47m",
-      "workout_summary": "5m @144W | 10m @192W | 5m @178W | 10\u00d730s @314W / 15s rec | 1m30s @150W | 10\u00d730s @314W / 15s rec | 1m30s @150W | 10\u00d730s @314W / 15s rec | 1m30s @150W",
+      "planned_tss": 24,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
       "has_terrain": false,
-      "start_time": "06:30"
+      "start_time": "06:30",
+      "description_preview": "- 10m ramp 50-60%\n- 25m 55-65%\n- 10m 50%"
     },
     {
-      "id": 146875470,
+      "id": 148823966,
       "date": "2026-11-20",
-      "name": "Long Endurance 3h Z1-Z2 [Deload, liscio]",
+      "name": "Endurance 1h Z2 [Deload]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 111,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
+      "planned_tss": 33,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "06:30",
-      "description_preview": "- 15m ramp 45-60%\n- 150m Z1-Z2 150-190W FC <152\n- 15m 55-60% defaticamento"
+      "description_preview": "- 10m ramp 50-60%\n- 38m 55-65%\n- 12m 50%"
     },
     {
-      "id": 146875472,
+      "id": 148823967,
       "date": "2026-11-21",
-      "name": "Active Recovery 1h Z1 [Deload fine]",
+      "name": "Long Endurance 2h30 Z1-Z2 [Deload]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 26,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "planned_tss": 86,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "06:30",
-      "description_preview": "- 10m ramp 45-55%\n- 45m Z1 <140W (max 130W)\n- 5m 50% defaticamento"
+      "start_time": "08:00",
+      "description_preview": "- 15m ramp 50-65%\n- 125m 53-66%\n- 10m 50%"
     },
     {
-      "id": 146875474,
+      "id": 148823968,
       "date": "2026-11-22",
-      "name": "Endurance 3h Z1-Z2 [fine Deload]",
+      "name": "Long Endurance 2h30 Z1-Z2 [Deload]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 111,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
+      "planned_tss": 86,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "06:30",
-      "description_preview": "- 15m ramp 45-60%\n- 150m Z1-Z2 150-190W FC <152\n- 15m 55-60% defaticamento"
+      "start_time": "08:00",
+      "description_preview": "- 15m ramp 50-65%\n- 125m 53-66%\n- 10m 50%"
     },
     {
-      "id": 146875475,
+      "id": 148823522,
       "date": "2026-11-23",
-      "name": "Endurance 2h Z2 [Base wk5, ripresa]",
+      "name": "SETTIMANE 23-29/11 \u2014 CARICO \u00b7 sab 4h + DOM 7h (solo a casa)",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- SS 2x20' martedi'.\n- Sabato 28/11: 4h.\n- Domenica 29/11: **7h** \u2014 la seduta piu' lunga della Base. Fino a 8h solo se le prime 5h sono pulite."
+    },
+    {
+      "id": 148823969,
+      "date": "2026-11-23",
+      "name": "Endurance 2h30 Z2 [Base wk5 ripresa]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 83,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
+      "planned_tss": 92,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "06:30",
-      "description_preview": "- 15m ramp 50-70%\n- 95m Z2 170-190W FC <152\n- 10m 55-60% defaticamento"
+      "description_preview": "- 15m ramp 50-65%\n- 125m 55-68%\n- 10m 50%"
     },
     {
-      "id": 146875476,
+      "id": 148823970,
       "date": "2026-11-24",
-      "name": "SS-1 2x20' Z4 [DURO 1, ripresa]",
+      "name": "SS-1 2x20' Z4 [HARD 1, wk5]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 87,
-      "duration_hours": 1.33,
-      "duration_formatted": "1h20m",
+      "planned_tss": 131,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "06:30",
-      "description_preview": "- 5m ramp 45-60%\n- 15m Z2 65-75% (180-205W)\n- 20m Z4 88-96% (245-262W) RPE 7-8"
+      "description_preview": "- 40m ramp 50-70%\n- 20m 88-94%\n- 5m 50%"
     },
     {
-      "id": 146875477,
+      "id": 148823971,
       "date": "2026-11-25",
-      "name": "Endurance 1h Z2 [AE-1]",
+      "name": "Endurance 1h Z2 [AE-1 + KB]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 39,
+      "planned_tss": 33,
       "duration_hours": 1.0,
       "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "06:30",
-      "description_preview": "- 15m ramp 45-60%\n- 40m Z2 170-190W FC <152\n- 5m 55-60% defaticamento"
+      "description_preview": "- 10m ramp 50-60%\n- 38m 55-65%\n- 12m 50%"
     },
     {
-      "id": 146875478,
+      "id": 148823972,
       "date": "2026-11-26",
-      "name": "VO2-1 Classic Long 4x4' [DURO 2, ripresa]",
+      "name": "VO2-1 4x4' [HARD 2, wk5]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 70,
-      "duration_hours": 1.03,
-      "duration_formatted": "1h2m",
-      "workout_summary": "5m @144W | 20m @192W | 5m @192W | 4\u00d74m @294W / 4m rec",
+      "planned_tss": 67,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": "15m @164W | 4\u00d74m @305W / 4m rec",
       "has_terrain": false,
       "start_time": "06:30"
     },
@@ -6727,158 +7001,184 @@
       "description_preview": null
     },
     {
-      "id": 146875479,
+      "id": 148823975,
       "date": "2026-11-27",
-      "name": "Endurance 1h Z2 [scarico prima carico]",
+      "name": "Endurance 1h Z2 [trasferta]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 39,
+      "planned_tss": 33,
       "duration_hours": 1.0,
       "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "06:30",
-      "description_preview": "- 15m ramp 45-60%\n- 40m Z2 170-190W FC <152\n- 5m 55-60% defaticamento"
+      "description_preview": "- 10m ramp 50-60%\n- 38m 55-65%\n- 12m 50%"
     },
     {
-      "id": 146875480,
+      "id": 148823976,
       "date": "2026-11-28",
-      "name": "Long Endurance 3h Z1-Z2 [CARICO 28-30/11]",
+      "name": "Long Endurance 4h Z1-Z2 [CARICO wk5]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 111,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "06:30",
-      "description_preview": "- 15m ramp 45-60%\n- 150m Z1-Z2 150-190W FC <152\n- 15m 55-60% defaticamento"
-    },
-    {
-      "id": 146875481,
-      "date": "2026-11-29",
-      "name": "Long Endurance 4h Z1-Z2 [CARICO massimo 28-30/11]",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 150,
+      "planned_tss": 138,
       "duration_hours": 4.0,
       "duration_formatted": "4h",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "06:30",
-      "description_preview": "- 15m ramp 45-60%\n- 210m Z1-Z2 150-190W FC <152\n- 15m 55-60% defaticamento"
+      "start_time": "08:00",
+      "description_preview": "- 20m ramp 50-65%\n- 3h25m 53-66%\n- 15m 50%"
     },
     {
-      "id": 146875482,
+      "id": 148823978,
+      "date": "2026-11-29",
+      "name": "LUNGHISSIMO 7h Z1-Z2 [solo a casa \u00b7 Fra Amburgo]",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 245,
+      "duration_hours": 7.0,
+      "duration_formatted": "7h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "08:00",
+      "description_preview": "- 20m ramp 50-65%\n- 6h25m 53-66%\n- 15m 50%"
+    },
+    {
+      "id": 148823524,
       "date": "2026-11-30",
-      "name": "Endurance 2h Z1-Z2 [CARICO fine 28-30/11]",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 67,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
+      "name": "SETTIMANE 30/11-06/12 \u2014 CHIUSURA Base \u00b7 14h \u00b7 SS 2x20' ultimo blocco",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "06:30",
-      "description_preview": "- 15m ramp 45-60%\n- 90m Z1-Z2 150-170W\n- 15m 55-60% defaticamento"
+      "description_preview": "- Lun 2h scarico, poi SS 2x20' martedi'.\n- Weekend 3h+3h30 per chiudere senza accumulare.\n- Dopo questa settimana: Build 1 (soglia lunga e salite)."
     },
     {
-      "id": 146875484,
-      "date": "2026-12-01",
-      "name": "Long Endurance 3h Z1-Z2 [fine Base wk5]",
+      "id": 148823979,
+      "date": "2026-11-30",
+      "name": "Recovery 1h Z1 [post-lunghissimo]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 111,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "06:30",
-      "description_preview": "- 15m ramp 45-60%\n- 150m Z1-Z2 150-190W FC <152\n- 15m 55-60% defaticamento"
-    },
-    {
-      "id": 146875485,
-      "date": "2026-12-02",
-      "name": "Endurance 2h Z2 [Base wk6, ultimo blocco]",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 83,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "06:30",
-      "description_preview": "- 15m ramp 50-70%\n- 95m Z2 170-190W FC <152\n- 10m 55-60% defaticamento"
-    },
-    {
-      "id": 146875486,
-      "date": "2026-12-03",
-      "name": "SS-1 2x20' Z4 [DURO 1, chiusura Base]",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 87,
-      "duration_hours": 1.33,
-      "duration_formatted": "1h20m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "06:30",
-      "description_preview": "- 5m ramp 45-60%\n- 15m Z2 65-75% (180-205W)\n- 20m Z4 88-96% (245-262W) RPE 7-8"
-    },
-    {
-      "id": 146875488,
-      "date": "2026-12-04",
-      "name": "Endurance 1h Z2 [AE-1, fine]",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 39,
+      "planned_tss": 24,
       "duration_hours": 1.0,
       "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "06:30",
-      "description_preview": "- 15m ramp 45-60%\n- 40m Z2 170-190W FC <152\n- 5m 55-60% defaticamento"
+      "description_preview": "- 10m ramp 45-55%\n- 40m 45-55% (<150W)\n- 10m 45%"
     },
     {
-      "id": 146875490,
-      "date": "2026-12-05",
-      "name": "VO2-1 Classic Long 4x4' [DURO 2, fine Base]",
+      "id": 148823980,
+      "date": "2026-12-01",
+      "name": "SS-1 2x20' Z4 [HARD 1, chiusura]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 70,
-      "duration_hours": 1.03,
-      "duration_formatted": "1h2m",
-      "workout_summary": "5m @144W | 20m @192W | 5m @192W | 4\u00d74m @294W / 4m rec",
+      "planned_tss": 131,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "06:30",
+      "description_preview": "- 40m ramp 50-70%\n- 20m 88-94%\n- 5m 50%"
+    },
+    {
+      "id": 148823985,
+      "date": "2026-12-02",
+      "name": "Endurance 1h Z2 [AE-1 + KB]",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 33,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "06:30",
+      "description_preview": "- 10m ramp 50-60%\n- 38m 55-65%\n- 12m 50%"
+    },
+    {
+      "id": 148823986,
+      "date": "2026-12-03",
+      "name": "VO2-1 4x4' [HARD 2, chiusura]",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 67,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": "15m @164W | 4\u00d74m @305W / 4m rec",
       "has_terrain": false,
       "start_time": "06:30"
     },
     {
-      "id": 146875491,
-      "date": "2026-12-06",
-      "name": "Long Endurance 3h Z1-Z2 [chiusura Base]",
+      "id": 148823987,
+      "date": "2026-12-04",
+      "name": "Endurance 1h Z2 [AE-1 + KB]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 111,
+      "planned_tss": 33,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "06:30",
+      "description_preview": "- 10m ramp 50-60%\n- 38m 55-65%\n- 12m 50%"
+    },
+    {
+      "id": 148823990,
+      "date": "2026-12-05",
+      "name": "Long Endurance 3h00 Z1-Z2 [chiusura Base]",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 104,
       "duration_hours": 3.0,
       "duration_formatted": "3h",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "06:30",
-      "description_preview": "- 15m ramp 45-60%\n- 150m Z1-Z2 150-190W FC <152\n- 15m 55-60% defaticamento"
+      "start_time": "08:00",
+      "description_preview": "- 15m ramp 50-65%\n- 155m 53-66%\n- 10m 50%"
+    },
+    {
+      "id": 148823993,
+      "date": "2026-12-06",
+      "name": "Long Endurance 3h30 Z1-Z2 [chiusura Base]",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 121,
+      "duration_hours": 3.5,
+      "duration_formatted": "3h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "08:00",
+      "description_preview": "- 15m ramp 50-65%\n- 185m 53-66%\n- 10m 50%"
+    },
+    {
+      "id": 148831588,
+      "date": "2026-12-08",
+      "name": "Fra a Milano",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
     }
   ],
   "workout_summary_stats": {
     "attempted": 43,
-    "success": 7,
-    "patternA": 7,
-    "patternB": 0,
-    "bail_no_workout_doc": 3,
-    "bail_no_match": 36
+    "success": 6,
+    "patternA": 2,
+    "patternB": 4,
+    "bail_no_workout_doc": 5,
+    "bail_no_match": 37
   },
   "weekly_summary": {
-    "total_training_hours": 9.5,
-    "total_training_formatted": "9h29m",
-    "total_tss": 365,
-    "activities_count": 6,
+    "total_training_hours": 12.1,
+    "total_training_formatted": "12h6m",
+    "total_tss": 492,
+    "activities_count": 7,
     "avg_hrv": 39.0,
     "avg_resting_hr": 48.9
   },

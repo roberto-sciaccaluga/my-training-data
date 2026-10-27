@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T05:46:44.009983",
+  "generated_at": "2026-10-27T11:11:24.328661",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -946,6 +946,107 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i202182427",
+      "date": "2026-10-27",
+      "start_datetime": "2026-10-27T05:23:16",
+      "type": "Ride",
+      "name": "SS-2 Progressive Sweet Spot 12'+15'",
+      "interval_summary": [
+        "1x 12m1s 239w",
+        "1x 15m 258w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2753,
+          "moving_secs": 2708,
+          "start_secs": 0,
+          "end_secs": 2753,
+          "avg_power": 148,
+          "max_power": 376,
+          "avg_hr": 114,
+          "max_hr": 135,
+          "min_hr": 80,
+          "avg_cadence": 79.246475,
+          "zone": 1,
+          "w_bal_start": 17280,
+          "w_bal_end": 17209,
+          "training_load": 28.60606
+        },
+        {
+          "type": "WORK",
+          "label": "721s@239w83rpm",
+          "duration_secs": 721,
+          "moving_secs": 721,
+          "start_secs": 2753,
+          "end_secs": 3474,
+          "avg_power": 239,
+          "max_power": 324,
+          "avg_hr": 143,
+          "max_hr": 151,
+          "min_hr": 108,
+          "avg_cadence": 83.08322,
+          "zone": 3,
+          "w_bal_start": 17209,
+          "w_bal_end": 16810,
+          "training_load": 15.365763
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3687,
+          "moving_secs": 3106,
+          "start_secs": 3474,
+          "end_secs": 7161,
+          "avg_power": 138,
+          "max_power": 502,
+          "avg_hr": 114,
+          "max_hr": 150,
+          "min_hr": 74,
+          "avg_cadence": 69.85007,
+          "zone": 1,
+          "w_bal_start": 16811,
+          "w_bal_end": 17222,
+          "training_load": 32.4874
+        },
+        {
+          "type": "WORK",
+          "label": "900s@258w74rpm",
+          "duration_secs": 900,
+          "moving_secs": 900,
+          "start_secs": 7161,
+          "end_secs": 8061,
+          "avg_power": 258,
+          "max_power": 420,
+          "avg_hr": 149,
+          "max_hr": 164,
+          "min_hr": 109,
+          "avg_cadence": 73.68222,
+          "zone": 4,
+          "w_bal_start": 17190,
+          "w_bal_end": 11165,
+          "training_load": 22.165539
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2128,
+          "moving_secs": 2017,
+          "start_secs": 8061,
+          "end_secs": 10189,
+          "avg_power": 119,
+          "max_power": 434,
+          "avg_hr": 116,
+          "max_hr": 163,
+          "min_hr": 82,
+          "avg_cadence": 55.30005,
+          "zone": 1,
+          "w_bal_start": 11115,
+          "w_bal_end": 17279,
+          "training_load": 19.820236
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -1258,12 +1359,12 @@
         "source_icu_sync_date": "2026-10-26T08:24:34.816+00:00"
       },
       "streams": {
-        "attempts": 5,
+        "attempts": 6,
         "first_seen": "2026-10-26T11:01:33.909556",
-        "last_attempt": "2026-10-27T05:46:44.009983",
+        "last_attempt": "2026-10-27T11:11:24.328661",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-27T05:51:44.009983"
+        "next_retry_at": "2026-10-27T11:16:24.328661"
       }
     },
     "i202025604": {
@@ -1277,12 +1378,32 @@
         "source_icu_sync_date": "2026-10-26T19:05:02.063+00:00"
       },
       "streams": {
-        "attempts": 3,
+        "attempts": 4,
         "first_seen": "2026-10-26T21:43:01.073949",
-        "last_attempt": "2026-10-27T05:46:44.009983",
+        "last_attempt": "2026-10-27T11:11:24.328661",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-27T05:51:44.009983"
+        "next_retry_at": "2026-10-27T11:16:24.328661"
+      }
+    },
+    "i202182427": {
+      "date": "2026-10-27",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-27T11:11:24.328661",
+        "last_attempt": "2026-10-27T11:11:24.328661",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-27T07:18:24.767+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-27T11:11:24.328661",
+        "last_attempt": "2026-10-27T11:11:24.328661",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-10-27T11:16:24.328661"
       }
     }
   }
