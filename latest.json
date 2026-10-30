@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-30T09:23:45.424490",
+    "last_updated": "2026-10-30T16:04:57.443851",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.126"
@@ -167,25 +167,25 @@
     "total_activities": 7,
     "by_activity_type": {
       "Ride": {
-        "duration_decimal_hours": 8.55,
-        "count": 5,
-        "tss": 376,
-        "distance_km": 213.5,
+        "duration_decimal_hours": 9.55,
+        "count": 6,
+        "tss": 414,
+        "distance_km": 243.0,
         "display": {
           "distance": {
-            "value": 213.5,
+            "value": 243.0,
             "unit": "km"
           }
         }
       },
       "VirtualRide": {
-        "duration_decimal_hours": 2.59,
-        "count": 2,
-        "tss": 95,
-        "distance_km": 75.3,
+        "duration_decimal_hours": 1.59,
+        "count": 1,
+        "tss": 57,
+        "distance_km": 45.8,
         "display": {
           "distance": {
-            "value": 75.3,
+            "value": 45.8,
             "unit": "km"
           }
         }
@@ -263,7 +263,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 558,
+      "steps": 3350,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -649,7 +649,7 @@
     "p_max": 810,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-30T09:23:45.423284",
+    "calculation_timestamp": "2026-10-30T16:04:57.443012",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -666,8 +666,8 @@
     {
       "id": "i203430015",
       "date": "2026-10-30T05:56:20",
-      "type": "VirtualRide",
-      "name": "Endurance 1h Z2 [AE-1]",
+      "type": "Ride",
+      "name": "Endurance 1h Z2",
       "duration_hours": 1.0,
       "duration_formatted": "1h5s",
       "distance_km": 29.55,
@@ -735,7 +735,9 @@
         }
       },
       "has_intervals": false,
-      "has_dfa": false
+      "has_dfa": false,
+      "terrain_status": "no_gps",
+      "weather_status": "unavailable"
     },
     {
       "id": "i203030422",
@@ -6222,7 +6224,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 558,
+      "steps": 3350,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
