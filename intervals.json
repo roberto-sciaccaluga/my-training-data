@@ -1,39 +1,11 @@
 {
-  "generated_at": "2026-10-30T20:43:43.132202",
+  "generated_at": "2026-10-31T00:05:37.548059",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i197822105",
-      "date": "2026-10-16",
-      "start_datetime": "2026-10-16T07:02:19",
-      "type": "Ride",
-      "name": "Recovery 45' + PRE-ISCRIZIONE entro 18:00 [W-D]",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 2792,
-          "moving_secs": 2604,
-          "start_secs": 0,
-          "end_secs": 2792,
-          "avg_power": 142,
-          "max_power": 403,
-          "avg_hr": 114,
-          "max_hr": 153,
-          "min_hr": 78,
-          "avg_cadence": 67.08109,
-          "zone": 1,
-          "w_bal_start": 17280,
-          "w_bal_end": 17192,
-          "training_load": 34.118202
-        }
-      ],
-      "zone_basis": "power"
-    },
     {
       "activity_id": "i198310169",
       "date": "2026-10-17",
@@ -95,34 +67,6 @@
           "w_bal_start": 16502,
           "w_bal_end": 17087,
           "training_load": 139.54309
-        }
-      ],
-      "zone_basis": "power"
-    },
-    {
-      "activity_id": "i198302098",
-      "date": "2026-10-16",
-      "start_datetime": "2026-10-16T15:01:01",
-      "type": "Ride",
-      "name": "\ud83c\udfe1",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1757,
-          "moving_secs": 1640,
-          "start_secs": 0,
-          "end_secs": 1757,
-          "avg_power": 107,
-          "max_power": 343,
-          "avg_hr": 115,
-          "max_hr": 145,
-          "min_hr": 81,
-          "avg_cadence": 57.86146,
-          "zone": 1,
-          "w_bal_start": 17280,
-          "w_bal_end": 17279,
-          "training_load": 12.204018
         }
       ],
       "zone_basis": "power"
@@ -920,25 +864,6 @@
     }
   ],
   "fetch_state": {
-    "i197822105": {
-      "date": "2026-10-16",
-      "paired_planned": true,
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-10-16T05:58:56.181144",
-        "last_attempt": "2026-10-16T05:58:56.181144",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-10-16T05:50:06.667+00:00"
-      },
-      "streams": {
-        "attempts": 17,
-        "first_seen": "2026-10-16T05:58:56.181144",
-        "last_attempt": "2026-10-19T06:47:14.712957",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
     "i198310169": {
       "date": "2026-10-17",
       "paired_planned": true,
@@ -954,24 +879,6 @@
         "attempts": 17,
         "first_seen": "2026-10-17T14:05:32.787735",
         "last_attempt": "2026-10-20T06:48:05.247775",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
-    "i198302098": {
-      "date": "2026-10-16",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-10-17T14:05:32.787735",
-        "last_attempt": "2026-10-17T14:05:32.787735",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-10-17T12:24:57.395+00:00"
-      },
-      "streams": {
-        "attempts": 15,
-        "first_seen": "2026-10-17T14:05:32.787735",
-        "last_attempt": "2026-10-19T14:08:00.995507",
         "status": "tombstone",
         "reason": "retry_expired"
       }
@@ -1211,12 +1118,12 @@
         "source_icu_sync_date": "2026-10-29T07:38:58.620+00:00"
       },
       "streams": {
-        "attempts": 7,
+        "attempts": 8,
         "first_seen": "2026-10-29T14:31:46.102305",
-        "last_attempt": "2026-10-30T20:43:43.132202",
+        "last_attempt": "2026-10-31T00:05:37.548059",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-30T21:13:43.132202"
+        "next_retry_at": "2026-10-31T00:35:37.548059"
       }
     },
     "i203430015": {
@@ -1231,12 +1138,12 @@
         "source_icu_sync_date": "2026-10-30T05:57:31.251+00:00"
       },
       "streams": {
-        "attempts": 3,
+        "attempts": 4,
         "first_seen": "2026-10-30T09:23:44.380637",
-        "last_attempt": "2026-10-30T20:43:43.132202",
+        "last_attempt": "2026-10-31T00:05:37.548059",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-30T20:48:43.132202"
+        "next_retry_at": "2026-10-31T00:10:37.548059"
       }
     }
   }
