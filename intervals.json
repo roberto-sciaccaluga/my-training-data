@@ -1,76 +1,11 @@
 {
-  "generated_at": "2026-11-01T23:03:30.546309",
+  "generated_at": "2026-11-02T02:26:59.150098",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i198587446",
-      "date": "2026-10-18",
-      "start_datetime": "2026-10-18T09:35:21",
-      "type": "Ride",
-      "name": "Genova Ciclismo su strada",
-      "interval_summary": [
-        "1x 2m58s 210w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 5173,
-          "moving_secs": 3968,
-          "start_secs": 0,
-          "end_secs": 5173,
-          "avg_power": 139,
-          "max_power": 406,
-          "avg_hr": 106,
-          "max_hr": 136,
-          "min_hr": 68,
-          "avg_cadence": 71.49937,
-          "zone": 1,
-          "w_bal_start": 17280,
-          "w_bal_end": 17122,
-          "training_load": 43.51013
-        },
-        {
-          "type": "WORK",
-          "label": "178s@210w84rpm",
-          "duration_secs": 178,
-          "moving_secs": 178,
-          "start_secs": 5173,
-          "end_secs": 5351,
-          "avg_power": 210,
-          "max_power": 273,
-          "avg_hr": 126,
-          "max_hr": 135,
-          "min_hr": 110,
-          "avg_cadence": 84.26966,
-          "zone": 3,
-          "w_bal_start": 17123,
-          "w_bal_end": 17198,
-          "training_load": 2.7948005
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 2918,
-          "moving_secs": 2511,
-          "start_secs": 5351,
-          "end_secs": 8269,
-          "avg_power": 113,
-          "max_power": 402,
-          "avg_hr": 104,
-          "max_hr": 134,
-          "min_hr": 74,
-          "avg_cadence": 60.451263,
-          "zone": 1,
-          "w_bal_start": 17198,
-          "w_bal_end": 17279,
-          "training_load": 22.068651
-        }
-      ],
-      "zone_basis": "power"
-    },
     {
       "activity_id": "i198883733",
       "date": "2026-10-19",
@@ -1177,24 +1112,6 @@
     }
   ],
   "fetch_state": {
-    "i198587446": {
-      "date": "2026-10-18",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-10-18T10:57:50.337527",
-        "last_attempt": "2026-10-18T10:57:50.337527",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-10-18T09:57:53.858+00:00"
-      },
-      "streams": {
-        "attempts": 16,
-        "first_seen": "2026-10-18T10:57:50.337527",
-        "last_attempt": "2026-10-21T06:35:29.637982",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
     "i198883733": {
       "date": "2026-10-19",
       "intervals": {
@@ -1431,12 +1348,11 @@
         "source_icu_sync_date": "2026-10-30T05:57:31.251+00:00"
       },
       "streams": {
-        "attempts": 13,
+        "attempts": 14,
         "first_seen": "2026-10-30T09:23:44.380637",
-        "last_attempt": "2026-11-01T19:37:06.715925",
-        "status": "pending",
-        "reason": "no_data",
-        "next_retry_at": "2026-11-02T01:37:06.715925"
+        "last_attempt": "2026-11-02T02:26:59.150098",
+        "status": "tombstone",
+        "reason": "retry_expired"
       }
     },
     "i203809116": {
@@ -1451,12 +1367,12 @@
         "source_icu_sync_date": "2026-10-31T07:54:33.413+00:00"
       },
       "streams": {
-        "attempts": 9,
+        "attempts": 10,
         "first_seen": "2026-10-31T11:12:37.404321",
-        "last_attempt": "2026-11-01T23:03:30.546309",
+        "last_attempt": "2026-11-02T02:26:59.150098",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-01T23:33:30.546309"
+        "next_retry_at": "2026-11-02T02:56:59.150098"
       }
     },
     "i204233747": {
@@ -1471,12 +1387,12 @@
         "source_icu_sync_date": "2026-11-01T08:47:14.399+00:00"
       },
       "streams": {
-        "attempts": 3,
+        "attempts": 4,
         "first_seen": "2026-11-01T15:03:03.301930",
-        "last_attempt": "2026-11-01T23:03:30.546309",
+        "last_attempt": "2026-11-02T02:26:59.150098",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-01T23:08:30.546309"
+        "next_retry_at": "2026-11-02T02:31:59.150098"
       }
     }
   }
