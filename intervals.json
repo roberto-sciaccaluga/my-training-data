@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T02:26:59.150098",
+  "generated_at": "2026-11-02T09:44:18.249935",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -1109,6 +1109,106 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i204659041",
+      "date": "2026-11-02",
+      "start_datetime": "2026-11-02T04:56:01",
+      "type": "Ride",
+      "name": "Genova - SS-1 2x18' Z4",
+      "interval_summary": [
+        "2x 18m3s 256w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2909,
+          "moving_secs": 2816,
+          "start_secs": 0,
+          "end_secs": 2909,
+          "avg_power": 152,
+          "max_power": 438,
+          "avg_hr": 113,
+          "max_hr": 142,
+          "min_hr": 81,
+          "avg_cadence": 77.13874,
+          "zone": 2,
+          "w_bal_start": 17280,
+          "w_bal_end": 17157,
+          "training_load": 33.793755
+        },
+        {
+          "type": "WORK",
+          "label": "1083s@256w79rpm",
+          "duration_secs": 1080,
+          "moving_secs": 1080,
+          "start_secs": 2909,
+          "end_secs": 3989,
+          "avg_power": 255,
+          "max_power": 381,
+          "avg_hr": 148,
+          "max_hr": 158,
+          "min_hr": 103,
+          "avg_cadence": 82.41389,
+          "zone": 4,
+          "w_bal_start": 17115,
+          "w_bal_end": 14392,
+          "training_load": 25.780275
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3746,
+          "moving_secs": 3475,
+          "start_secs": 3989,
+          "end_secs": 7735,
+          "avg_power": 133,
+          "max_power": 529,
+          "avg_hr": 118,
+          "max_hr": 159,
+          "min_hr": 87,
+          "avg_cadence": 63.418175,
+          "zone": 1,
+          "w_bal_start": 14401,
+          "w_bal_end": 17275,
+          "training_load": 42.17042
+        },
+        {
+          "type": "WORK",
+          "label": "1083s@256w79rpm",
+          "duration_secs": 1085,
+          "moving_secs": 1085,
+          "start_secs": 7735,
+          "end_secs": 8820,
+          "avg_power": 256,
+          "max_power": 436,
+          "avg_hr": 149,
+          "max_hr": 165,
+          "min_hr": 95,
+          "avg_cadence": 75.57512,
+          "zone": 4,
+          "w_bal_start": 17275,
+          "w_bal_end": 8954,
+          "training_load": 26.929337
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2223,
+          "moving_secs": 1886,
+          "start_secs": 8820,
+          "end_secs": 11043,
+          "avg_power": 110,
+          "max_power": 361,
+          "avg_hr": 115,
+          "max_hr": 164,
+          "min_hr": 83,
+          "avg_cadence": 55.448074,
+          "zone": 1,
+          "w_bal_start": 8905,
+          "w_bal_end": 17253,
+          "training_load": 18.323072
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -1367,12 +1467,12 @@
         "source_icu_sync_date": "2026-10-31T07:54:33.413+00:00"
       },
       "streams": {
-        "attempts": 10,
+        "attempts": 11,
         "first_seen": "2026-10-31T11:12:37.404321",
-        "last_attempt": "2026-11-02T02:26:59.150098",
+        "last_attempt": "2026-11-02T09:44:18.249935",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-02T02:56:59.150098"
+        "next_retry_at": "2026-11-02T10:14:18.249935"
       }
     },
     "i204233747": {
@@ -1387,12 +1487,31 @@
         "source_icu_sync_date": "2026-11-01T08:47:14.399+00:00"
       },
       "streams": {
-        "attempts": 4,
+        "attempts": 5,
         "first_seen": "2026-11-01T15:03:03.301930",
-        "last_attempt": "2026-11-02T02:26:59.150098",
+        "last_attempt": "2026-11-02T09:44:18.249935",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-02T02:31:59.150098"
+        "next_retry_at": "2026-11-02T09:49:18.249935"
+      }
+    },
+    "i204659041": {
+      "date": "2026-11-02",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-11-02T09:44:18.249935",
+        "last_attempt": "2026-11-02T09:44:18.249935",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-11-02T07:01:09.896+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-11-02T09:44:18.249935",
+        "last_attempt": "2026-11-02T09:44:18.249935",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-11-02T09:49:18.249935"
       }
     }
   }
