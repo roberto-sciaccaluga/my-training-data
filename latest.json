@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-03T16:41:34.164156",
+    "last_updated": "2026-11-03T21:59:14.149999",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.126"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -14.3
+        "value": -4.2
       }
     },
     "signal_summary": {
@@ -182,10 +182,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 94.02,
-      "atl": 108.31,
-      "tsb": -14.29,
-      "ramp_rate": 2.43,
+      "ctl": 91.86,
+      "atl": 96.06,
+      "tsb": -4.2,
+      "ramp_rate": 0.27,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -251,7 +251,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 4268,
+      "steps": 7925,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -599,13 +599,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.1,
+          "planned_tss_delta": 0.92,
           "hard_sessions_planned": 3,
           "current_week_hard_days_completed": 2,
           "current_week_hard_days_total": 5,
           "race_proximity": null,
           "next_week_load": 1.19,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 0.89,
           "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
@@ -639,13 +639,13 @@
     "p_max": 809,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-03T16:41:34.162886",
+    "calculation_timestamp": "2026-11-03T21:59:14.149079",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 7,
       "activities_28d": 38,
-      "planned_workouts_7d": 11,
+      "planned_workouts_7d": 10,
       "ftp_history_days": {
         "indoor": 22,
         "outdoor": 22
@@ -6175,7 +6175,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 4268,
+      "steps": 7925,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -6198,24 +6198,10 @@
       "duration_formatted": "30m",
       "workout_summary": "4m | 4\u00d71m / 1m rec | 4\u00d72m / 1m rec | 4\u00d730s / 30s rec | 2m",
       "has_terrain": false,
-      "description": "- 4m riscaldamento\n\n4x\n- 1m Stacco rumeno KB monopodalico 2 x 10 per gamba\n- 1m recupero\n\n4x\n- 2m Affondi bulgari 2 x 8 per gamba\n- 1m recupero\n\n4x\n- 30s Plank\n- 30s recupero\n\n- 2m defaticamento\n\nMeta' volume del Gamba. Dopo la bici, non prima. Giorno facile: non forzare."
+      "description": "- 4m riscaldamento\n\n4x\n- 1m Stacco rumeno KB monopodalico 2 x 10 per gamba\n- 1m recupero\n\n4x\n- 2m Affondi bulgari 2 x 10 per gamba\n- 1m recupero\n\n4x\n- 30s Plank\n- 30s recupero\n\n- 2m defaticamento\n\nMeta' volume del Gamba. Dopo la bici, non prima. Giorno facile: non forzare."
     },
     {
-      "id": 148823941,
-      "date": "2026-11-03",
-      "name": "Endurance 2h30 Z2 [Base wk2]",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 92,
-      "duration_hours": 2.5,
-      "duration_formatted": "2h30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "06:30",
-      "description": "- 15m ramp 50-65%\n- 125m 55-68%\n- 10m 50%\n\nBase aerobica, terreno scorrevole. RPE 3-4/10.\nSe piove: rulli, stessa durata, Z2 continuo."
-    },
-    {
-      "id": 151606080,
+      "id": 151615789,
       "date": "2026-11-03",
       "name": "Endurance 2h30 Z2 [Base wk2]",
       "type": "WORKOUT",
@@ -6253,7 +6239,7 @@
       "duration_formatted": "30m",
       "workout_summary": "4m | 4\u00d71m / 1m rec | 4\u00d72m / 1m rec | 4\u00d730s / 30s rec | 2m",
       "has_terrain": false,
-      "description": "- 4m riscaldamento\n\n4x\n- 1m Stacco rumeno KB monopodalico 2 x 10 per gamba\n- 1m recupero\n\n4x\n- 2m Affondi bulgari 2 x 8 per gamba\n- 1m recupero\n\n4x\n- 30s Plank\n- 30s recupero\n\n- 2m defaticamento\n\nMeta' volume del Gamba. Dopo la bici, non prima. Giorno facile: non forzare."
+      "description": "- 4m riscaldamento\n\n4x\n- 1m Stacco rumeno KB monopodalico 2 x 10 per gamba\n- 1m recupero\n\n4x\n- 2m Affondi bulgari 2 x 10 per gamba\n- 1m recupero\n\n4x\n- 30s Plank\n- 30s recupero\n\n- 2m defaticamento\n\nMeta' volume del Gamba. Dopo la bici, non prima. Giorno facile: non forzare."
     },
     {
       "id": 148823943,
@@ -6793,12 +6779,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 37,
+    "attempted": 36,
     "success": 6,
     "patternA": 2,
     "patternB": 4,
     "bail_no_workout_doc": 4,
-    "bail_no_match": 31
+    "bail_no_match": 30
   },
   "weekly_summary": {
     "total_training_hours": 12.93,
