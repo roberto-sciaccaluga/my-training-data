@@ -1,39 +1,11 @@
 {
-  "generated_at": "2026-11-04T22:00:11.505085",
+  "generated_at": "2026-11-05T02:01:31.570470",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i200101239",
-      "date": "2026-10-21",
-      "start_datetime": "2026-10-21T18:58:07",
-      "type": "VirtualRide",
-      "name": "Endurance Z2 75' [AE-1]",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 4923,
-          "moving_secs": 4513,
-          "start_secs": 0,
-          "end_secs": 4923,
-          "avg_power": 175,
-          "max_power": 298,
-          "avg_hr": 126,
-          "max_hr": 146,
-          "min_hr": 78,
-          "avg_cadence": 85.36611,
-          "zone": 2,
-          "w_bal_start": 17280,
-          "w_bal_end": 17279,
-          "training_load": 51.02634
-        }
-      ],
-      "zone_basis": "power"
-    },
     {
       "activity_id": "i200321361",
       "date": "2026-10-22",
@@ -3234,25 +3206,6 @@
     }
   ],
   "fetch_state": {
-    "i200101239": {
-      "date": "2026-10-21",
-      "paired_planned": true,
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-10-21T20:44:41.000057",
-        "last_attempt": "2026-10-21T20:44:41.000057",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-10-21T18:29:47.657+00:00"
-      },
-      "streams": {
-        "attempts": 15,
-        "first_seen": "2026-10-21T20:44:41.000057",
-        "last_attempt": "2026-10-24T14:52:11.563935",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
     "i200321361": {
       "date": "2026-10-22",
       "paired_planned": true,
@@ -3470,12 +3423,12 @@
         "source_icu_sync_date": "2026-11-02T07:01:09.896+00:00"
       },
       "streams": {
-        "attempts": 10,
+        "attempts": 11,
         "first_seen": "2026-11-02T09:44:18.249935",
-        "last_attempt": "2026-11-04T22:00:11.505085",
+        "last_attempt": "2026-11-05T02:01:31.570470",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-04T22:30:11.505085"
+        "next_retry_at": "2026-11-05T02:31:31.570470"
       },
       "paired_planned": true
     },
@@ -3490,12 +3443,12 @@
         "source_icu_sync_date": "2026-11-02T16:46:13.880+00:00"
       },
       "streams": {
-        "attempts": 9,
+        "attempts": 10,
         "first_seen": "2026-11-02T19:48:06.682393",
-        "last_attempt": "2026-11-04T22:00:11.505085",
+        "last_attempt": "2026-11-05T02:01:31.570470",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-04T22:30:11.505085"
+        "next_retry_at": "2026-11-05T02:31:31.570470"
       }
     },
     "i205098458": {
@@ -3510,12 +3463,12 @@
         "source_icu_sync_date": "2026-11-03T07:58:15.116+00:00"
       },
       "streams": {
-        "attempts": 7,
+        "attempts": 8,
         "first_seen": "2026-11-03T08:45:44.405490",
-        "last_attempt": "2026-11-04T22:00:11.505085",
+        "last_attempt": "2026-11-05T02:01:31.570470",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-04T22:30:11.505085"
+        "next_retry_at": "2026-11-05T02:31:31.570470"
       }
     },
     "i205547829": {
@@ -3530,12 +3483,12 @@
         "source_icu_sync_date": "2026-11-04T07:30:01.386+00:00"
       },
       "streams": {
-        "attempts": 3,
+        "attempts": 4,
         "first_seen": "2026-11-04T08:14:51.202898",
-        "last_attempt": "2026-11-04T22:00:11.505085",
+        "last_attempt": "2026-11-05T02:01:31.570470",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-04T22:05:11.505085"
+        "next_retry_at": "2026-11-05T02:06:31.570470"
       }
     },
     "i205730246": {
@@ -3549,12 +3502,12 @@
         "source_icu_sync_date": "2026-11-04T15:44:33.640+00:00"
       },
       "streams": {
-        "attempts": 2,
+        "attempts": 3,
         "first_seen": "2026-11-04T16:18:52.850578",
-        "last_attempt": "2026-11-04T22:00:11.505085",
+        "last_attempt": "2026-11-05T02:01:31.570470",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-04T22:05:11.505085"
+        "next_retry_at": "2026-11-05T02:06:31.570470"
       }
     },
     "i205573168": {
@@ -3568,12 +3521,12 @@
         "source_icu_sync_date": "2026-11-04T08:53:34.203+00:00"
       },
       "streams": {
-        "attempts": 2,
+        "attempts": 3,
         "first_seen": "2026-11-04T16:18:52.850578",
-        "last_attempt": "2026-11-04T22:00:11.505085",
+        "last_attempt": "2026-11-05T02:01:31.570470",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-04T22:05:11.505085"
+        "next_retry_at": "2026-11-05T02:06:31.570470"
       }
     }
   }
