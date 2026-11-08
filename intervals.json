@@ -1,39 +1,11 @@
 {
-  "generated_at": "2026-11-07T22:41:22.735279",
+  "generated_at": "2026-11-08T01:48:58.371759",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i200953443",
-      "date": "2026-10-24",
-      "start_datetime": "2026-10-24T06:38:15",
-      "type": "VirtualRide",
-      "name": "Rulli 1h Z1-Z2",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 5722,
-          "moving_secs": 5722,
-          "start_secs": 0,
-          "end_secs": 5722,
-          "avg_power": 166,
-          "max_power": 236,
-          "avg_hr": 119,
-          "max_hr": 131,
-          "min_hr": 77,
-          "avg_cadence": 87.64715,
-          "zone": 2,
-          "w_bal_start": 17280,
-          "w_bal_end": 17280,
-          "training_load": 56.946873
-        }
-      ],
-      "zone_basis": "power"
-    },
     {
       "activity_id": "i201789014",
       "date": "2026-10-26",
@@ -3382,24 +3354,6 @@
     }
   ],
   "fetch_state": {
-    "i200953443": {
-      "date": "2026-10-24",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-10-24T06:36:42.218303",
-        "last_attempt": "2026-10-24T06:36:42.218303",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-10-24T06:14:11.437+00:00"
-      },
-      "streams": {
-        "attempts": 16,
-        "first_seen": "2026-10-24T06:36:42.218303",
-        "last_attempt": "2026-10-27T00:50:21.324468",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
     "i201789014": {
       "date": "2026-10-26",
       "paired_planned": true,
@@ -3673,12 +3627,11 @@
         "source_icu_sync_date": "2026-11-05T07:47:24.461+00:00"
       },
       "streams": {
-        "attempts": 12,
+        "attempts": 13,
         "first_seen": "2026-11-05T09:24:19.237408",
-        "last_attempt": "2026-11-07T22:41:22.735279",
-        "status": "pending",
-        "reason": "no_data",
-        "next_retry_at": "2026-11-07T23:11:22.735279"
+        "last_attempt": "2026-11-08T01:48:58.371759",
+        "status": "tombstone",
+        "reason": "retry_expired"
       }
     },
     "i206271380": {
@@ -3692,12 +3645,12 @@
         "source_icu_sync_date": "2026-11-05T18:04:20.286+00:00"
       },
       "streams": {
-        "attempts": 10,
+        "attempts": 11,
         "first_seen": "2026-11-05T22:46:28.359806",
-        "last_attempt": "2026-11-07T22:41:22.735279",
+        "last_attempt": "2026-11-08T01:48:58.371759",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-07T23:11:22.735279"
+        "next_retry_at": "2026-11-08T02:18:58.371759"
       }
     },
     "i206836072": {
@@ -3712,12 +3665,12 @@
         "source_icu_sync_date": "2026-11-07T06:59:09.590+00:00"
       },
       "streams": {
-        "attempts": 4,
+        "attempts": 5,
         "first_seen": "2026-11-07T07:56:19.092563",
-        "last_attempt": "2026-11-07T22:41:22.735279",
+        "last_attempt": "2026-11-08T01:48:58.371759",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-07T22:46:22.735279"
+        "next_retry_at": "2026-11-08T01:53:58.371759"
       }
     }
   }
