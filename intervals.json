@@ -1,39 +1,11 @@
 {
-  "generated_at": "2026-11-13T22:44:53.302667",
+  "generated_at": "2026-11-14T02:41:29.053237",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i203430015",
-      "date": "2026-10-30",
-      "start_datetime": "2026-10-30T05:56:20",
-      "type": "VirtualRide",
-      "name": "Endurance 1h Z2 [AE-1]",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3606,
-          "moving_secs": 3606,
-          "start_secs": 0,
-          "end_secs": 3606,
-          "avg_power": 168,
-          "max_power": 226,
-          "avg_hr": 116,
-          "max_hr": 128,
-          "min_hr": 72,
-          "avg_cadence": 86.33527,
-          "zone": 2,
-          "w_bal_start": 17280,
-          "w_bal_end": 17280,
-          "training_load": 37.627644
-        }
-      ],
-      "zone_basis": "power"
-    },
     {
       "activity_id": "i203809116",
       "date": "2026-10-31",
@@ -3681,25 +3653,6 @@
     }
   ],
   "fetch_state": {
-    "i203430015": {
-      "date": "2026-10-30",
-      "paired_planned": true,
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-10-30T09:23:44.380637",
-        "last_attempt": "2026-10-30T09:23:44.380637",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-10-30T05:57:31.251+00:00"
-      },
-      "streams": {
-        "attempts": 14,
-        "first_seen": "2026-10-30T09:23:44.380637",
-        "last_attempt": "2026-11-02T02:26:59.150098",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
     "i203809116": {
       "date": "2026-10-31",
       "paired_planned": true,
@@ -3934,12 +3887,12 @@
         "source_icu_sync_date": "2026-11-11T06:04:24.378+00:00"
       },
       "streams": {
-        "attempts": 10,
+        "attempts": 11,
         "first_seen": "2026-11-11T10:47:56.681785",
-        "last_attempt": "2026-11-13T22:44:53.302667",
+        "last_attempt": "2026-11-14T02:41:29.053237",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-13T23:14:53.302667"
+        "next_retry_at": "2026-11-14T03:11:29.053237"
       }
     },
     "i208542775": {
@@ -3953,12 +3906,12 @@
         "source_icu_sync_date": "2026-11-11T05:18:39.634+00:00"
       },
       "streams": {
-        "attempts": 10,
+        "attempts": 11,
         "first_seen": "2026-11-11T10:47:56.681785",
-        "last_attempt": "2026-11-13T22:44:53.302667",
+        "last_attempt": "2026-11-14T02:41:29.053237",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-13T23:14:53.302667"
+        "next_retry_at": "2026-11-14T03:11:29.053237"
       }
     },
     "i209079013": {
@@ -3973,12 +3926,12 @@
         "source_icu_sync_date": "2026-11-12T11:20:03.284+00:00"
       },
       "streams": {
-        "attempts": 6,
+        "attempts": 7,
         "first_seen": "2026-11-12T16:15:08.995991",
-        "last_attempt": "2026-11-13T22:44:53.302667",
+        "last_attempt": "2026-11-14T02:41:29.053237",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-13T22:49:53.302667"
+        "next_retry_at": "2026-11-14T03:11:29.053237"
       }
     },
     "i209250158": {
@@ -3992,12 +3945,12 @@
         "source_icu_sync_date": "2026-11-12T17:59:26.918+00:00"
       },
       "streams": {
-        "attempts": 5,
+        "attempts": 6,
         "first_seen": "2026-11-12T22:14:51.082675",
-        "last_attempt": "2026-11-13T22:44:53.302667",
+        "last_attempt": "2026-11-14T02:41:29.053237",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-13T22:49:53.302667"
+        "next_retry_at": "2026-11-14T02:46:29.053237"
       }
     },
     "i209464645": {
@@ -4012,12 +3965,12 @@
         "source_icu_sync_date": "2026-11-13T09:52:24.259+00:00"
       },
       "streams": {
-        "attempts": 3,
+        "attempts": 4,
         "first_seen": "2026-11-13T09:57:41.008663",
-        "last_attempt": "2026-11-13T22:44:53.302667",
+        "last_attempt": "2026-11-14T02:41:29.053237",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-13T22:49:53.302667"
+        "next_retry_at": "2026-11-14T02:46:29.053237"
       }
     }
   }
