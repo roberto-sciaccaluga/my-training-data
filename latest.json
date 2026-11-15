@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-15T03:31:48.292692",
+    "last_updated": "2026-11-15T11:28:20.481944",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.126"
@@ -106,30 +106,30 @@
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 41.0,
-        "delta_pct": null
+        "status": "green",
+        "value": 45.0,
+        "baseline_7d": 41.6,
+        "delta_pct": 8.2
       },
       "rhr": {
-        "status": "amber",
-        "value": 53,
-        "baseline_7d": 49.6,
-        "delta_bpm": 3.4
+        "status": "green",
+        "value": 51,
+        "baseline_7d": 49.3,
+        "delta_bpm": 1.7
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "green",
+        "hours": 8.1,
+        "quality": 3
       },
       "acwr": {
         "status": "green",
         "value": 0.63
       },
       "ri": {
-        "status": "unavailable",
-        "value": null,
-        "value_yesterday": 1.04
+        "status": "green",
+        "value": 1.05,
+        "value_yesterday": 1.02
       },
       "tsb": {
         "status": "green",
@@ -137,10 +137,10 @@
       }
     },
     "signal_summary": {
-      "green": 2,
-      "amber": 1,
+      "green": 6,
+      "amber": 0,
       "red": 0,
-      "unavailable": 3
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Build",
@@ -150,7 +150,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 1 amber (threshold 3), 0 red.",
+    "reason": "P3 green light. 6 green, 0 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -253,12 +253,12 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 53,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "resting_hr": 51,
+      "hrv": 45.0,
+      "sleep_quality": 3,
+      "sleep_hours": 8.1,
+      "sleep_formatted": "8h6m",
+      "sleep_score": 70.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -275,7 +275,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 1279,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -300,14 +300,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "recovery_index_yesterday": 1.04,
-    "hrv_baseline_7d": 41.0,
-    "rhr_baseline_7d": 49.6,
-    "hrv_baseline_28d": 42.1,
-    "rhr_baseline_28d": 48.6,
-    "latest_hrv": null,
-    "latest_rhr": 53,
+    "recovery_index": 1.05,
+    "recovery_index_yesterday": 1.02,
+    "hrv_baseline_7d": 41.6,
+    "rhr_baseline_7d": 49.3,
+    "hrv_baseline_28d": 42.2,
+    "rhr_baseline_28d": 48.5,
+    "latest_hrv": 45.0,
+    "latest_rhr": 51,
     "acwr": 0.63,
     "acwr_interpretation": "undertraining",
     "monotony": 0.82,
@@ -319,7 +319,7 @@
     "multi_sport_detected": true,
     "strain": 285.0,
     "stress_tolerance": 3.5,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 3.3,
     "tss_7d_total": 347.0,
     "tss_28d_total": 2209.0,
     "zone_distribution_7d": {
@@ -638,9 +638,9 @@
           "current_week_hard_days_completed": 2,
           "current_week_hard_days_total": 2,
           "race_proximity": null,
-          "next_week_load": 0.45,
+          "next_week_load": 0.6,
           "plan_coverage_current_week": 0.25,
-          "plan_coverage_next_week": 0.62
+          "plan_coverage_next_week": 0.88
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -673,9 +673,9 @@
     "p_max": 804,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-15T03:31:48.291787",
+    "calculation_timestamp": "2026-11-15T11:28:20.481019",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 6,
       "activities_28d": 31,
@@ -5379,13 +5379,13 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 53,
-      "hrv_rmssd": null,
+      "resting_hr": 51,
+      "hrv_rmssd": 45.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 8.1,
+      "sleep_formatted": "8h6m",
+      "sleep_quality": 3,
+      "sleep_score": 70.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -5405,7 +5405,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 1279,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -5470,6 +5470,34 @@
       "has_terrain": false,
       "start_time": "06:30",
       "description": "- 15m ramp 50-65%\n- 95m 55-68%\n- 10m 50%\n\nBase aerobica, terreno scorrevole. RPE 3-4/10.\nSe piove: rulli, stessa durata, Z2 continuo."
+    },
+    {
+      "id": 155982345,
+      "date": "2026-11-17",
+      "name": "IntervalCoach - FTP Threshold",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 61,
+      "duration_hours": 0.92,
+      "duration_formatted": "55m6s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "06:30",
+      "description": "Warmup\n- 134s 50% 85rpm\n- 134s 60% 85rpm\n- 134s 70% 85rpm\n- Primer 1 37s 98% 90rpm\n- Primer recovery 18s 55%\n- Primer 2 37s 98% 90rpm\n- Primer recovery 18s 55%\n\nMain Set\n- Endurance 85rpm 220s 65-75% 85rpm\n- Threshold 1 90rpm 366s 95% 90rpm\n- Recovery 183s 55%\n- Threshold 2 95rpm 366s 98-105% 95rpm\n- Recovery 183s 55%\n- Threshold 3 95rpm 366s 98-105% 95rpm\n- Endurance 85rpm 13m 65-75% 85rpm\n\nCooldown\n- 110s 60%\n- 110s 55%\n- 110s 50%\n\n[Weekly Plan - Base \u00b7 type:threshold2x20]"
+    },
+    {
+      "id": 155982412,
+      "date": "2026-11-19",
+      "name": "IntervalCoach - Progressive Aerobic",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 33,
+      "duration_hours": 0.74,
+      "duration_formatted": "44m27s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "06:30",
+      "description": "Warmup\n- 135s 50% 85rpm\n- 135s 60% 85rpm\n- 135s 70% 85rpm\n\nMain Set\n- Low 85rpm 11m 65% 85rpm\n- Mid 88rpm 11m 69% 88rpm\n- Upper 90rpm 11m 73% 90rpm\n\nCooldown\n- 141s 60%\n- 141s 50%\n\n[Weekly Plan - Base \u00b7 type:enduranceProgressive]"
     },
     {
       "id": 148823966,
@@ -5761,20 +5789,20 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 19,
+    "attempted": 21,
     "success": 2,
     "patternA": 0,
     "patternB": 2,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 17
+    "bail_no_match": 19
   },
   "weekly_summary": {
     "total_training_hours": 6.21,
     "total_training_formatted": "6h12m",
     "total_tss": 347,
     "activities_count": 6,
-    "avg_hrv": 41.0,
-    "avg_resting_hr": 49.6
+    "avg_hrv": 41.6,
+    "avg_resting_hr": 49.3
   },
   "race_calendar": {
     "next_race": null,
