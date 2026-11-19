@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T00:22:25.477611",
+  "generated_at": "2026-11-19T07:41:10.675497",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -2052,6 +2052,31 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i211910876",
+      "date": "2026-11-19",
+      "start_datetime": "2026-11-19T06:21:13",
+      "type": "VirtualRide",
+      "name": "Ciclismo indoor",
+      "interval_summary": [
+        "1x 35m1s 111bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2101s@111bpm",
+          "duration_secs": 2101,
+          "moving_secs": 2101,
+          "start_secs": 0,
+          "end_secs": 2101,
+          "avg_hr": 111,
+          "max_hr": 128,
+          "min_hr": 82,
+          "zone": 2
+        }
+      ],
+      "zone_basis": "hr"
     }
   ],
   "fetch_state": {
@@ -2271,12 +2296,11 @@
         "source_icu_sync_date": "2026-11-16T07:07:44.331+00:00"
       },
       "streams": {
-        "attempts": 9,
+        "attempts": 10,
         "first_seen": "2026-11-16T09:01:09.153958",
-        "last_attempt": "2026-11-19T00:22:25.477611",
-        "status": "pending",
-        "reason": "no_data",
-        "next_retry_at": "2026-11-19T00:52:25.477611"
+        "last_attempt": "2026-11-19T07:41:10.675497",
+        "status": "tombstone",
+        "reason": "retry_expired"
       }
     },
     "i211347293": {
@@ -2290,12 +2314,12 @@
         "source_icu_sync_date": "2026-11-17T17:48:20.958+00:00"
       },
       "streams": {
-        "attempts": 5,
+        "attempts": 6,
         "first_seen": "2026-11-17T19:47:32.760282",
-        "last_attempt": "2026-11-19T00:22:25.477611",
+        "last_attempt": "2026-11-19T07:41:10.675497",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-19T00:27:25.477611"
+        "next_retry_at": "2026-11-19T07:46:10.675497"
       }
     },
     "i211505099": {
@@ -2309,12 +2333,12 @@
         "source_icu_sync_date": "2026-11-18T07:38:55.415+00:00"
       },
       "streams": {
-        "attempts": 3,
+        "attempts": 4,
         "first_seen": "2026-11-18T09:23:31.942334",
-        "last_attempt": "2026-11-19T00:22:25.477611",
+        "last_attempt": "2026-11-19T07:41:10.675497",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-19T00:27:25.477611"
+        "next_retry_at": "2026-11-19T07:46:10.675497"
       }
     },
     "i211752838": {
@@ -2328,12 +2352,31 @@
         "source_icu_sync_date": "2026-11-18T17:33:25.359+00:00"
       },
       "streams": {
-        "attempts": 2,
+        "attempts": 3,
         "first_seen": "2026-11-18T18:14:25.375609",
-        "last_attempt": "2026-11-19T00:22:25.477611",
+        "last_attempt": "2026-11-19T07:41:10.675497",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-19T00:27:25.477611"
+        "next_retry_at": "2026-11-19T07:46:10.675497"
+      }
+    },
+    "i211910876": {
+      "date": "2026-11-19",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-11-19T07:41:10.675497",
+        "last_attempt": "2026-11-19T07:41:10.675497",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-11-19T05:58:10.817+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-11-19T07:41:10.675497",
+        "last_attempt": "2026-11-19T07:41:10.675497",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-11-19T07:46:10.675497"
       }
     }
   }
