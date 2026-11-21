@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-21T08:55:20.732780",
+    "last_updated": "2026-11-21T16:28:12.614366",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.126"
@@ -285,7 +285,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1749,
+      "steps": 6231,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -643,12 +643,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.73,
+          "planned_tss_delta": 0.85,
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 4,
           "current_week_hard_days_total": 4,
           "race_proximity": null,
-          "next_week_load": 0.88,
+          "next_week_load": 0.84,
           "plan_coverage_current_week": 0.25,
           "plan_coverage_next_week": 1.12
         },
@@ -683,7 +683,7 @@
     "p_max": 802,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-21T08:55:20.731870",
+    "calculation_timestamp": "2026-11-21T16:28:12.613099",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -5581,7 +5581,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1749,
+      "steps": 6231,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -5608,23 +5608,23 @@
       "description": "- 15m ramp 50-65%\n- 95m 53-66%\n- 10m 50%\n\nLunga di base accorciata a 2h (tempo limitato nel weekend).\nZ2 bassa, zero Z3. Cadenza 80-85.\n\nFuel: 1 borraccia 750ml (4 misurini malto + 2 fruttosio = 110g) + 1-2 gel. Acqua separata 1-1.5 L.\nSe piove: rulli, stessa durata, Z2 continuo."
     },
     {
-      "id": 148823968,
+      "id": 148823970,
       "date": "2026-11-22",
-      "name": "Long Endurance 2h Z1-Z2 [Deload]",
+      "name": "SS-1 2x20' Z4 [indoor 90']",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 69,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
+      "planned_tss": 90,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "08:00",
-      "description": "- 15m ramp 50-65%\n- 95m 53-66%\n- 10m 50%\n\nLunga di base accorciata a 2h (tempo limitato nel weekend).\nZ2 bassa, zero Z3. Cadenza 80-85.\n\nFuel: 1 borraccia 750ml (4 misurini malto + 2 fruttosio = 110g) + 1-2 gel. Acqua separata 1-1.5 L.\nSe piove: rulli, stessa durata, Z2 continuo."
+      "start_time": "07:00",
+      "description": "- 20m ramp 50-70%\n- 20m 88-94%\n- 5m 50%\n- 20m 88-94%\n- 25m 55%\n\nDOM 22/11 07:00-08:30 \u2014 indoor obbligatorio: pioggia 10-20 mm/h tra le 8 e le 11, finestra utile solo 07-09. Versione 90' della SS-1. I due blocchi di soglia restano interi: e' il contorno che si accorcia.\nCadenza 80-85 sui blocchi. Zero Z5.\nDomani c'e' il 3h Z2: oggi si chiude con le gambe piene, non svuotate."
     },
     {
       "id": 148823522,
       "date": "2026-11-23",
-      "name": "SETTIMANE 23-29/11 \u2014 CARICO ridisegnata \u00b7 15h15 / 634 TSS",
+      "name": "SETTIMANE 22-29/11 \u2014 CARICO \u00b7 15h45 / 605 TSS \u00b7 SS-1 dom 22 \u00b7 3h lun 23 \u00b7 6h dom 29",
       "type": "NOTE",
       "sport_type": null,
       "planned_tss": null,
@@ -5632,21 +5632,21 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Ridisegnata il 21/11 per la trasferta mar 24 - mer 25 (niente bici).\n\n- LUN 23: SS-1 2x20' Z4 (spostato da martedi') = unica seduta di soglia della settimana, 2h30 / 131 TSS.\n- MAR 24: trasferta. Sera palestra + cyclette 40-45' Z1-Z2, FC <120. Nessun carico.\n- MER 25: trasferta. Mattina corsa 8 km EASY (5:10-5:20/km, FC <142). Si parte, non si testa niente.\n- GIO 26: VO2-1 4x4' 1h / 67 TSS.\n- VEN 27: Endurance 1h Z2 facile, pre-lungo. Zero qualita'.\n- SAB 28: Long 4h Z1-Z2 / 138 TSS.\n- DOM 29: LUNGHISSIMO 6h / 210 TSS (era 7h). Fuel 505 g = 84 g/h, acqua 3-4 L separata.\n\nTotale: 15h15 / 634 TSS (era 19h / 739).\n\nPerche' accorciata: la settimana 16-22 si chiude a 515 TSS, +9% sulla precedente (472) invece dei 433 previsti \u2014 il deload non c'e' stato. Il 7h e' stato portato a 6h: la gara dura 3h30-4h, e arrivarci con 11h di weekend dopo una settimana gia' caricata non aggiunge nulla.\nEliminate: Endurance 2h30 di lunedi' (sostituita da SS-1) e Endurance 1h di mercoledi' (sostituita dalla corsa)."
+      "description": "Riordinata il 21/11 sera: domenica 22 = soglia, lunedi' 23 = Z2, lungo spostato al 29.\n\n- DOM 22: **SS-1 2x20' Z4 [indoor 90']** / 85. Pioggia, rulli. I due blocchi da 20' restano interi, si accorcia il contorno.\n- LUN 23: **Endurance 3h Z2 [outdoor]** / 105. Giornata libera. Fuel 260 g = 87 g/h, acqua 1,5-2 L separata.\n- MAR 24: trasferta. Sera palestra + cyclette 40-45' Z1-Z2, FC <120. Nessun carico.\n- MER 25: trasferta. Mattina corsa 8 km EASY (5:10-5:20/km, FC <142) / 55.\n- GIO 26: VO2-1 4x4' / 67.\n- VEN 27: Endurance 1h Z2 facile, pre-lungo / 33.\n- SAB 28: Long 4h Z1-Z2 / 138.\n- DOM 29: **LUNGHISSIMO 6h Z1-Z2** / 207. Fuel 505 g = 84 g/h, acqua 3-4 L separata, refill a meta' giro.\n\nTotale 23-29: 15h45 / 605 TSS (piu' il 90' di domenica 22 = 17h15 / 690 con la settimana 16-22).\n\nPerche' cosi': la soglia va il giorno prima di un giorno facile, non il giorno prima del lungo. Domenica 22 (indoor) e' l'unico posto in cui i 2x20' non pagano dazio; lunedi' 23 la Z2 pulita mette volume senza aggiungere stanchezza alla settimana di trasferta."
     },
     {
-      "id": 148823970,
+      "id": 158711411,
       "date": "2026-11-23",
-      "name": "SS-1 2x20' Z4 [HARD 1, wk5]",
+      "name": "Endurance 3h Z2 [outdoor]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 131,
-      "duration_hours": 2.5,
-      "duration_formatted": "2h30m",
+      "planned_tss": 105,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "06:30",
-      "description": "- 40m ramp 50-70%\n- 20m 88-94%\n- 5m 50%\n- 20m 88-94%\n- 55m 55-65%\n- 10m 50%\n\n2h30 con 40' di soglia. Cadenza 80-85, in salita 70-75.\nSe piove: rulli, stessi blocchi."
+      "description": "- 10m ramp 50-65%\n- 2h40m 53-66%\n- 10m 50%\n\nLUN 23/11 \u2014 giornata libera, outdoor. 3h di Z2 pura: nessuna salita a tutta, nessun tratto in Z3.\nCadenza 80-85. Serve a mettere volume pulito dopo la soglia di ieri.\n\nFuel: 2 borracce 750ml (2x110g = 220g) + 1 gel (40g) = 260g -> 87 g/h.\nAcqua separata 1,5-2 L.\n\nSe piove: rulli 3h identiche, Z2 continuo."
     },
     {
       "id": 158608868,
@@ -5736,7 +5736,7 @@
       "name": "LUNGHISSIMO 6h Z1-Z2 [solo a casa]",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 210,
+      "planned_tss": 207,
       "duration_hours": 6.0,
       "duration_formatted": "6h",
       "workout_summary": null,
