@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-23T11:15:19.034121",
+    "last_updated": "2026-11-23T22:46:07.671926",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.126"
@@ -275,7 +275,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 227,
+      "steps": 5370,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -623,7 +623,7 @@
     },
     "phase_detection": {
       "phase": "Build",
-      "confidence": "medium",
+      "confidence": "high",
       "reason_codes": [],
       "basis": {
         "stream_1": {
@@ -633,10 +633,10 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.97,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 1.05,
+          "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 1,
+          "current_week_hard_days_total": 2,
           "race_proximity": 90,
           "next_week_load": 0.91,
           "plan_coverage_current_week": 1.12,
@@ -673,7 +673,7 @@
     "p_max": 799,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-23T11:15:19.033274",
+    "calculation_timestamp": "2026-11-23T22:46:07.670683",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -5475,7 +5475,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 227,
+      "steps": 5370,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -5490,7 +5490,7 @@
     {
       "id": 148823522,
       "date": "2026-11-23",
-      "name": "SETTIMANE 22-29/11 \u2014 CARICO \u00b7 15h45 / 605 TSS \u00b7 SS-1 dom 22 \u00b7 3h lun 23 \u00b7 6h dom 29",
+      "name": "SETTIMANE 22-29/11 \u2014 CARICO \u00b7 SS-1 dom 22 \u00b7 3h lun 23 \u00b7 ripetute mar 24 \u00b7 cyclette 1h HR Z3 mer 25 \u00b7 6h dom 29",
       "type": "NOTE",
       "sport_type": null,
       "planned_tss": null,
@@ -5498,7 +5498,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Riordinata il 21/11 sera: domenica 22 = soglia, lunedi' 23 = Z2, lungo spostato al 29.\n\n- DOM 22: **SS-1 2x20' Z4 [indoor 90']** / 85. Pioggia, rulli. I due blocchi da 20' restano interi, si accorcia il contorno.\n- LUN 23: **Endurance 3h Z2 [outdoor]** / 105. Giornata libera. Fuel 260 g = 87 g/h, acqua 1,5-2 L separata.\n- MAR 24: trasferta. Sera palestra + cyclette 40-45' Z1-Z2, FC <120. Nessun carico.\n- MER 25: trasferta. Mattina corsa 8 km EASY (5:10-5:20/km, FC <142) / 55.\n- GIO 26: VO2-1 4x4' / 67.\n- VEN 27: Endurance 1h Z2 facile, pre-lungo / 33.\n- SAB 28: Long 4h Z1-Z2 / 138.\n- DOM 29: **LUNGHISSIMO 6h Z1-Z2** / 207. Fuel 505 g = 84 g/h, acqua 3-4 L separata, refill a meta' giro.\n\nTotale 23-29: 15h45 / 605 TSS (piu' il 90' di domenica 22 = 17h15 / 690 con la settimana 16-22).\n\nPerche' cosi': la soglia va il giorno prima di un giorno facile, non il giorno prima del lungo. Domenica 22 (indoor) e' l'unico posto in cui i 2x20' non pagano dazio; lunedi' 23 la Z2 pulita mette volume senza aggiungere stanchezza alla settimana di trasferta."
+      "description": "Aggiornata il 23/11 sera per cambio programma atleta.\n\n- DOM 22: **SS-1 2x20' Z4 [indoor 90']** / 84 TSS (eseguita, 06:07, 244/245 W sui blocchi).\n- LUN 23: **Endurance 3h Z2 [outdoor]** / 96 TSS (eseguita, 2h44 effettivi, VI 1,24, carbs 313 g).\n- MAR 24: **Corsa ripetute [Torino 18:00]** / ~55 TSS. Riscaldamento 2 km + 3 ripetute 4:00-4:10/km + recupero 5:20-5:30/km.\n- MER 25: **Cyclette 1h HR Z3 [trasferta]** / ~45 TSS (hotel, senza potenza -> non entra nei cruscotti durabilit\u00e0). Palestra separata.\n- GIO 26: VO2-1 4x4' / 67.\n- VEN 27: Endurance 1h Z2 facile / 33.\n- SAB 28: Long 4h Z1-Z2 / 138.\n- DOM 29: **LUNGHISSIMO 6h Z1-Z2** / 207. Fuel 505 g = 84 g/h, acqua 3-4 L separata.\n\nTotale 23-29: ~15h45 / ~605 TSS (piu' SS di dom 22 e 3h di lun 23 gia' fatti)."
     },
     {
       "id": 158711411,
@@ -5517,29 +5517,31 @@
     {
       "id": 158608868,
       "date": "2026-11-24",
-      "name": "Trasferta \u2014 palestra + cyclette (no bici)",
-      "type": "NOTE",
-      "sport_type": null,
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
+      "name": "Corsa ripetute [Torino 18:00]",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 58,
+      "duration_hours": 0.84,
+      "duration_formatted": "50m10s",
+      "workout_summary": "10m50s | 3\u00d74m5s / 5m25s rec | 10m50s",
       "has_terrain": false,
-      "description": "Trasferta: niente bici (solo cyclette in albergo, senza misuratore di potenza -> non entra in nessun cruscotto).\n- Sera: palestra (parte alta + leg extension leggera) + 40-45' cyclette Z1-Z2, FC <120.\n- Non e' una seduta di allenamento: e' mantenimento del gesto. Zero intervalli.\n- Il carico vero della settimana e' lunedi' (SS-1), giovedi' (VO2) e il weekend."
+      "start_time": "18:00",
+      "description": "- Press lap 2 km 5:20-5:30 Pace\n\n3x\n- 1km 4:00-4:10 Pace\n- Press lap 1km 5:30-5:20 Pace\n\n- Press lap  2 km 5:20-5:30 Pace"
     },
     {
       "id": 158608867,
       "date": "2026-11-25",
-      "name": "Corsa easy 8 km [trasferta]",
+      "name": "Cyclette 1h HR Z3 [trasferta]",
       "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 55,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
+      "sport_type": "Ride",
+      "planned_tss": 45,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "06:30",
-      "description": "Trasferta: ultimo giorno, corsa al mattino prima di partire.\n8 km EASY: passo 5:10-5:20/km, FC <142. Zero ricerca del passo.\nHa corso a 4:39 il 17-18/11 (zero DOMS): oggi si corre facile, non si testa nulla.\nSe hai solo 30 minuti: 5-6 km easy, non un tempo."
+      "indoor": true,
+      "description": "Mer 25/11 mattina \u2014 trasferta. Cyclette 1h in hotel (senza misuratore di potenza -> non entra nei cruscotti durabilit\u00e0/EF/decoupling). Target HR Z3 parte centrale. Palestra separata, non registrata come carico."
     },
     {
       "id": 148823972,
@@ -5735,12 +5737,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 12,
-    "success": 2,
-    "patternA": 0,
+    "attempted": 14,
+    "success": 3,
+    "patternA": 1,
     "patternB": 2,
-    "bail_no_workout_doc": 4,
-    "bail_no_match": 10
+    "bail_no_workout_doc": 2,
+    "bail_no_match": 11
   },
   "weekly_summary": {
     "total_training_hours": 10.15,
