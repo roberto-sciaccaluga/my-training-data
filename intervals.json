@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T02:38:18.940179",
+  "generated_at": "2026-11-25T11:41:46.526506",
   "schema_version": 1,
   "version": "3.126",
   "script_hash": "5d786c1bae18",
@@ -2270,6 +2270,57 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i214377863",
+      "date": "2026-11-25",
+      "start_datetime": "2026-11-25T06:05:16",
+      "type": "VirtualRide",
+      "name": "Cyclette 1h HR Z3 [trasferta]",
+      "interval_summary": [
+        "1x 10m1s 101bpm",
+        "1x 52m5s 127bpm",
+        "1x 24s 127bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "601s@101bpm",
+          "duration_secs": 601,
+          "moving_secs": 601,
+          "start_secs": 0,
+          "end_secs": 601,
+          "avg_hr": 101,
+          "max_hr": 110,
+          "min_hr": 72,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "3125s@127bpm",
+          "duration_secs": 3125,
+          "moving_secs": 2999,
+          "start_secs": 601,
+          "end_secs": 3726,
+          "avg_hr": 127,
+          "max_hr": 140,
+          "min_hr": 103,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "24s@127bpm",
+          "duration_secs": 24,
+          "moving_secs": 24,
+          "start_secs": 3726,
+          "end_secs": 3750,
+          "avg_hr": 127,
+          "max_hr": 128,
+          "min_hr": 127,
+          "zone": 2
+        }
+      ],
+      "zone_basis": "hr"
     }
   ],
   "fetch_state": {
@@ -2524,12 +2575,11 @@
         "source_icu_sync_date": "2026-11-22T06:56:51.565+00:00"
       },
       "streams": {
-        "attempts": 9,
+        "attempts": 10,
         "first_seen": "2026-11-22T08:50:55.735786",
-        "last_attempt": "2026-11-25T02:38:18.940179",
-        "status": "pending",
-        "reason": "no_data",
-        "next_retry_at": "2026-11-25T03:08:18.940179"
+        "last_attempt": "2026-11-25T11:41:46.526506",
+        "status": "tombstone",
+        "reason": "retry_expired"
       }
     },
     "i213523546": {
@@ -2544,12 +2594,12 @@
         "source_icu_sync_date": "2026-11-23T07:26:06.687+00:00"
       },
       "streams": {
-        "attempts": 5,
+        "attempts": 6,
         "first_seen": "2026-11-23T11:15:17.968025",
-        "last_attempt": "2026-11-25T02:38:18.940179",
+        "last_attempt": "2026-11-25T11:41:46.526506",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-25T02:43:18.940179"
+        "next_retry_at": "2026-11-25T11:46:46.526506"
       }
     },
     "i214190944": {
@@ -2564,12 +2614,32 @@
         "source_icu_sync_date": "2026-11-24T17:54:21.432+00:00"
       },
       "streams": {
-        "attempts": 2,
+        "attempts": 3,
         "first_seen": "2026-11-24T18:16:52.175963",
-        "last_attempt": "2026-11-25T02:38:18.940179",
+        "last_attempt": "2026-11-25T11:41:46.526506",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-25T02:43:18.940179"
+        "next_retry_at": "2026-11-25T11:46:46.526506"
+      }
+    },
+    "i214377863": {
+      "date": "2026-11-25",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-11-25T11:41:46.526506",
+        "last_attempt": "2026-11-25T11:41:46.526506",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-11-25T06:11:38.749+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-11-25T11:41:46.526506",
+        "last_attempt": "2026-11-25T11:41:46.526506",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-11-25T11:46:46.526506"
       }
     }
   }
